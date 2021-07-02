@@ -1,0 +1,53 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {INTRODUÇÃO}}{7}{chapter.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {PROBLEMÁTICA}}{8}{chapter.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {OBJETIVOS}}{9}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Objetivo geral}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Objetivos específicos}{9}{section.3.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {HIPÓTESE E JUSTIFICATIVA}}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Hipótese}{10}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Justificativa}{10}{section.4.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {TRABALHOS RELACIONADOS}}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Automação e Controle em Sistema de Aproveitamento de Água da Chuva para Fins Não Potáveis}{11}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Automação residencial Usando protocolo \textit {MQTT}, \textit {NODE-RED} e \textit {Mosquitto Broker} com \textit {ESP32} e \textit {ESP8266}}{13}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Desenvolvimento de plataformas embarcadas aplicadas a implementação de \textit {Smart Buildings} com base no \textit {framework SmartLVGrid}}{15}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Design, Implementation and Practical Evaluation of an IoT Home Automation System for Fog Computing Applications Based on \textit {MQTT} and \textit {ZigBee-WiFi} Sensor Nodes}{16}{section.5.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {FUNDAMENTAÇÃO TEÓRICA}}{18}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Análise de funcionamento e aplicação de uma cisterna}{18}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Elementos de \textit {Hardware}}{20}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Os microcontroladores ESP8266 e ESP32}{20}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}A Raspberry Pi Zero W}{22}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}A fonte de alimentação DC}{23}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}A motobomba ou bomba d'água}{23}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}O sensor de corrente}{24}{subsection.6.2.5}%
+\contentsline {subsection}{\numberline {6.2.6}Os elementos de ativação e desativação}{25}{subsection.6.2.6}%
+\contentsline {subsection}{\numberline {6.2.7}O sensor de distância ultrassônico}{26}{subsection.6.2.7}%
+\contentsline {subsection}{\numberline {6.2.8}A válvula solenoide}{27}{subsection.6.2.8}%
+\contentsline {subsection}{\numberline {6.2.9}A chave de nível tipo boia}{27}{subsection.6.2.9}%
+\contentsline {section}{\numberline {6.3}Elementos de \textit {Firmware}}{28}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}O Ambiente de Desenvolvimento Integrado \textit {Arduino}}{28}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Modelagem de um \textit {SO} embarcado com \textit {Yocto Project}}{29}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Elementos de \textit {Software}}{30}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}O \textit {framework React Native}}{30}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}O \textit {framework Electron}}{31}{subsection.6.4.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {METODOLOGIA}}{32}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Levantamento do referencial bibliográfico e capacitação}{33}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Desenvolvimento dos elementos de \textit {Hardware}}{33}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Desenvolvimento dos elementos de \textit {Firmware}}{34}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Desenvolvimento dos elementos de \textit {Software}}{34}{section.7.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {CRONOGRAMA}}{35}{chapter.8}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase {REFER\^{E}NCIAS}}{37}{section*.45}%
+\vspace {\cftbeforechapterskip }
