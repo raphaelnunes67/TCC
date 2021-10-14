@@ -9,3 +9,7 @@
 *.lof
 *.lot
 *.pdf
+*.bbl
+*.blg
+*.brf
+*.idx
