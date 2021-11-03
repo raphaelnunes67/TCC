@@ -3,6 +3,53 @@
 \chapter{METODOLOGIA}
 \label{chap:metodologia}
 
+
+\section{Análise de funcionamento e aplicação de uma cisterna}
+
+Para desenvolvimento do trabalho, parte-se do princípio de uma estrutura previamente construída, demostrada na \autoref{fig:esquema_cisterna}. A partir dos elementos dessa figura, evidenciados na \autoref{tab:tabela_esquema_cisterna}, é possível realizar uma análise sobre o que pode ser automatizado, levando em consideração as variáveis e características do sistema.  
+
+\begin{figure}[H]
+	\centering
+	\caption{Esquema de demonstração de uma cisterna no subsolo}
+	\includegraphics[width=1.0\textwidth]{figuras/esquema_cisterna.png}
+	\fonte{Adaptado (ECOMONTES, 2016)}
+	\label{fig:esquema_cisterna}
+\end{figure} 
+
+\newpage
+
+\begin{table}[]
+	\centering
+	\small
+	\begin{tabular}{c|c|c}
+		\hline
+		\textbf{Identificador} & \textbf{Elemento} & \textbf{Descrição} \\ \hline
+		1 & Calha coletora & \begin{tabular}[c]{@{}c@{}}Elemento convencional para coleta e \\ descarte de água da chuva\end{tabular} \\ \hline
+		2 & Filtro A (cascalho fino) & \begin{tabular}[c]{@{}c@{}}Elemento para realização de \\ filtragem de pequenas impurezas\end{tabular} \\ \hline
+		3 & Filtro B (cascalho grosso) & \begin{tabular}[c]{@{}c@{}}Elemento para realização de \\ filtragem de impurezas\end{tabular} \\ \hline
+		4 & Tubulação de descarte & \begin{tabular}[c]{@{}c@{}}Tubulação utilizada como rota de escoamento \\ quando o reservatório não está em uso ou \\ está cheio\end{tabular} \\ \hline
+		5 & Reservatório de coleta & Cisterna propriamente dita \\ \hline
+		6 & Motobomba ou bomda d'água & \begin{tabular}[c]{@{}c@{}}Elemento utilizado para realização do \\ ganho de elevação da água\end{tabular} \\ \hline
+		7 & Caixa d'água auxiliar & \begin{tabular}[c]{@{}c@{}}Caixa d'água convencional com alimentação \\ oriunda da bomba d'água\end{tabular} \\ \hline
+		8 & Caixa d'água convencional & \begin{tabular}[c]{@{}c@{}}Caixa d'água padrão com alimentação \\ da estação de água da cidade\end{tabular} \\ \hline
+		9 & Elo de ligação & \begin{tabular}[c]{@{}c@{}}Ligação utilizada para abastecer a caixa d'água \\ auxiliar quando a cisterna está seca \\ ou em manutenção\end{tabular} \\ \hline
+		10 & Distribuidor & \begin{tabular}[c]{@{}c@{}}Elementos de distribuição de água \\ para pontos estratégicos\end{tabular} \\ \hline
+	\end{tabular}
+	\caption{Identificação dos elementos da \autoref{fig:esquema_cisterna}.}
+	\label{tab:tabela_esquema_cisterna}
+\end{table}
+% https://www.tablesgenerator.com
+
+Após a evidenciar todas as características da estrutura citada anteriormente o um diagrama foi criado tendo em vista a esquematização, a organização e o esclarecimento dos requisitos.   
+
+\begin{figure}[H]
+	\centering
+	\caption{Esquema básico do projeto.}
+	\includegraphics[width=1.0\textwidth]{figuras/esquema_basico_proj.png}
+	\fonte{Própria}
+	\label{fig:esp8266ex}
+\end{figure} 
+
 A metodologia para a realização deste trabalho de conclusão de curso, iniciou-se com a criação do quadro \textit{Kanban} (\autoref{fig:kanban-proj}), para auxílio da organização das tarefas, e com a criação do repositório no \textit{Github} (\autoref{fig:github}) para armazenamento e versionamento dos códigos das vertentes de \textit{Firmware} e \textit{Software} do projeto. Deu-se prosseguimento com os estudos e levantamentos bibliográficos relacionando três áreas do projeto. Buscou-se encontrar os métodos,  ferramentas, tecnologias, bibliotecas e \textit{frameworks} mais adequados para a implementação do projeto.  Diante de cada seleção feita, foram executadas análises para que fosse definido o funcionamento do sistema total, munido da combinação de cada uma das três áreas citadas anteriormente e visando a geração de um produto que pudesse ser empregado no mercado: atrativo economicamente e seguindo diretrizes sustentáveis.  
 
 Primeiramente, na seção de \textit{hardware}, foram selecionados as ferramentas para modelagem de placas de circuito impresso - \textit{PCB's} e para modelagem de peças \textit{3D}, através de manufatura aditiva, a escolha de todos os dispositivos eletrônicos a serem utilizados e a análise do local de aplicação. Posteriormente, na parte de \textit{firmware}, já estando selecionados os microcontroladores e o microprocessador, foram determinadas todas as rotinas de operação e escolhidas, respectivamente, as linguagens para programá-los e o \textit{framework} para criação de um sistema operacional embarcado baseado em \textit{kernel Linux}. Na parte de \textit{software}, foram selecionadas as ferramentas para a criação de interfaces dentro da camada \textit{front-end}: aplicações \textit{mobile} e \textit{desktop}.
