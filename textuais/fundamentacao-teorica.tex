@@ -22,7 +22,7 @@ O termo \textit{Wireless} provém do inglês: \textit{wire} (fio, cabo); less (s
 
 \end{itemize}
 
-As redes \textit{wireless} podem ser subdividas em:
+Dentre as diversas características podemos destacar que as redes \textit{wireless} são dividas quanto a \textbf{abrangência de sinal} em:
 
 \begin{itemize}
 	\item \textbf{\textit{Wireless Local Area Network} - WLAN - } rede de área local;
@@ -32,10 +32,24 @@ As redes \textit{wireless} podem ser subdividas em:
 	\item \textbf{\textit{Wireless Personal Area Network} - WPAN} - redes pessoais sem fio;
 \end{itemize}
 
-Em 1987, foi fundado o grupo de trabalho \textit{Institute of Electrical and Electronics Engineers} - \textit{IEEE} 802.11\textit{ Wireless LAN} o qual teve como objetivo padronizar as \textit{WLANs}. Deste grupo desenvolveu-se o padrão DS-SS IEEE 802.11b, chamado de \textit{Wi-Fi} pela \textit{Wireless Ethernet Compatibility Alliance} - WECA o qual é amplamente usado no mercado atualmente \cite{internetdascoisassemmisterios}. A partir dessa padronização é possível aplicar as transmissões de dados por diversos protocolos de maneira barata e prática.
 
+O grupo de trabalho \textit{Institute of Electrical and Electronics Engineers} - \textit{IEEE} 802.11\textit{ Wireless LAN}, fundado em 1987, realizou a padronização das \textit{WLANs}. Desenvolveu-se o padrão DS-SS IEEE 802.11b, chamado de \textit{Wi-Fi} pela \textit{Wireless Ethernet Compatibility Alliance} - WECA o qual é amplamente usado no mercado atual. \cite{internetdascoisassemmisterios}. A partir dessa padronização é possível aplicar as transmissões de dados por diversos protocolos de maneira barata e prática.
+
+A topologia de uma rede IEEE 802.11 (\textit{Wi-Fi})  possui os seguintes elementos-chave:
+
+\begin{itemize}
+	\item \textbf{BSS - \textit{Basic Service Set} -} corresponde a uma célula de comunicação \textit{wireless};
+	\item \textbf{STA - \textit{Stations} -} são as estações de trabalho que comunicam-se entre si dendo da \textbf{BSS};
+	\item \textbf{AP - \textit{Access Point} -} coordena a comunicação entre as \textbf{STA's} dentro da \textbf{BSS}. Na maioria das vezes roteadores realizam tal operação;
+	\item \textbf{\textit{Bridge} -} faz a ligação entre diferentes redes, por exemplo, uma rede sem fio para uma rede cabeada convencional;
+	\item  \textbf{ESS - \textit{Estended Service Set} -} consiste de várias células \textbf{BSS's} vizinhas que se interceptam e cujos \textbf{AP's} estão conectados a uma mesma rede tradicional. Nestas condições uma \textbf{STA} pode movimentar-se de um \textbf{BSS} para outr, permanecendo conectada à rede. Este processo é denominado \textit{Roaming}.
+\end{itemize}
 
 \subsection{A Internet das Coisas}
+
+Existem divergências em relação ao conceito de Internet das Coisas (\textit{Internet of Things - IoT}), sendo que todos os conceitos, em resumo, fazem alusão à um conjunto de tecnologias e protocolos associados que permitem que objetos se conectem a uma rede de comunicações e onde são identificados e controlados.
+Com o \textit{IoT} surge a \textit{hiperconectividade} a qual possibilita a aquisição de uma grandeza de informações as quais podem ser utilizadas para melhorar um processo, produto ou serviço.
+
 
 \section{Elementos de \textit{Hardware}}
 \subsection{Os microcontroladores ESP8266 e ESP32}
