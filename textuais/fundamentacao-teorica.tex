@@ -52,7 +52,7 @@ Com o \textit{IoT} surge a \textit{hiperconectividade} a qual possibilita a aqui
 
 
 \section{Elementos de \textit{Hardware}}
-\subsection{Os microcontroladores ESP8266 e ESP32}
+\subsection{O microcontrolador ESP8266}
 
 O \textit{ESP8266} (\autoref{fig:esp8266ex}) é um chip microcontrolador da fabricante chinesa \textit{Espressif Systems}. Construído em torno de um processador Tensilica Xtensa LX3, inclui \textit{Wi-Fi on-board}. Originalmente concebido como um adaptador \textit{UART} para \textit{Wi-Fi} (utilizado em \textit{tablets}), permitindo que outros microcontroladores se conectem a uma rede \textit{Wi-Fi} e façam conexões \textit{TCP/IP} simples usando comandos do estilo \textit{Hayes}, o \textit{ESP8266} rapidamente se tornou popular como um microcontrolador autônomo devido ao seu ponto de preço baixo.
 
@@ -76,7 +76,7 @@ Embora o chip \textit{ESP8266} seja feito pela \textit{Espressif}, existem diver
 	\label{fig:modulos_esp8266}
 \end{figure} 
 
-Dentre os modelos, o \textit{ESP-12S} (\autoref{fig:esp12s}) é um módulo, baseado no microcontrolador \textit{ESP8266EX}, que será aplicado neste projeto por ser recente, externar apenas pinos utilizáveis e possuir 14 \textit{GPIOs - General Purpose Input Output} sendo ideal para a leitura de uma gama de sensores.
+Os modelos podem se diferenciar pela quantidade de pinos extenados, memória \textit{flash} instalada, modelo de antena, entre outros. Para a realização deste trabalho foram escolhidos os modelos: \textit{ESP-12S} (\autoref{fig:esp12s}) e \textit{ESP-12E} (\autoref{fig:esp12e}). Ambos possuem 11 {GPIOs - General Purpose Input Output} sendo ideais para a leitura de uma gama de sensores. A diferença entre ambos está no desenho da antena integrada, sendo a do ESP-12S mais otimizada, e na quantidade de pinos externados, o ESP-12S não extena os pinos voltados para conexão \textit{SPI} e de cartões \textit{SD}. As características gerais e específicas para o densenvolvimento deste trabalho estão descritas no \textbf{anexo A}. 
 
 
 \begin{figure}[H]
@@ -87,23 +87,21 @@ Dentre os modelos, o \textit{ESP-12S} (\autoref{fig:esp12s}) é um módulo, base
 	\label{fig:esp12s}
 \end{figure} 
 
-
-
-O \textit{ESP32}, apresentado na \autoref{fig:esp32}, é um \textit{chip} também desenvolvido pela \textit{Espressif Systems}. Ele fornece além da conectividade \textit{Wi-Fi}, também presente no \textit{ESP8266}, a possibilidade de conexão \textit{Bluetooth}. Possuindo também uma maior \textit{perfomance} em âmbitos de processamento (dois núcleos), o \textit{ESP32} fornece uma maior quantidade de \textit{GPIOs}, que totalizam 34.  Embora o dispositivo seja tecnicamente apenas o \textit{chip}, existem também diversos módulos fabricados por empresas para aplicações específicas que carregam o nome "\textit{ESP32}", como o da figura abaixo.
-
 \begin{figure}[H]
 	\centering
-	\caption{Vista superior do \textit{ESP32}.}
-	\includegraphics[width=0.3\textwidth]{figuras/ESP32.png}
-	\fonte{DIGIKEY, 2020}
-	\label{fig:esp32}
+	\caption{Vista superior do \textit{ESP-12E}.}
+	\includegraphics[width=0.3\textwidth]{figuras/ESP-12E.png}
+	\fonte{FILIPEFLOP, 2020}
+	\label{fig:esp12e}
 \end{figure} 
+
+
 
 \subsection{A Raspberry Pi Zero W}
 
 A \textit{Raspberry Pi Zero W} é basicamente um computador de placa única. Ela possui recursos como \textit{slot} para cartão \textit{microSD}, conectores \textit{HDMI} e de câmera, conectividade \textit{Wi-Fi} e \textit{Bluetooth 4.0}, um conector macho de entrada-saída (\textit{GPIO}) de 40 pinos e mini conector de alimentação \textit{+ 5VDC}. O microcontrolador baseado no processador \textit{BCM2835 ARMv7 system-on-chip (SoC)} alimenta o Pi Zero W.
 
-Essa versão de \textit{Hardware} é muito compacta, ficando no meio termo entre as fazes de prototipação e aplicação. Com o microprocessador \textit{ARM BCM2835} de \textit{1GHz}, memória \textit{RAM} de \textit{512MB} e um sistema operacional enxuto instalado, a Raspberry Pi Zero W é ideal para rodar aplicações como um \textit{Broker MQTT}.
+Essa versão de \textit{Hardware} é muito compacta, ficando no meio termo entre as fazes de prototipação e aplicação. Com o microprocessador \textit{ARM BCM2835} de \textit{1GHz}, memória \textit{RAM} de \textit{512MB} e um sistema operacional enxuto instalado, a Raspberry Pi Zero W é ideal para rodar aplicações como um \textit{Broker MQTT}. Informações adicionais estão disponíveis no \textbf{Anexo B}.
 
 \begin{figure}[H]
 	\centering
