@@ -40,36 +40,69 @@ Este anexo abordará a respeito das características dos componentes ESP-12S e E
 
 \section {Caracteríticas Específicas}
 
+A \autoref{tab:tabela_io_esp8266} mostra as características de cada pino do ESP8266 \cite{SmartSoluctionsForHome} em conjunto com um estudo realizado pelo professor Fernando K \cite{FernandoK}. Com base nesse estudo, o qual mostra o comportamento dos pinos no momento de \textit{boot}, foi possível encontrar a melhor disposição para associar o microcontrolador com os devidos circuitos de acionamento e sensoriamento. 
 
-
-
-\begin{table}[]
-	\centering
+\begin{center}
 	\small
 	\newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
-	\begin{tabular}{c|c|c|c}
+	\begin{longtable}{c|c|c|c}
+		\caption{Detalhamento do funcionamento dos pinos ESP8266}
+		\label{tab:tabela_io_esp8266}	\\
 		\hline
-		\textbf{Pino} & \textbf{Direção} & \textbf{Descrição} & \textbf{Particularidade} \\ \hline
+		\textbf{Pino} & \textbf{Direção} & \textbf{Descrição} & \textbf{Ao iniciar} \\ \hline
+		\endfirsthead
 		
-		GPIO 0 & INPUT / OUTPUT & \multicolumn{1}{m{6cm}|}{Usado para selecionar o modo de inicialização. Estando no \textit{GND} durante o \textit{boot}, entra no modo de \textit{flash}. Para inicialização normal manter contato com o \textit{VCC} ou deixá-lo em aberto.} & \multicolumn{1}{m{4cm}}{\textit{HIGH} na inicialização com oscilações por 120 \textit{ms}.} \\ \hline
+		\multicolumn{4}{c}%
+		{\tablename\ \thetable\ -- \textit{Continuação da tabela}} \\
+		\hline
+		\textbf{Pino} & \textbf{Direção} & \textbf{Descrição} & \textbf{Ao iniciar} \\
+		\hline
+		\endhead
+		\hline \multicolumn{4}{r}{\textit{Continua na próxima página}} \\
+		\endfoot
+		\hline \multicolumn{4}{r}{\textit{Fim da tabela}} \\
+		\endlastfoot
+		GPIO0 & INPUT / OUTPUT & \multicolumn{1}{m{5cm}|}{Usado para selecionar o modo de inicialização. Estando no \textit{GND} durante o \textit{boot}, entra no modo de \textit{flash}. Para inicialização normal manter contato com o \textit{VCC} ou deixá-lo em aberto.} & \multicolumn{1}{m{4cm}}{\textit{HIGH} na inicialização com oscilações por 120 \textit{ms}.} \\ \hline
 		
-		GPIO 1 & OUTPUT & \multicolumn{1}{m{6cm}|}{Usado como um UART0 TX durante a programação da \textit{flash}. Em modo de operação normal, pode ser utilizado como um GPIO de saída.} &  \multicolumn{1}{m{4cm}}{\textit{HIGH} na inicialização com oscilações por 80 \textit{ms}.} \\ \hline
+		GPIO1 & OUTPUT & \multicolumn{1}{m{5cm}|}{Usado como um UART0 TX durante a programação da \textit{flash}. Em modo de operação normal, pode ser utilizado como um GPIO de saída.} &  \multicolumn{1}{m{4cm}}{\textit{HIGH} na inicialização com oscilações por 80 \textit{ms}.} \\ \hline
 		
-		GPIO 2 & INPUT / OUTPUT & \multicolumn{1}{m{6cm}|}{De uso geral. Geralmente conectado à um \textit{LED}. Não permite o \textit{boot} se, na operação, for colocado em nível lógico baixo.} & \multicolumn{1}{m{4cm}}{\textit{HIGH} na inicialização com oscilações por 80 \textit{ms}.}\\ \hline
+		GPIO2 & INPUT / OUTPUT & \multicolumn{1}{m{5cm}|}{De uso geral. Geralmente conectado à um \textit{LED}. Não permite o \textit{boot} se, na operação, for colocado em nível lógico baixo.} & \multicolumn{1}{m{4cm}}{\textit{HIGH} na inicialização com oscilações por 80 \textit{ms}.}\\ \hline
 		
-		GPIO 3 & INPUT & \multicolumn{1}{m{6cm}|}{Usado como um UART0 RX durante a programação da \textit{flash}. Em modo de operação normal, pode ser utilizado como um GPIO de saída.} & \multicolumn{1}{m{4cm}}{Permanace em nível lógico alto durante o \textit{boot}.}\\ \hline
+		GPIO3 & INPUT & \multicolumn{1}{m{5cm}|}{Usado como um UART0 RX durante a programação da \textit{flash}. Em modo de operação normal, pode ser utilizado como um GPIO de saída.} & \multicolumn{1}{m{4cm}}{Permanece em nível lógico alto durante o \textit{boot}.}\\ \hline
 		
-		GPIO 4 & INPUT /OUTPUT & \multicolumn{1}{m{6cm}|}{Frequentemente usado como \textit{SCL} para \textit{I2C} (qualquer outro pino também pode ser usado). No modo de operação normal, ele pode ser usado como um GPIO clássico.} & \multicolumn{1}{m{4cm}}{Permanace em nível lógico baixo durante o \textit{boot}.}\\ \hline
+		GPIO4 & INPUT /OUTPUT & \multicolumn{1}{m{5cm}|}{Frequentemente usado como \textit{SDA} para \textit{I2C} (qualquer outro pino também pode ser usado). No modo de operação normal, ele pode ser usado como um GPIO clássico.} & \multicolumn{1}{m{4cm}}{Permanece em nível lógico baixo durante o \textit{boot}.}\\ \hline
 		
+		GPIO5 & INPUT /OUTPUT & \multicolumn{1}{m{5cm}|}{Frequentemente usado como \textit{SCL} para \textit{I2C} (qualquer outro pino também pode ser usado). No modo de operação normal, ele pode ser usado como um GPIO clássico.} & \multicolumn{1}{m{4cm}}{Permanece em nível lógico baixo durante o \textit{boot}.}\\ \hline
 		
+		GPIO6 & NÃO RECOMENDADO & \multicolumn{1}{m{5cm}|}{É utilizado para conexão como o pino de \textit{clock} do cartão \textit{SD}} & \multicolumn{1}{m{4cm}}{\textit{LOW} na inicialização com oscilações por 500 \textit{ms}.}\\ \hline
 		
+		GPIO7 & NÃO RECOMENDADO & \multicolumn{1}{m{5cm}|}{Utilizado para transferência de dados com o cartão \textit{SD}} & \multicolumn{1}{m{4cm}}{Sempre oscilando.}\\ \hline
 		
-	\end{tabular}
-	\caption{}
-	\label{tab:ta}
-\end{table}
-% https://www.tablesgenerator.com
-
+		GPIO8 & NÃO RECOMENDADO & \multicolumn{1}{m{5cm}|}{Utilizado para transferência de dados com o cartão \textit{SD}} & \multicolumn{1}{m{4cm}}{\textit{LOW} na inicialização com oscilações por 400 \textit{ms}.}\\ \hline
+		
+		GPIO9 & NÃO RECOMENDADO & \multicolumn{1}{m{5cm}|}{Utilizado para transferência de dados com o cartão \textit{SD}} & \multicolumn{1}{m{4cm}}{Permanece em nível lógico alto durante o \textit{boot}.}\\ \hline
+		
+		GPIO10 & NÃO RECOMENDADO & \multicolumn{1}{m{5cm}|}{Utilizado para transferência de dados com o cartão \textit{SD}} & \multicolumn{1}{m{4cm}}{\textit{LOW} na inicialização com oscilações por 400 \textit{ms}.}\\ \hline
+		
+		GPIO11 & NÃO RECOMENDADO & \multicolumn{1}{m{5cm}|}{Utilizado para transferência de dados com o cartão \textit{SD}} & \multicolumn{1}{m{4cm}}{\textit{LOW} na inicialização com oscilações por 500 \textit{ms}.}\\ \hline
+		
+		GPIO12 & INPUT / OUTPUT & \multicolumn{1}{m{5cm}|}{Pode ser usado como um pino MISO para a interface HSPI (\textit{High Speed Parallel Interface}). Pode ser um GPIO clássico.} & \multicolumn{1}{m{4cm}}{Permanece em nível lógico alto durante o \textit{boot}.}\\ \hline
+		
+		GPIO13 & INPUT / OUTPUT & \multicolumn{1}{m{5cm}|}{Pode ser usado como um pino MOSI para a interface HSPI (\textit{High Speed Parallel Interface}). Pode ser um GPIO clássico.} & \multicolumn{1}{m{4cm}}{Permanece em nível lógico alto durante o \textit{boot}.}\\ \hline
+		
+		GPIO14 & INPUT / OUTPUT & \multicolumn{1}{m{5cm}|}{Pode ser usado como um pino CLK para a interface HSPI (\textit{High Speed Parallel Interface}). Pode ser um GPIO clássico.} & \multicolumn{1}{m{4cm}}{Permanece em nível lógico alto durante o \textit{boot}.}\\ \hline
+		
+		GPIO15 & INPUT / OUTPUT & \multicolumn{1}{m{5cm}|}{Pode ser usado como um pino CS para a interface HSPI (\textit{High Speed Parallel Interface}). Pode ser um GPIO clássico.} & \multicolumn{1}{m{4cm}}{Permanece em nível lógico alto durante o \textit{boot}.}\\ \hline
+		
+		GPIO16 & INPUT / OUTPUT & \multicolumn{1}{m{5cm}|}{Pode ser usado como \textit{wake up} do modo de \textit{deep sleep} ou como GPIO clássico.} & \multicolumn{1}{m{4cm}}{Permanece em nível lógico alto durante o \textit{boot}.}\\ \hline
+		
+		ADC0 & INPUT & \multicolumn{1}{m{5cm}|}{Conversor analógico digital com 10 \textit{bits} de precisão com variação de \textit{0V - 1V}} & \multicolumn{1}{m{4cm}}{Permanece em nível lógico baixo durante o \textit{boot}.}\\ \hline
+		
+		 CH\_EN & Não aplicável & \multicolumn{1}{m{5cm}|}{Pino de ativação do chip: se HIGH o chip funciona normalmente, se LOW entra em modo de baixo consumo} & \multicolumn{1}{m{4cm}}{Não apresenta variações}\\ \hline
+	
+	\end{longtable}
+	
+\end{center}
 
 
 % Novo anexo-------------------------------------------------------------------
