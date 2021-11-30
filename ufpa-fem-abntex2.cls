@@ -60,6 +60,8 @@
 \usepackage{enumerate}
 % Retira o espaço extra desnecessário nas frases
 \frenchspacing
+% Adiciona suporte a tabelas longas e multipáginas
+\usepackage{longtable}
 
 % Configurações do pacote backref usado sem a opção hyperpageref de backref
 %\renewcommand{\backrefpagesname}{Citado na(s) p\'agina(s):~}

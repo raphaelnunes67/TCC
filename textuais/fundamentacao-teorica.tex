@@ -72,7 +72,7 @@ Embora o chip \textit{ESP8266} seja feito pela \textit{Espressif}, existem diver
 	\centering
 	\caption{Alguns exemplos de módulos com base no \textit{ESP8266EX}.}
 	\includegraphics[width=0.5\textwidth]{figuras/modulos_esp8266.png}
-	\fonte{FILIPEFLOP, 2020}
+	\fonte{FILIPEFLOP, 2020 [adaptado]}
 	\label{fig:modulos_esp8266}
 \end{figure} 
 
@@ -133,7 +133,47 @@ A bomda d'água selecionada, \autoref{fig:bomba} , trabalha com fontes de alimen
 	\includegraphics[width=0.3\textwidth]{figuras/bomba.jpeg}
 	\fonte{ENERGIA TOTAL, 2020}
 	\label{fig:bomba}
-\end{figure} 
+\end{figure}
+
+\subsection{O sensor de distância ultrassônico}
+\label{ssec:sensor_ultra}
+O Sensor Ultrassônico de Distância selecionado foi o \textit{JSN-SR04T}, desenvolvido exclusivamente para aperfeiçoar projetos de robótica e microeletrônica, mostrando-se capaz de medir distâncias, em relação a objetos, na faixa entre \textit{25cm} à \textit{150cm}.
+
+\begin{figure}[H]
+	\centering
+	\caption{Sensor ultrassônico \textit{JSN-SR04T} e módulo de conversão}
+	\includegraphics[width=0.5\textwidth]{figuras/sensor_ultra.jpg}
+	\fonte{USINAINFO, 2020}
+	\label{fig:sensor_ultra}
+\end{figure}
+
+O ponto interessante desse sensor é sua ampla e eficiente resistência à umidade, sendo principalmente utilizado em ambientes úmidos, permitindo manter ampla distância do microcontrolador. Ele possui com um fio de \textit{2,5 metros} de comprimento e um módulo especialmente desenvolvido para atuar em conjunto com microcontroladores necessitando de apenas quatro portas de conexão: \textit{5V} (VCC), \textit{Trig (RX)}, \textit{Echo (TX)} e \textit{GND}.
+
+O funcionamento é simples, o sensor emite sinais ultrassônicos que são refletidos ao atingirem determinado objeto. Esses sinais refletidos retornam ao sensor e são processados, tomando como base o tempo de emissão e recepção através do módulo. Em pesquisas realizadas esse sensor apresentou-se ser muito eficiente para a realização da medição de nível.
+
+\subsection{A válvula solenoide}
+
+O modelo de válvula solenoide selecionado possui características como:  \textit{1/2"} x \textit{1/2"}, tensão de operação em torno de \textit{12V} e consumo médio, quando ativada, de \textit{120mA}. Possui o objetivo de controlar o fluxo de água por meio de comandos elétricos e pode ser utilizada em sistemas de irrigação, tratamento de água ou em qualquer projeto que necessite de um controle sobre o fluxo de líquidos. Essa válvula em seu estado desenergizado impede o fluxo de líquido (NF - Normalmente Fechada), isso garante que durante a eventual falta de energia o líquido se manterá contido.
+
+\begin{figure}[H]
+	\centering
+	\caption{Válvula solenoide}
+	\includegraphics[width=0.4\textwidth]{figuras/solenoide.png}
+	\fonte{SMART KITS, 2020}
+	\label{fig:solenoide}
+\end{figure}
+
+\subsection{A chave de nível tipo boia}
+
+Para questões de segurança a chave de nível \textit{RF-0H21D} será utilizada para fomentar a redundância do sistema, caso aconteçam falhas na medição do sensor citado na seção \ref{ssec:sensor_ultra}. Essa chave indicará para o microcontrolador, por meio de contato elétrico, o momento exato para desativação da bomba d'água, evitando possíveis vazamentos. 
+
+\begin{figure}[H]
+	\centering
+	\caption{Chave de nível \textit{RF-0H21D}}
+	\includegraphics[width=0.5\textwidth]{figuras/chave_boia.png}
+	\fonte{SMART KITS, 2020}
+	\label{fig:chaveboia}
+\end{figure}
 
 
 \subsection{O sensor de corrente}
@@ -164,13 +204,21 @@ O dispositivo consiste em um operador \textit{Hall} linear preciso, a corrente a
 	\label{fig:acs712_typical}
 \end{figure} 
 
-\subsection{O Circuito Dobrador de Tensão}
 
 \subsection{KiCad}
 
 O KiCad é o Software de código aberto para projetar circuito eletrônicos. Essa ferramenta EDA - \textit{Electronic Design Automation} lida com captura esquemática e layout de placas de circuito impresso (PCB - \textit{Printed Circuit Board}) gerando arquivos \textit{Gerber} (padrão universal de arquivo composto de uma combinação de comandos gráficos utilizados por equipamentos tipo \textit{fotoploter} para a formação das imagens da placa de circuito impresso).
 
-O Software roda em ambientes Windows, Linux e OS X estando licenciado pela GNU GPL v3. Por meio de sua vasta biblioteca é possível construir esquemáticos de maneira prática. O KiCad também possui recursos de criação e adição de componentes, além de simulação via linguagem SPICE (ainda em beta).  
+O Software roda em ambientes Windows, Linux e OS X estando licenciado pela GNU GPL v3. Por meio de sua vasta biblioteca é possível construir esquemáticos de maneira prática. O KiCad também possui recursos de criação e adição de componentes, além de simulação via linguagem SPICE (ainda em beta). 
+
+\begin{figure}[H]
+	\centering
+	\caption{Exemplo de\textit{PCB Design} utilizando \textit{Kicad}}
+	\includegraphics[width=0.6\textwidth]{figuras/kicad_pcbnew.png}
+	\fonte{kicad.org, 2021}
+	\label{fig:kicad_pcbnew}
+\end{figure} 
+ 
 
 \subsection{Os elementos de ativação e desativação}
 
@@ -198,45 +246,6 @@ Para saturação do transistor \textit{IRF1404} (\autoref{fig:IRF1404}) foi dese
 	\label{fig:IRF1404}
 \end{figure} 
 
-\subsection{O sensor de distância ultrassônico}
-\label{ssec:sensor_ultra}
-O Sensor Ultrassônico de Distância selecionado foi o \textit{JSN-SR04T}, desenvolvido exclusivamente para aperfeiçoar projetos de robótica e microeletrônica, mostrando-se capaz de medir distâncias, em relação a objetos, na faixa entre \textit{25cm} à \textit{150cm}.
-
-\begin{figure}[H]
-	\centering
-	\caption{Sensor ultrassônico \textit{JSN-SR04T} e módulo de conversão}
-	\includegraphics[width=0.5\textwidth]{figuras/sensor_ultra.jpg}
-	\fonte{USINAINFO, 2020}
-	\label{fig:sensor_ultra}
-\end{figure}
-
-O ponto interessante desse sensor é sua ampla e eficiente resistência à umidade, sendo principalmente utilizado em ambientes úmidos, permitindo manter ampla distância do microcontrolador. Ele possui com um fio de \textit{2,5 metros} de comprimento e um módulo especialmente desenvolvido para atuar em conjunto com microcontroladores necessitando de apenas quatro portas de conexão: \textit{5V} (VCC), \textit{Trig (RX)}, \textit{Echo (TX)} e \textit{GND}.
-
-O funcionamento é simples, o sensor emite sinais ultrassônicos que são refletidos ao atingirem determinado objeto. Esses sinais refletidos retornam ao sensor e são processados, tomando como base o tempo de emissão e recepção através do módulo. Em pesquisas realizadas esse sensor apresentou-se ser muito eficiente para a realização da medição de nível.
-
-\subsection{A válvula solenoide}
-
- O modelo de válvula solenoide selecionado possui características como:  \textit{1/2"} x \textit{1/2"}, tensão de operação em torno de \textit{12V} e consumo médio, quando ativada, de \textit{120mA}. Possui o objetivo de controlar o fluxo de água por meio de comandos elétricos e pode ser utilizada em sistemas de irrigação, tratamento de água ou em qualquer projeto que necessite de um controle sobre o fluxo de líquidos. Essa válvula em seu estado desenergizado impede o fluxo de líquido (NF - Normalmente Fechada), isso garante que durante a eventual falta de energia o líquido se manterá contido.
- 
- \begin{figure}[H]
- 	\centering
- 	\caption{Válvula solenoide}
- 	\includegraphics[width=0.4\textwidth]{figuras/solenoide.png}
- 	\fonte{SMART KITS, 2020}
- 	\label{fig:solenoide}
- \end{figure}
-
-\subsection{A chave de nível tipo boia}
-
-Para questões de segurança a chave de nível \textit{RF-0H21D} será utilizada para fomentar a redundância do sistema, caso aconteçam falhas na medição do sensor citado na seção \ref{ssec:sensor_ultra}. Essa chave indicará para o microcontrolador, por meio de contato elétrico, o momento exato para desativação da bomba d'água, evitando possíveis vazamentos. 
-
- \begin{figure}[H]
-	\centering
-	\caption{Chave de nível \textit{RF-0H21D}}
-	\includegraphics[width=0.5\textwidth]{figuras/chave_boia.png}
-	\fonte{SMART KITS, 2020}
-	\label{fig:chaveboia}
-\end{figure}
 
 
 \section{Elementos de \textit{Firmware}}
