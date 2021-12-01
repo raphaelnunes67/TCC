@@ -113,7 +113,7 @@ Essa versão de \textit{Hardware} é muito compacta, ficando no meio termo entre
 
 \subsection{As fontes de alimentação DC}
 
-Para alimentação elétrica de todos os dispositivos eletrônicos envolvidos no processo de automação da cisterna, serão utilizadas dois tipos de fontes chaveadas: de \textit{12V/20A} e \textit{12V/10A}, representadas pela \autoref{fig:fontechaveada}. Essas fontes são ideais por possuir características robustas, como proteção eletromecânica e potência necessária para ativação de motores e válvulas solenoides. Há também a disponibilização de vários conectores na saída, os quais podem ser interligados para pontos específicos de alimentação.
+Para alimentação elétrica de todos os dispositivos eletrônicos envolvidos no processo de automação da cisterna, foram utilizadas dois tipos de fontes chaveadas: de \textit{12V/20A} para o módulo \textbf{CCM} e \textit{12V/10A} para o módulo \textbf{TCM}, representadas pela \autoref{fig:fontechaveada}. Essas fontes são ideais por possuir características robustas, como proteção eletromecânica e potência necessária para ativação de motores e válvulas solenoides. Há também a disponibilização de vários conectores na saída, os quais podem ser interligados para pontos específicos de alimentação.
 
 \begin{figure}[H]
 	\centering
@@ -137,7 +137,7 @@ A bomda d'água selecionada, \autoref{fig:bomba} , trabalha com fontes de alimen
 
 \subsection{O sensor de distância ultrassônico}
 \label{ssec:sensor_ultra}
-O Sensor Ultrassônico de Distância selecionado foi o \textit{JSN-SR04T}, desenvolvido exclusivamente para aperfeiçoar projetos de robótica e microeletrônica, mostrando-se capaz de medir distâncias, em relação a objetos, na faixa entre \textit{25cm} à \textit{150cm}.
+O sensor ultrassônico de distância selecionado foi o \textit{JSN-SR04T}, desenvolvido exclusivamente para aperfeiçoar projetos de robótica e microeletrônica, mostrando-se capaz de medir distâncias, em relação a objetos, na faixa entre \textit{25cm} à \textit{150cm}.
 
 \begin{figure}[H]
 	\centering
@@ -149,23 +149,45 @@ O Sensor Ultrassônico de Distância selecionado foi o \textit{JSN-SR04T}, desen
 
 O ponto interessante desse sensor é sua ampla e eficiente resistência à umidade, sendo principalmente utilizado em ambientes úmidos, permitindo manter ampla distância do microcontrolador. Ele possui com um fio de \textit{2,5 metros} de comprimento e um módulo especialmente desenvolvido para atuar em conjunto com microcontroladores necessitando de apenas quatro portas de conexão: \textit{5V} (VCC), \textit{Trig (RX)}, \textit{Echo (TX)} e \textit{GND}.
 
-O funcionamento é simples, o sensor emite sinais ultrassônicos que são refletidos ao atingirem determinado objeto. Esses sinais refletidos retornam ao sensor e são processados, tomando como base o tempo de emissão e recepção através do módulo. Em pesquisas realizadas esse sensor apresentou-se ser muito eficiente para a realização da medição de nível.
+O funcionamento é simples, o sensor emite sinais ultrassônicos que são refletidos ao atingirem determinado objeto. Esses sinais refletidos retornam ao sensor e são processados, tomando como base o tempo de emissão e recepção através do módulo. Esse sensor apresenta uma eficiência aceitável para a realização da medição de nível.
 
 \subsection{A válvula solenoide}
 
-O modelo de válvula solenoide selecionado possui características como:  \textit{1/2"} x \textit{1/2"}, tensão de operação em torno de \textit{12V} e consumo médio, quando ativada, de \textit{120mA}. Possui o objetivo de controlar o fluxo de água por meio de comandos elétricos e pode ser utilizada em sistemas de irrigação, tratamento de água ou em qualquer projeto que necessite de um controle sobre o fluxo de líquidos. Essa válvula em seu estado desenergizado impede o fluxo de líquido (NF - Normalmente Fechada), isso garante que durante a eventual falta de energia o líquido se manterá contido.
+Uma válvula solenoide (\autoref{fig:valvula_solenoide}) é um tipo de válvula que pode ser acionada ou desacionada eletronicamente. Seu componente principal é uma bobina elétrica com um núcleo ferromagnético móvel no centro chamado de êmbolo.
+
+Dependendo a aplicação, uma válvula pode ser classifica em \textbf{Normalmente Aberta - NA} ou\textbf{ Normalmente Fechada - NF}. Para uma \textbf{NF}, em sua posição de repouso, o êmbolo tampa um pequeno orifício por onde é capaz de circular um fluído. Quando uma corrente elétrica circula na bobina, cria um campo magnético o qual exerce força sobre o êmbolo. Ele é deslocado em direção ao centro da bobina, abrindo o orifício e possibilitando a passagem do fluído. A operação para uma válvula \textbf{NA} é justamente o oposto, o êmbolo fica no centro e é deslocado com a formação do campo magnético. Outra classificação é quanto ao número de vias e as formas de controle. Para este trabalho nos atentaremos para válvulas de duas vias com retorno por mola, representadas na figura abaixo.
+
+\begin{figure}[H]
+	\centering
+	\caption{Representação de válvulas: \textit{(a)} Normalmente Fechada  e \textit{(b)} Normalmente Aberta. Ambas de duas vias.}
+	\includegraphics[width=0.7\textwidth]{figuras/valvulas.png}
+	\fonte{Própria, 2021}
+	\label{fig:valvulas}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Representação interna de uma válvula solenoide com seus principais componentes}
+	\includegraphics[width=0.4\textwidth]{figuras/válvula_solenoide.png}
+	\fonte{Citisystems, 2021}
+	\label{fig:valvula_solenoide}
+\end{figure}
+
+Alguns exemplos do uso de válvula solenoide incluem sistemas de aquecimento, tecnologia de ar comprimido, automação industrial, piscinas, sistemas de aspersão, máquinas de lavar roupa, equipamentos odontológicos, sistemas de lavagem de carros e sistemas de irrigação \cite{Citisystems}.
+
+O modelo de válvula solenoide utilizada foi da marca Nascimetal (\autoref{fig:solenoide}) a qual possui características como:  \textit{1/2"} x \textit{1/2"}, tensão de operação em torno de \textit{12V} \textit{DC}, consumo médio, quando ativada, de \textit{500mA}, pressão de operação à $8,0 kgf/cm^2$ com vazão máxima de $40L/min$ e vida útil de 50 mil operações. Garantiu o controle do fluxo de água de acordo com os dados elétricos enviados pelo microcontrolador.
 
 \begin{figure}[H]
 	\centering
 	\caption{Válvula solenoide}
-	\includegraphics[width=0.4\textwidth]{figuras/solenoide.png}
-	\fonte{SMART KITS, 2020}
+	\includegraphics[width=0.3\textwidth]{figuras/solenoide.jpg}
+	\fonte{Nascimetal, 2021}
 	\label{fig:solenoide}
 \end{figure}
 
 \subsection{A chave de nível tipo boia}
 
-Para questões de segurança a chave de nível \textit{RF-0H21D} será utilizada para fomentar a redundância do sistema, caso aconteçam falhas na medição do sensor citado na seção \ref{ssec:sensor_ultra}. Essa chave indicará para o microcontrolador, por meio de contato elétrico, o momento exato para desativação da bomba d'água, evitando possíveis vazamentos. 
+Para questões de segurança a chave de nível \textit{RF-0H21D} foi utilizada para fomentar a redundância do sistema, caso aconteçam falhas na medição do sensor citado na seção \ref{ssec:sensor_ultra}. Essa chave indicará para o microcontrolador, por meio de contato elétrico, o momento exato para desativação da bomba d'água, evitando possíveis vazamentos no sistema acolado à caixa d'água (\textbf{TCM}) . 
 
 \begin{figure}[H]
 	\centering
