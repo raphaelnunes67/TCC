@@ -135,8 +135,29 @@ A bomda d'água selecionada, \autoref{fig:bomba} , trabalha com fontes de alimen
 	\label{fig:bomba}
 \end{figure}
 
-\subsection{O sensor de distância ultrassônico}
+\subsection{O sensor ultrassônico}
 \label{ssec:sensor_ultra}
+
+Um sensor ultrassônico é um instrumento que mede a distância até um objeto usando ondas sonoras de frequência acima do alcance da audição humana (ultrassônicas). Ele usa um transdutor para enviar e receber pulsos ultrassônicos os quais são utilizados para medição de distância através de lapsos temporais \autoref{fig:operacao_ultrassonico}.
+
+\begin{figure}[H]
+	\centering
+	\caption{Representação do funcionamento de um sensor ultrassônico}
+	\includegraphics[width=0.6\textwidth]{figuras/ultrassonico_operacao.png}
+	\fonte{Maxbotix, 2021}
+	\label{fig:operacao_ultrassonico}
+\end{figure}
+
+Para medição de nível selecionou-se o módulo ultrassônico \textit{JSN-SR04T}. Esse módulo oferce uma região de medição de distância entre $20 cm$ a $600 cm$, com precisão na faixa de $2 mm$.
+Esse módulo inclui um transceptor integrado além do seu circuito de controle.
+função de detecção, variando a precisão de até 2 mm; módulo inclui o transceptor de um ultrassônico integrado
+sensor e circuito de controle. Modo um de uso e o módulo JSN-SR04T-2.0 da Divisão.
+Este produto adota um projeto de sonda ultrassônica integrada de nível industrial, tipo à prova d'água, estável
+desempenho, todo o MCU no mercado. 1, o desempenho do módulo é estável, a distância de medição
+é preciso. E SRF05, SRF02 estrangeiro e outro módulo telêmetro ultrassônico comparável. Módulo alto
+precisão, cego (20cm), gama estável é o produto com sucesso para o mercado uma base forte
+
+
 O sensor ultrassônico de distância selecionado foi o \textit{JSN-SR04T}, desenvolvido exclusivamente para aperfeiçoar projetos de robótica e microeletrônica, mostrando-se capaz de medir distâncias, em relação a objetos, na faixa entre \textit{25cm} à \textit{150cm}.
 
 \begin{figure}[H]
@@ -147,9 +168,8 @@ O sensor ultrassônico de distância selecionado foi o \textit{JSN-SR04T}, desen
 	\label{fig:sensor_ultra}
 \end{figure}
 
-O ponto interessante desse sensor é sua ampla e eficiente resistência à umidade, sendo principalmente utilizado em ambientes úmidos, permitindo manter ampla distância do microcontrolador. Ele possui com um fio de \textit{2,5 metros} de comprimento e um módulo especialmente desenvolvido para atuar em conjunto com microcontroladores necessitando de apenas quatro portas de conexão: \textit{5V} (VCC), \textit{Trig (RX)}, \textit{Echo (TX)} e \textit{GND}.
+O ponto interessante desse sensor é sua ampla e eficiente resistência à umidade, sendo principalmente utilizado em ambientes úmidos, permitindo manter ampla distância do microcontrolador. Ele possui com um fio de \textit{2,5 metros} de comprimento e um módulo especialmente desenvolvido para atuar em conjunto com microcontroladores necessitando de apenas quatro portas de conexão: \textit{5V} (VCC), \textit{Trig (RX)}, \textit{Echo (TX)} e \textit{GND}. Esse sensor apresenta uma eficiência aceitável para a realização da medição de nível
 
-O funcionamento é simples, o sensor emite sinais ultrassônicos que são refletidos ao atingirem determinado objeto. Esses sinais refletidos retornam ao sensor e são processados, tomando como base o tempo de emissão e recepção através do módulo. Esse sensor apresenta uma eficiência aceitável para a realização da medição de nível.
 
 \subsection{A válvula solenoide}
 
