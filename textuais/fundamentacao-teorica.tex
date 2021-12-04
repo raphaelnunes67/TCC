@@ -125,7 +125,7 @@ Para alimentação elétrica de todos os dispositivos eletrônicos envolvidos no
 
 \subsection{A motobomba ou bomba d'água}
 
-A bomda d'água selecionada, \autoref{fig:bomba} , trabalha com fontes de alimentação de correntes contínuas (\textit{DC}) o que permite um maior controle do funcionamento através de sistemas \textit{microprocessados}. Essa bomba opera a \textit{12V}, com potência máxima de \textit{80W}. Ela possui a capacidade de exercer uma vazão de \textit{5,5L/min} com ganho de elevação de no máximo 40\textit{m}.
+A bomba d'água selecionada, \autoref{fig:bomba} , trabalha com fontes de alimentação de correntes contínuas (\textit{DC}) o que permite um maior controle do funcionamento através de sistemas \textit{microprocessados}. Essa bomba opera a \textit{12V}, com potência máxima de \textit{80W}. Ela possui a capacidade de exercer uma vazão de \textit{5,5L/min} com ganho de elevação de no máximo 40\textit{m}.
 
 \begin{figure}[H]
 	\centering
@@ -243,9 +243,33 @@ O dispositivo consiste em um operador \textit{Hall} linear preciso, a corrente a
 	\label{fig:acs712_typical}
 \end{figure} 
 
-\subsubsection{O efeito Hall}
+\subsubsection{O sensoriamento através do efeito Hall}
 
-O efeito Hall é um fenômeno de condução diferente para diferentes portadores de carga. Na maioria das aplicações elétricas comuns, a corrente convencional é usada em parte porque não faz diferença se você considera carga positiva ou negativa em movimento. Mas a tensão Hall tem uma polaridade diferente para portadores de carga positiva e negativa e tem sido usada para estudar os detalhes da condução em semicondutores e outros materiais que mostram uma combinação de portadores de carga negativa e positiva \cite{hyperphysics}.
+O efeito Hall é um fenômeno que pode ser observado quando um dispositivo condutor ou semicondutor se aproxima um campo magnético perpendicular. Nessa situação uma diferença de potencial pode ser medida através dos terminais de tal dispositivo. Essa queda de tensão está relacionada com a intensidade da corrente que gerou o campo magnético \cite{EletroctronicsTutorials}. A equação mostra essa relação: 
+
+\begin{equation}
+V_H = R_H\left ( \frac{I\cdot B}{t} \right)
+\end{equation}
+
+\begin{itemize}
+	
+	\item $V_H$ é a tensão em Volts;
+	\item $R_H$ é o coeficiente do efeito Hall;
+	\item  $I$ é o fluxo de corrente em Amperes;
+	\item $t$ é espessura do sensor em milímetros;
+	\item $B$ é a densidade do fluxo magnético em teslas; \ \\
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\caption{Comportamento da tensão de saída em relacão ao fluxo magnético de um sensor Hall.}
+	\includegraphics[width=0.4\textwidth]{figuras/grafico_hall.jpg}
+	\fonte{Eletronics Tutorials, 2021}
+	\label{fig:efeito_hall}
+\end{figure} 
+
+Em relação ao sensoriamento, os dispositivos podem ser digitais ou analógicos. Os sensores analógicos, como por exemplo o ACS712, fornecem uma saída de tensão contínua que aumenta com um campo magnético forte e diminui com um campo magnético fraco. Em sensores de efeito Hall de saída linear, conforme a intensidade do campo magnético aumenta, o sinal de saída do amplificador também aumentará até que comece a saturar pelos limites impostos a ele pela fonte de alimentação. Qualquer aumento adicional no campo magnético não terá efeito sobre a saída, mas levará mais à saturação.
+
 
 \subsection{KiCad}
 
