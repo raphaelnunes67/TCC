@@ -138,7 +138,7 @@ A bomba d'água selecionada, \autoref{fig:bomba} , trabalha com fontes de alimen
 \subsection{O sensor ultrassônico}
 \label{ssec:sensor_ultra}
 
-Um sensor ultrassônico é um instrumento que mede a distância até um objeto usando ondas sonoras de frequência acima do alcance da audição humana (ultrassônicas). Ele usa um transdutor para enviar e receber pulsos ultrassônicos os quais são utilizados para medição de distância através de lapsos temporais \autoref{fig:operacao_ultrassonico}.
+Um sensor ultrassônico é um instrumento que mede a distância até um objeto usando ondas sonoras de frequência acima do alcance da audição humana (ultrassônicas). Ele usa um transdutor para enviar e receber pulsos ultrassônicos os quais são utilizados para medição de distância através de lapsos temporais (\autoref{fig:operacao_ultrassonico}).
 
 \begin{figure}[H]
 	\centering
@@ -221,7 +221,7 @@ Para questões de segurança a chave de nível \textit{RF-0H21D} foi utilizada p
 \subsection{O sensor de corrente}
 
 O sensor de corrente ACS712 selecionado é acessível e oferece precisão em soluções para detecção de corrente AC ou DC na indústria,
-comercial e sistemas de comunicação. O dispositivo permite fácil implementação: aplicações típicas incluem controle de motor, detecção de carga e gerenciamento, fontes de alimentação comutadas e sobrecorrente proteção contra falhas.
+comercial e sistemas de comunicação. O dispositivo permite fácil implementação: aplicações típicas incluem controle de motor, detecção de carga e gerenciamento, fontes de alimentação comutadas e sobrecorrente proteção contra falhas \cite{ACS712}.
 
 
 \begin{figure}[H]
@@ -268,14 +268,13 @@ V_H = R_H\left ( \frac{I\cdot B}{t} \right)
 	\label{fig:efeito_hall}
 \end{figure} 
 
-Em relação ao sensoriamento, os dispositivos podem ser digitais ou analógicos. Os sensores analógicos, como por exemplo o ACS712, fornecem uma saída de tensão contínua que aumenta com um campo magnético forte e diminui com um campo magnético fraco. Em sensores de efeito Hall de saída linear, conforme a intensidade do campo magnético aumenta, o sinal de saída do amplificador também aumentará até que comece a saturar pelos limites impostos a ele pela fonte de alimentação. Qualquer aumento adicional no campo magnético não terá efeito sobre a saída, mas levará mais à saturação.
-
+Em relação ao sensoriamento, os dispositivos Hall podem ser digitais ou analógicos. Os sensores analógicos fornecem uma saída de tensão contínua que de acordo com a intensidade do campo magnético e em alguns casos, como o ACS712, podem apresentar uma variação de saída linear (\autoref{fig:efeito_hall}). Conforme a intensidade do campo magnético aumenta, o sinal de saída do amplificador também aumentará até que comece a saturar pelos limites impostos a ele pela fonte de alimentação do circuito integrado. Essa saída linear pode ser conectada a um pino de leitura analógica de um microcontrolador ou microprocessador.
 
 \subsection{KiCad}
 
 O KiCad é o Software de código aberto para projetar circuito eletrônicos. Essa ferramenta EDA - \textit{Electronic Design Automation} lida com captura esquemática e layout de placas de circuito impresso (PCB - \textit{Printed Circuit Board}) gerando arquivos \textit{Gerber} (padrão universal de arquivo composto de uma combinação de comandos gráficos utilizados por equipamentos tipo \textit{fotoploter} para a formação das imagens da placa de circuito impresso).
 
-O Software roda em ambientes Windows, Linux e OS X estando licenciado pela GNU GPL v3. Por meio de sua vasta biblioteca é possível construir esquemáticos de maneira prática. O KiCad também possui recursos de criação e adição de componentes, além de simulação via linguagem SPICE (ainda em beta). 
+O Software roda em ambientes Windows, Linux e OS X estando licenciado pela GNU GPL v3. Por meio de sua vasta biblioteca é possível construir esquemáticos de maneira prática. O KiCad também possui recursos de criação e adição de componentes, além de simulação via linguagem SPICE (ainda em beta) \cite{Kicad}. 
 
 \begin{figure}[H]
 	\centering
@@ -284,7 +283,9 @@ O Software roda em ambientes Windows, Linux e OS X estando licenciado pela GNU G
 	\fonte{kicad.org, 2021}
 	\label{fig:kicad_pcbnew}
 \end{figure} 
- 
+
+\subsection{O transistor IRF1404} 
+\subsection{Autocad Inventor}
 
 \subsection{Os elementos de ativação e desativação}
 
@@ -315,10 +316,21 @@ Para saturação do transistor \textit{IRF1404} (\autoref{fig:IRF1404}) foi dese
 
 
 \section{Elementos de \textit{Firmware}}
-\subsection{O Ambiente de Desenvolvimento Integrado \textit{Arduino}}
+\subsection{O Ambiente de Desenvolvimento \textit{PlatformIO}}
+
+
+O \textit{PlatformIO} é uma ferramenta profissional de plataforma cruzada, ou seja, disponível em diversos \textit{Softwares} de desenvolvimento, e de estrutura múltipla voltada para desenvolvedores de software embarcado.
+
+A ferramenta fornece um ambiente de desenvolvimento integrado moderno, oferecendo suporte a diversos \textit{kits} de desenvolvimento de \textit{software} (\textit{SDKs}) ou \textit{Frameworks} e inclui depuração sofisticada (\textit{Debug Mode}), testes de unidade (\textit{Unit Test}), análise automatizada de código (\textit{Static Code Analysis}) e gerenciamento remoto (\textit{Remote Development}). É arquitetado para maximizar a flexibilidade e escolha dos desenvolvedores, que podem usar editores gráficos e/ou de linha de comando (\textit{PlatformIO Core}(\textit{CLI})).
+
+Prêmios
+PlatformIO foi nomeado o melhor software e ferramentas do ano no 2015/16 IoT Awards .
+
+Uma extensão PlatformIO IDE nativa para o editor Microsoft VSCode é a extensão mais avaliada / revisada, com mais de 800 avaliações cinco estrelas em todo o Microsoft Marketplace. Ele também foi instalado por mais de 750.000 desenvolvedores exclusivos em todo o mundo.\textbf{}
+
 
 A plataforma Arduino, criada em 2005, não abrange somente as placas microcontroladas mas também agrega-se de uma Interface de Desenvolvimento, ou seja uma IDE, que possui um compilador \textit{C++}. A utilização dessa IDE se tornou tão difundida atualmente que grandes empresas de tecnologia têm buscado tornar ou fabricar microcontroladores completamente compatíveis com a interface.  
-Com esta interface, será possível a programação dos microcontroladores \textit{ESP8266} e \textit{ESP32} de maneira facilitada e sem a necessidade do aprendizado de uma nova liguagem. Todas as funcionalidades, como rotinas de conexão \textit{HTTP} e/ou \textit{MQTT} através do \textit{Wi-Fi}, Interrupção, Timers, Modos de Energia são completamente acessíveis. 
+Com esta interface, será possível a programação do microcontrolador \textit{ESP8266} de maneira facilitada e sem a necessidade do aprendizado de uma nova linguagem. Todas as funcionalidades, como rotinas de conexão \textit{HTTP} e/ou \textit{MQTT} através do \textit{Wi-Fi}, Interrupção, Timers, Modos de Energia são completamente acessíveis. 
 
 \begin{figure}[H]
 	\centering
