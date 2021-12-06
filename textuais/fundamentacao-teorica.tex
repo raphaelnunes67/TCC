@@ -287,58 +287,28 @@ O Software roda em ambientes Windows, Linux e OS X estando licenciado pela GNU G
 \subsection{O transistor IRF1404} 
 \subsection{Autocad Inventor}
 
-\subsection{Os elementos de ativação e desativação}
-
-Tendo em vista os elementos descritos nos itens anteriores, tornou-se necessário a implementação de um circuito para ativação e desativação da bomba d'água assim como a execução de técnicas de proteção e isolamento.
-
-O diagrama desenvolvido no \textit{software Proteus} (\autoref{fig:diagramaproteus}) mostra a integração de como seria o sistema de ativação e desativação da motobomba.
-
-\begin{figure}[H]
-	\centering
-	\caption{Diagrama de ativação com partida lenta}
-	\includegraphics[width=0.9\textwidth]{figuras/diagrama_ativação_bomba.png}
-	\fonte{Própria}
-	\label{fig:diagramaproteus}
-\end{figure} 
-
-A partir deste diagrama utilizou-se técnicas de partida lenta através do chaveamento transistorizado (\textit{BC546}). Por meio do \textit{PWM - Pulse-Width Modulation} oriundo do microcontrolador, o transistor realiza a alteração sobre o valor eficaz de tensão aplicada na bomba d'água.
-
-Para saturação do transistor \textit{IRF1404} (\autoref{fig:IRF1404}) foi desenvolvido o circuito dobrador de tensão também evidenciado na \autoref{fig:diagramaproteus}. A ideia desse circuito é garantir uma queda de tensão entre \textit{GATE} e \textit{SOURCE} duas vezes maior (em torno de \textit{24V}) que a tensão de alimentação do circuito.
-
-\begin{figure}[H]
-	\centering
-	\caption{Transistor IRF1404}
-	\includegraphics[width=0.2\textwidth]{figuras/IRF1404.png}
-	\fonte{ALLDATASHEET, 2020}
-	\label{fig:IRF1404}
-\end{figure} 
-
-
-
 \section{Elementos de \textit{Firmware}}
 
 \subsection{O Ambiente de Desenvolvimento \textit{PlatformIO}}
 
 
-O \textit{PlatformIO} é uma ferramenta profissional de plataforma cruzada, ou seja, disponível em diversos \textit{Softwares} de desenvolvimento, e de estrutura múltipla voltada para desenvolvedores de software embarcado.
+O \textit{PlatformIO} é uma ferramenta profissional de plataforma cruzada, ou seja, disponível em diversas plataformas de desenvolvimento, e de estrutura múltipla voltada para desenvolvedores de software embarcado.
 
-A ferramenta fornece um ambiente de desenvolvimento integrado moderno, oferecendo suporte a diversos \textit{kits} de desenvolvimento de \textit{software} (\textit{SDKs}) ou \textit{Frameworks} e inclui depuração sofisticada (\textit{Debug Mode}), testes de unidade (\textit{Unit Test}), análise automatizada de código (\textit{Static Code Analysis}) e gerenciamento remoto (\textit{Remote Development}). É arquitetado para maximizar a flexibilidade e escolha dos desenvolvedores, que podem usar editores gráficos e/ou de linha de comando (\textit{PlatformIO Core}(\textit{CLI})).
+A ferramenta (\autoref{fig:platformio}) fornece um ambiente de desenvolvimento integrado moderno, oferecendo suporte a diversos \textit{kits} de desenvolvimento de \textit{software} (\textit{SDKs}) ou \textit{frameworks} e inclui depuração sofisticada (\textit{Debug Mode}), testes de unidade (\textit{Unit Test}), análise automatizada de código (\textit{Static Code Analysis}) e gerenciamento remoto (\textit{Remote Development}). É arquitetado para maximizar a flexibilidade e escolha dos desenvolvedores, que podem usar editores gráficos e/ou de linha de comando (\textit{PlatformIO Core}(\textit{CLI})).
 
-Uma extensão PlatformIO IDE nativa para o editor Microsoft VSCode é a extensão mais avaliada / revisada, com mais de 800 avaliações cinco estrelas em todo o Microsoft Marketplace. Ele também foi instalado por mais de 750.000 desenvolvedores exclusivos em todo o mundo.\textbf{}
-
-
-criada em 2005, não abrange somente as placas microcontroladas mas também agrega-se de uma Interface de Desenvolvimento, ou seja uma IDE, que possui um compilador \textit{C++}. A utilização dessa IDE se tornou tão difundida atualmente que grandes empresas de tecnologia têm buscado tornar ou fabricar microcontroladores completamente compatíveis com a interface.  
-Com esta interface, será possível a programação do microcontrolador \textit{ESP8266} de maneira facilitada e sem a necessidade do aprendizado de uma nova linguagem. Todas as funcionalidades, como rotinas de conexão \textit{HTTP} e/ou \textit{MQTT} através do \textit{Wi-Fi}, Interrupção, Timers, Modos de Energia são completamente acessíveis. 
+Com esta interface, será possível a programação do microcontrolador \textit{ESP8266} através da linguagem \textit{C++} em conjunto com todas as bibliotecas disponibilizadas pela plataforma Arduino. Todas as funcionalidades, como rotinas de conexão \textit{HTTP} e/ou \textit{MQTT} através do \textit{Wi-Fi}, Interrupção, \textit{Timers} e Modos de Energia são completamente acessíveis. 
 
 \begin{figure}[H]
 	\centering
-	\caption{Gerenciador de placas com suporte oficial às placas \textit{ESP32} e \textit{ESP8266}}
-	\includegraphics[width=1.0\textwidth]{figuras/gerenciador_placas_arduino.png}
-	\fonte{Própria}
-	\label{fig:youcto-fluxo}
-\end{figure} 
+	\caption{Extensão do \textit{PlatformIO} rodando no \textit{Visual Studio Code}}
+	\includegraphics[width=0.7\textwidth]{figuras/platformio.jpg}
+	\fonte{Própria, 2021}
+	\label{fig:platformio}
+	
+\end{figure}
 
-\subsection{Modelagem de um \textit{SO} embarcado com \textit{Yocto Project}}
+
+\subsection{A distribuição Linux \textit{DietPi}}
 
 O \textit{Yocto Project} é um projeto colaborativo de código aberto que fornece modelos, ferramentas e métodos facilitando a criação de sistemas personalizados baseados em Linux para implantações de sistemas embarcados em dispositivos conectados, servidores ou ambientes virtuais, independentemente da arquitetura de hardware.
 

@@ -96,4 +96,28 @@ Para o desenvolvimento dos elementos de \textit{Software} buscou-se a participa�
 
 Os cursos adquiridos trouxeram uma série de conhecimentos para uma maior interação entre desenvolvedor e usuário, possibilitando a criação de interfaces intuitivas e agregando novas informações e visões a outros temas, como na programação de sistemas embarcados.
 
- 
+\subsection{Os elementos de ativação e desativação}
+
+Tendo em vista os elementos descritos nos itens anteriores, tornou-se necessário a implementação de um circuito para ativação e desativação da bomba d'água assim como a execução de técnicas de proteção e isolamento.
+
+O diagrama desenvolvido no \textit{software Proteus} (\autoref{fig:diagramaproteus}) mostra a integração de como seria o sistema de ativação e desativação da motobomba.
+
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de ativação com partida lenta}
+	\includegraphics[width=0.9\textwidth]{figuras/diagrama_ativação_bomba.png}
+	\fonte{Própria}
+	\label{fig:diagramaproteus}
+\end{figure} 
+
+A partir deste diagrama utilizou-se técnicas de partida lenta através do chaveamento transistorizado (\textit{BC546}). Por meio do \textit{PWM - Pulse-Width Modulation} oriundo do microcontrolador, o transistor realiza a alteração sobre o valor eficaz de tensão aplicada na bomba d'água.
+
+Para saturação do transistor \textit{IRF1404} (\autoref{fig:IRF1404}) foi desenvolvido o circuito dobrador de tensão também evidenciado na \autoref{fig:diagramaproteus}. A ideia desse circuito é garantir uma queda de tensão entre \textit{GATE} e \textit{SOURCE} duas vezes maior (em torno de \textit{24V}) que a tensão de alimentação do circuito.
+
+\begin{figure}[H]
+	\centering
+	\caption{Transistor IRF1404}
+	\includegraphics[width=0.2\textwidth]{figuras/IRF1404.png}
+	\fonte{ALLDATASHEET, 2020}
+	\label{fig:IRF1404}
+\end{figure} 
