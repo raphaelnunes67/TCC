@@ -13,3 +13,8 @@
 *.blg
 *.brf
 *.idx
+.vscode
+*.fdb_latexmake
+*.files
+*.ilg
+*.ind
