@@ -1,705 +1,711 @@
-PWD d:\UEA\Matérias\10_periodo\TCC
-INPUT C:\Users\rapha\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\TCC.log
-INPUT d:\UEA\Matérias\10_periodo\TCC\ufpa-fem-abntex2.cls
-INPUT d:\UEA\Matérias\10_periodo\TCC\ufpa-fem-abntex2.cls
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memoir.cls
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memoir.cls
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\memoir\mem12.clo
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\memoir\mem12.clo
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\dcolumn.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\dcolumn.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\delarray.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\delarray.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\textcase\textcase.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\textcase\textcase.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\textcase\textcase.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\kvsetkeys\kvsetkeys.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\etexcmds\etexcmds.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\etexcmds\etexcmds.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\atbegshi\atbegshi.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\atbegshi\atbegshi.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memhfixc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memhfixc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hpdftex.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bookmark.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bookmark.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-pdftex.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-pdftex.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\babel-portuges\brazil.ldf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\babel-portuges\brazil.ldf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\backref.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\backref.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\indentfirst.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\indentfirst.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\longtable.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2cite.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2cite.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2abrev.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2abrev.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifpdf.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifxetex.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\relsize\relsize.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\relsize\relsize.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\relsize\relsize.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption-memoir.sto
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption-memoir.sto
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\varwidth\varwidth.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\varwidth\varwidth.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\rotating.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\rotating.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\pdftex.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\float\float.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\was\icomma.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\was\icomma.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype-pdftex.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype-pdftex.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\microtype.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\multirow\multirow.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\subeqnarray\subeqnarray.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\subeqnarray\subeqnarray.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lastpage\lastpage.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\algorithm2e\algorithm2e.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\tools\xspace.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\lmodern.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\lmodern.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\footmisc\footmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\footmisc\footmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\ae\ae.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\ae\ae.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\t1lmr.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr12.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\ae\aecompl.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\ae\aecompl.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\latexsym.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\latexsym.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\graphics\lscape.sty
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\TCC.idx
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\capa.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\capa.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\capa.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\folha-rosto.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\folha-rosto.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\folha-rosto.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\folha-aprovacao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\folha-aprovacao.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\folha-aprovacao.tex
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\agradecimentos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\agradecimentos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\resumo.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\resumo.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\abstract.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\abstract.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\lista-figuras.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\lista-figuras.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\lista-siglas.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\lista-siglas.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\sumario.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\sumario.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\introducao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\introducao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\problematica.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\problematica.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\objetivos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\objetivos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\hipotese-e-justificativa.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\hipotese-e-justificativa.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\trabalhos-relacionados.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\trabalhos-relacionados.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\fundamentacao-teorica.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\fundamentacao-teorica.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\metodologia.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\metodologia.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\resultados.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\resultados.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\conclusao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\conclusao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\naomexapostext\referencias.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\naomexapostext\referencias.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\citações-escondidas.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\citações-escondidas.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\anexos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\anexos.aux
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\TCC.aux
-INPUT C:\Program Files\MiKTeX\tex\latex\ae\t1aer.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\ae\t1aer.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aer12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\TCC.pdf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-cmr.cfg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\institucional\brasao_capa.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\institucional\brasao_capa.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\institucional\brasao_capa.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\institucional\brasao_capa.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\institucional\brasao_capa.jpg
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aer12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aebxti10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aer12.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
-INPUT C:\Users\rapha\AppData\Local\MiKTeX\pdftex\config\pdftex.map
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aeb10.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmb10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aebxti10.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxsl10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\ot1lmr.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr8.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr6.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\omllmm.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\omllmm.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi8.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi6.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\omslmsy.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\omslmsy.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy8.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy6.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\lm\omxlmex.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmex10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msa.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msa.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\tex\latex\base\ulasy.fd
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy8.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aer10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aer10.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aeb10.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmb10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\agradecimentos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\agradecimentos.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\agradecimentos.tex
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aer12.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\resumo.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\resumo.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\resumo.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aeti12.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aeti12.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl12.tfm
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\abstract.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\abstract.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\abstract.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\lista-figuras.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\lista-figuras.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\lista-figuras.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.lof
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.lof
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\lista-siglas.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\lista-siglas.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\lista-siglas.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\sumario.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\sumario.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\sumario.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.toc
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aebxti10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aebxti10.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxsl10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr7.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi12.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi7.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy7.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy7.tfm
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\textuais\introducao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\introducao.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\introducao.tex
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aer10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aer10.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmu10.tfm
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\textuais\problematica.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\problematica.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\problematica.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\textuais\objetivos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\objetivos.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\objetivos.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\textuais\hipotese-e-justificativa.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\hipotese-e-justificativa.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\hipotese-e-justificativa.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\textuais\trabalhos-relacionados.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\trabalhos-relacionados.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\trabalhos-relacionados.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig01.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig01.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig01.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig01.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig01.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig02.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig02.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig02.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig02.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig02.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig03.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig03.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig03.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig03.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig03.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig04.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig04.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig04.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig04.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig04.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig05.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig05.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig05.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig05.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig05.png
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\rm-lmr10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmmi10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\lmsy10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aeb10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aeb10.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmb10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig06.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig06.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig06.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig06.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig06.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig07.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig07.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig07.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig07.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig07.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig08.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig08.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig08.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig08.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\trabalhos_relacionados\fig08.png
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\textuais\fundamentacao-teorica.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\fundamentacao-teorica.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\fundamentacao-teorica.tex
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esp8266ex.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esp8266ex.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esp8266ex.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esp8266ex.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esp8266ex.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\modulos_esp8266.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\modulos_esp8266.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\modulos_esp8266.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\modulos_esp8266.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\modulos_esp8266.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12S.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12S.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12S.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12S.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12S.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12E.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12E.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12E.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12E.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12E.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\rasp_zerow.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\rasp_zerow.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\rasp_zerow.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\rasp_zerow.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\rasp_zerow.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\fonte_chaveada.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\fonte_chaveada.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\fonte_chaveada.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\fonte_chaveada.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\fonte_chaveada.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\bomba.jpeg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\bomba.jpeg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\bomba.jpeg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\bomba.jpeg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\bomba.jpeg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ultrassonico_operacao.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ultrassonico_operacao.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ultrassonico_operacao.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ultrassonico_operacao.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ultrassonico_operacao.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\sensor_ultra.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\sensor_ultra.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\sensor_ultra.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\sensor_ultra.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\sensor_ultra.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\valvulas.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\valvulas.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\valvulas.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\valvulas.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\valvulas.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\válvula_solenoide.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\válvula_solenoide.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\válvula_solenoide.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\válvula_solenoide.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\válvula_solenoide.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\solenoide.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\solenoide.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\solenoide.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\solenoide.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\solenoide.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\chave_boia.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\chave_boia.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\chave_boia.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\chave_boia.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\chave_boia.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ACS712.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ACS712.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ACS712.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ACS712.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ACS712.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ACS712_typical.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ACS712_typical.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ACS712_typical.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ACS712_typical.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ACS712_typical.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\grafico_hall.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\grafico_hall.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\grafico_hall.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\grafico_hall.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\grafico_hall.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\kicad_pcbnew.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\kicad_pcbnew.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\kicad_pcbnew.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\kicad_pcbnew.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\kicad_pcbnew.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\platformio.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\platformio.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\platformio.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\platformio.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\platformio.jpg
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\react_native_elements.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\react_native_elements.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\react_native_elements.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\react_native_elements.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\react_native_elements.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\electron_apps.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\electron_apps.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\electron_apps.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\electron_apps.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\electron_apps.png
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\textuais\metodologia.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\metodologia.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\metodologia.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esquema_cisterna.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esquema_cisterna.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esquema_cisterna.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esquema_cisterna.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esquema_cisterna.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esquema_basico_proj.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esquema_basico_proj.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esquema_basico_proj.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esquema_basico_proj.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\esquema_basico_proj.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\visão_geral_meu_kanban.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\visão_geral_meu_kanban.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\visão_geral_meu_kanban.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\visão_geral_meu_kanban.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\visão_geral_meu_kanban.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\github.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\github.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\github.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\github.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\github.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\diagrama_ativação_bomba.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\diagrama_ativação_bomba.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\diagrama_ativação_bomba.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\diagrama_ativação_bomba.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\diagrama_ativação_bomba.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\IRF1404.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\IRF1404.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\IRF1404.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\IRF1404.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\IRF1404.png
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\textuais\resultados.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\resultados.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\resultados.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\textuais\conclusao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\conclusao.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\conclusao.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\naomexapostext\referencias.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\naomexapostext\referencias.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\naomexapostext\referencias.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.bbl
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.bbl
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.brf
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.brf
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.brf
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.brf
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\TCC.brf
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\citações-escondidas.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\citações-escondidas.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\citações-escondidas.tex
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\anexos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\anexos.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\anexos.tex
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12E_pinout.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12E_pinout.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12E_pinout.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12E_pinout.png
-INPUT d:\UEA\Matérias\10_periodo\TCC\figuras\ESP-12E_pinout.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\ae\aeti10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\public\ae\aeti10.vf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\TCC.lof
-OUTPUT d:\UEA\Matérias\10_periodo\TCC\TCC.toc
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\agradecimentos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\agradecimentos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\resumo.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\resumo.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\abstract.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\abstract.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\lista-figuras.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\lista-figuras.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\lista-siglas.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\lista-siglas.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\sumario.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pre-textuais\naomexapretext\sumario.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\introducao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\introducao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\problematica.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\problematica.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\objetivos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\objetivos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\hipotese-e-justificativa.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\hipotese-e-justificativa.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\trabalhos-relacionados.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\trabalhos-relacionados.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\fundamentacao-teorica.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\fundamentacao-teorica.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\metodologia.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\metodologia.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\resultados.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\resultados.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\conclusao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\textuais\conclusao.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\naomexapostext\referencias.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\naomexapostext\referencias.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\citações-escondidas.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\citações-escondidas.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\anexos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\pos-textuais\anexos.aux
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.brf
-INPUT d:\UEA\Matérias\10_periodo\TCC\TCC.brf
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
-INPUT C:\Users\rapha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\rapha\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmb10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmb10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmex10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr8.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
-INPUT C:\Users\rapha\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+PWD e:\Academic\UEA\10°\TCC II\TCC
+INPUT C:\Users\Raphael\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.log
+INPUT e:\Academic\UEA\10°\TCC II\TCC\ufpa-fem-abntex2.cls
+INPUT e:\Academic\UEA\10°\TCC II\TCC\ufpa-fem-abntex2.cls
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memoir.cls
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memoir.cls
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\mem12.clo
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\mem12.clo
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\dcolumn.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\dcolumn.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\delarray.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\delarray.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\tabularx.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\textcase\textcase.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hopatch.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\hopatch.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifpdf.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\memoir\memhfixc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifvtex.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\babel-portuges\portuges.ldf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\babel\txtbabel.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\backref.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\backref.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfirst.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\indentfirst.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2cite.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2cite.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2abrev.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2abrev.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\relsize\relsize.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcaption.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption-memoir.sto
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption-memoir.sto
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\ltcaption.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotating.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\ecrm1200.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\was\icomma.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\was\icomma.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\microtype.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multirow.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subeqnarray\subeqnarray.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\subeqnarray\subeqnarray.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xspace.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xspace.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\lmodern.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\lmodern.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\footmisc\footmisc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\ae.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\ae.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aer12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\aecompl.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\aecompl.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latexsym.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\latexsym.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.sty
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.idx
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\capa.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\capa.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\capa.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\folha-rosto.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\folha-rosto.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\folha-rosto.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\folha-aprovacao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\folha-aprovacao.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\folha-aprovacao.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.aux
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.aux
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.pdf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\institucional\brasao_capa.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\institucional\brasao_capa.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\institucional\brasao_capa.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\institucional\brasao_capa.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\institucional\brasao_capa.jpg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aer12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aebx12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aebxti10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aer12.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmu10.tfm
+INPUT C:\Users\Raphael\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aebx12.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbxti10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aebxti10.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbxsl10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr8.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr6.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omllmm.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi8.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi6.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omslmsy.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmsy8.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmsy6.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lm\omxlmex.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmex10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-msb.cfg
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ulasy.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ulasy.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy8.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy6.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aer10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aebx12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aer10.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmu10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aebx12.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbxti10.tfm
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.tex
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aer12.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmu10.tfm
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.tex
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aeti12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aeti12.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsl12.tfm
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.lof
+INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.lof
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.toc
+INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.toc
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aebxti10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aebxti10.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbxsl10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr7.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi12.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi7.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmsy7.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy7.tfm
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.tex
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aer10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aer10.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmu10.tfm
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig01.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig01.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig01.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig01.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig01.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig02.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig02.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig02.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig02.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig02.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig03.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig03.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig03.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig03.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig03.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig04.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig04.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig04.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig04.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig04.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig05.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig05.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig05.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig05.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig05.png
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmsy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aebx10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aebx10.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbxti10.tfm
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig06.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig06.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig06.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig06.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig06.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig07.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig07.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig07.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig07.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig07.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig08.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig08.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig08.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig08.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig08.png
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.tex
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\omsaer.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\omsaer.fd
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esp8266ex.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esp8266ex.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esp8266ex.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esp8266ex.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esp8266ex.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\modulos_esp8266.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\modulos_esp8266.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\modulos_esp8266.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\modulos_esp8266.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\modulos_esp8266.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rasp_zerow.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rasp_zerow.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rasp_zerow.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rasp_zerow.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rasp_zerow.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\fonte_chaveada.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\fonte_chaveada.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\fonte_chaveada.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\fonte_chaveada.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\fonte_chaveada.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\bomba.jpeg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\bomba.jpeg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\bomba.jpeg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\bomba.jpeg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\bomba.jpeg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_operacao.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_operacao.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_operacao.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_operacao.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_operacao.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\sensor_ultra.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\sensor_ultra.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\sensor_ultra.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\sensor_ultra.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\sensor_ultra.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\valvulas.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\valvulas.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\valvulas.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\valvulas.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\valvulas.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\válvula_solenoide.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\válvula_solenoide.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\válvula_solenoide.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\válvula_solenoide.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\válvula_solenoide.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\solenoide.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\solenoide.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\solenoide.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\solenoide.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\solenoide.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712_typical.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712_typical.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712_typical.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712_typical.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712_typical.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\grafico_hall.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\grafico_hall.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\grafico_hall.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\grafico_hall.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\grafico_hall.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_pcbnew.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_pcbnew.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_pcbnew.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_pcbnew.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_pcbnew.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio.jpg
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\react_native_elements.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\react_native_elements.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\react_native_elements.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\react_native_elements.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\react_native_elements.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\electron_apps.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\electron_apps.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\electron_apps.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\electron_apps.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\electron_apps.png
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_cisterna.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_cisterna.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_cisterna.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_cisterna.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_cisterna.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_basico_proj.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_basico_proj.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_basico_proj.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_basico_proj.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_basico_proj.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\visão_geral_meu_kanban.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\visão_geral_meu_kanban.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\visão_geral_meu_kanban.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\visão_geral_meu_kanban.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\visão_geral_meu_kanban.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\github.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\github.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\github.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\github.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\github.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\diagrama_ativação_bomba.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\diagrama_ativação_bomba.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\diagrama_ativação_bomba.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\diagrama_ativação_bomba.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\diagrama_ativação_bomba.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\IRF1404.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\IRF1404.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\IRF1404.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\IRF1404.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\IRF1404.png
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.tex
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.tex
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E_pinout.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E_pinout.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E_pinout.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E_pinout.png
+INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E_pinout.png
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aeti10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aeti10.vf
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsl10.tfm
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.lof
+OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.toc
+INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.aux
+INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.aux
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathex.enc
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmsy10.pfb

@@ -245,7 +245,7 @@ O dispositivo consiste em um operador \textit{Hall} linear preciso, a corrente a
 
 \subsubsection{O sensoriamento através do efeito Hall}
 
-O efeito Hall é um fenômeno que pode ser observado quando um dispositivo condutor ou semicondutor se aproxima um campo magnético perpendicular. Nessa situação uma diferença de potencial pode ser medida através dos terminais de tal dispositivo. Essa queda de tensão está relacionada com a intensidade da corrente que gerou o campo magnético \cite{EletroctronicsTutorials}. A equação mostra essa relação: 
+O efeito Hall é um fenômeno que pode ser observado quando um dispositivo condutor ou semicondutor se aproxima um campo magnético perpendicular. Nessa situação uma diferença de potencial pode ser medida através dos terminais de tal dispositivo. Essa queda de tensão está relacionada com a intensidade da corrente que gerou o campo magnético \cite{ElectronicsTutorials} A equação mostra essa relação: 
 
 \begin{equation}
 V_H = R_H\left ( \frac{I\cdot B}{t} \right)
@@ -272,9 +272,9 @@ Em relação ao sensoriamento, os dispositivos Hall podem ser digitais ou analó
 
 \subsection{KiCad}
 
-O KiCad é o Software de código aberto para projetar circuito eletrônicos. Essa ferramenta EDA - \textit{Electronic Design Automation} lida com captura esquemática e layout de placas de circuito impresso (PCB - \textit{Printed Circuit Board}) gerando arquivos \textit{Gerber} (padrão universal de arquivo composto de uma combinação de comandos gráficos utilizados por equipamentos tipo \textit{fotoploter} para a formação das imagens da placa de circuito impresso).
+O KiCad é o \textit{Software} de código aberto para projetar circuito eletrônicos. Essa ferramenta EDA - \textit{Electronic Design Automation} lida com captura esquemática e layout de placas de circuito impresso (PCB - \textit{Printed Circuit Board}) gerando arquivos \textit{Gerber} (padrão universal de arquivo composto de uma combinação de comandos gráficos utilizados por equipamentos tipo \textit{fotoploter} para a formação das imagens da placa de circuito impresso).
 
-O Software roda em ambientes Windows, Linux e OS X estando licenciado pela GNU GPL v3. Por meio de sua vasta biblioteca é possível construir esquemáticos de maneira prática. O KiCad também possui recursos de criação e adição de componentes, além de simulação via linguagem SPICE (ainda em beta) \cite{Kicad}. 
+O \textit{software} roda em ambientes \textit{Windows}, \textit{Linux} e \textit{OS X} estando licenciado pela GNU GPL v3. Por meio de sua vasta biblioteca é possível construir esquemáticos de maneira prática. O KiCad também possui recursos de criação e adição de componentes, além de simulação via linguagem SPICE (ainda em beta) \cite{Kicad}. 
 
 \begin{figure}[H]
 	\centering
@@ -310,28 +310,23 @@ Com esta interface, será possível a programação do microcontrolador \textit{
 
 \subsection{\textit{Linux} embarcado e a distribuição \textit{DietPi}}
 
-\textit{Linux} é um sistema operacional de código aberto mais conhecido e mais usado. Como um sistema operacional, executa rotinas por baixo de todos os outros softwares em um computador, recebendo solicitações desses programas e retransmitindo essas solicitações para o hardware.
+\textit{Linux} é um sistema operacional de código aberto amplamente utilizado em diversos sistemas, possindo compatibilidade com diversos tipos de microprocessadores, sejam eles de arquitetura \textit{Reduced Instruction Set Computer} - RISC ou \textit{Complex Instruction Set Computer} - CISC. Em todos os casos executa rotinas por baixo de todos os outros \textit{softwares}, gerenciando todas as ações em conjunto com \textit{hardware}.
 
-O termo “\textit{Linux}” tecnicamente se refere apenas ao \textit{kernel} do \textit{Linux}. A maioria das pessoas se refere a todo o sistema operacional como "\textit{Linux}" porque, para a maioria dos usuários, um sistema operacional inclui um pacote de programas, ferramentas e serviços (como desktop, relógio, menu de aplicativo e assim por diante). Algumas pessoas, particularmente membros da Free Software Foundation , referem-se a esta coleção como \textit{GNU / Linux} , porque muitas ferramentas vitais incluídas são componentes \textit{GNU}. No entanto, nem todas as instalações do \textit{Linux} usam componentes \textit{GNU} como parte do sistema operacional: o \textit{Android} , por exemplo, usa um \textit{kernel Linux}, mas depende muito pouco das ferramentas \textit{GNU} \cite{opensource}.
+O termo “\textit{Linux}” tecnicamente se refere apenas ao \textit{kernel} do \textit{Linux}. A maioria das pessoas se refere a todo o sistema operacional como \textit{"Linux"} porque, para a maioria dos usuários, um sistema operacional inclui um pacote de programas, ferramentas e serviços (como desktop, relógio, menu de aplicativo e assim por diante). Algumas pessoas, particularmente membros da \textit{Free Software Foundation} , referem-se a esta coleção como \textit{GNU / Linux} , porque muitas ferramentas vitais incluídas são componentes \textit{GNU}. No entanto, nem todas as distribuições do \textit{Linux} usam componentes \textit{GNU} como parte do sistema operacional: o \textit{Android} , por exemplo, usa um \textit{kernel Linux}, mas depende muito pouco das ferramentas \textit{GNU} \cite{opensource}.
 
+O mesmo \textit{Linux} que roda em um supercomputador pode rodar também em uma simples placa eletrônica. O que torna isso possível é que o \textit{Linux} suporta uma grande variedade de arquiteturas e processadores \cite{SoftwareLivre}. Baseado na distribuição em Debian, conhecida por sua alta confiabilidade, a distribuição \textbf{DietPi}, utilizada neste trabalho, é extremamente leve, sendo altamente otimizada para o uso mínimo de recursos de CPU e RAM, garantindo que a \textit{Central Process Unit} - CPU sempre opere em seu potencial máximo. Essa distribuição é suportada por diversos microprocessadores, incluindo o Broadcom BCM2835, presente na Raspberry PI Zero W.
 
-
-
+\begin{figure}[H]
+	\centering
+	\caption{Catálogo com algumas de placas que suportam a distribuição DietPi}
+	\includegraphics[width=0.7\textwidth]{figuras/dietpi.jpg}
+	\fonte{dietpi.com, 2021)}
+	\label{fig:dietpi}
+\end{figure} 
 
 
 
 \section{Elementos de \textit{Software}}
-\subsection{O \textit{framework React Native}}
-
-Baseado no \textit{React}, para desenvolvimento \textit{WEB}, o \textit{React Native} é um \textit{framework} de codigo aberto desenvolvido pela equipe do \textit{Facebook} que suporta a criação de aplicativos \textit{mobile} multiplataforma (Android e iOS), sem que haja a preocupação de lidar com as linguagens padrões como \textit{Java} ou \textit{Swift}, usando apenas \textit{Javascript}. Como ponto positivo, ao contrário de outros \textit{frameworks} com o mesmo propósito, todo código desenvolvido com \textit{React Native} será convertido para a linguagem nativa do sistema operacional, o que torna o aplicativo mais performático.
-
-\begin{figure}[H]
-	\centering
-	\caption{Exemplos de \textit{Templates} produzidos com \textit{React Native}}
-	\includegraphics[width=0.7\textwidth]{figuras/react_native_elements.png}
-	\fonte{Adaptado (instamobile.io, 2020)}
-	\label{fig:react-native}
-\end{figure} 
 
 \subsection{O \textit{framework Electron}}
 
@@ -347,5 +342,18 @@ O \textit{Electron} é um \textit{framework} multiplataforma (Windows, Linux e M
 
 Por meio dele podemos desenvolver aplicações \textit{desktop} utilizando \textit{HTML}, \textit{CSS} e \textit{Javascript}. O \textit{Electron} vem com navegador \textit{Chromium}, um projeto \textit{open source} de onde surgiu o \textit{Google Chrome}. Toda a parte visual, janelas, etc. são renderizadas nessa camada e o \textit{BackEnd} é executado em \textit{Node.js}. Ambos tem acesso um ao outro via RPC (Remote Procedure Call).
 
+\subsection{O protocolo MQTT}
 
+
+\subsection{O \textit{framework React Native}}
+
+Baseado no \textit{React}, para desenvolvimento \textit{WEB}, o \textit{React Native} é um \textit{framework} de codigo aberto desenvolvido pela equipe do \textit{Facebook} que suporta a criação de aplicativos \textit{mobile} multiplataforma (Android e iOS), sem que haja a preocupação de lidar com as linguagens padrões como \textit{Java} ou \textit{Swift}, usando apenas \textit{Javascript}. Como ponto positivo, ao contrário de outros \textit{frameworks} com o mesmo propósito, todo código desenvolvido com \textit{React Native} será convertido para a linguagem nativa do sistema operacional, o que torna o aplicativo mais performático.
+
+\begin{figure}[H]
+	\centering
+	\caption{Exemplos de \textit{Templates} produzidos com \textit{React Native}}
+	\includegraphics[width=0.7\textwidth]{figuras/react_native_elements.png}
+	\fonte{Adaptado (instamobile.io, 2020)}
+	\label{fig:react-native}
+\end{figure} 
 
