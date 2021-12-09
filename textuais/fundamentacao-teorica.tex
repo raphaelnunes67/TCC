@@ -32,7 +32,6 @@ Dentre as diversas características podemos destacar que as redes \textit{wirele
 	\item \textbf{\textit{Wireless Personal Area Network} - WPAN} - redes pessoais sem fio;
 \end{itemize}
 
-
 O grupo de trabalho \textit{Institute of Electrical and Electronics Engineers} - \textit{IEEE} 802.11\textit{ Wireless LAN}, fundado em 1987, realizou a padronização das \textit{WLANs}. Desenvolveu-se o padrão DS-SS IEEE 802.11b, chamado de \textit{Wi-Fi} pela \textit{Wireless Ethernet Compatibility Alliance} - WECA o qual é amplamente usado no mercado atual. \cite{internetdascoisassemmisterios}. A partir dessa padronização é possível aplicar as transmissões de dados por diversos protocolos de maneira barata e prática.
 
 A topologia de uma rede IEEE 802.11 (\textit{Wi-Fi})  possui os seguintes elementos-chave:
@@ -47,8 +46,32 @@ A topologia de uma rede IEEE 802.11 (\textit{Wi-Fi})  possui os seguintes elemen
 
 \subsection{A Internet das Coisas}
 
-Existem divergências em relação ao conceito de Internet das Coisas (\textit{Internet of Things - IoT}), sendo que todos os conceitos, em resumo, fazem alusão à um conjunto de tecnologias e protocolos associados que permitem que objetos se conectem a uma rede de comunicações e onde são identificados e controlados.
-Com o \textit{IoT} surge a \textit{hiperconectividade} a qual possibilita a aquisição de uma grandeza de informações as quais podem ser utilizadas para melhorar um processo, produto ou serviço.
+Existe uma diversidade de ideias em relação ao conceito de Internet das Coisas (\textit{Internet of Things - IoT}), sendo que todos os conceitos, em resumo, fazem alusão à um conjunto de tecnologias e protocolos associados que permitem que objetos se conectem a uma rede de comunicações e onde são identificados e controlados.
+
+Esse termo se tornou possível graças aos avanços tecnológicos e as reduções de custo de todos os dispositivos eletroeletrônicos, os quais possuem a capacidade de comunicação principalmente por meio de protocolos \textit{Wiress} (\autoref{fig:iot_protocols}). Com a aplicação em massa do \textit{IoT} surge a \textit{hiperconectividade}, termo que descreve a possibilidade da aquisição descomunal de informações as quais podem ser utilizadas para melhorar um processo, produto ou serviço.
+
+\begin{figure}[H]
+	\centering
+	\caption{Protocolos utilizados para aplicacão do \textit{IoT} com base nos conceitos de redes. Relação entre velocidade-força e distância.}
+	\includegraphics[width=0.8\textwidth]{figuras/iotprotocols.jpg}
+	\fonte{iot.do, 2021}
+	\label{fig:iot_protocols}
+\end{figure}
+
+
+\subsection{O protocolo MQTT}
+
+O protocolo \textbf{\textit{Message Queuing Telemetry Transport}} - MQTT foi inventado e desenvolvido inicialmente pela \textit{International Business Machines} - IBM no final dos anos 90. Sua aplicação original era vincular sensores em \textit{pipelines} de petróleo a satélites. Como seu nome sugere, ele é um protocolo de mensagem com suporte para a comunicação \textbf{assíncrona} entre as partes. Um protocolo de sistema de mensagens assíncrono desacopla o emissor e o receptor da mensagem tanto no espaço quanto no tempo e, portanto, é escalável em ambientes de rede que não são confiáveis. Apesar de seu nome, ele não tem nada a ver com filas de mensagens, na verdade, ele usa um modelo de publicação e assinatura. No final de 2014, ele se tornou oficialmente um padrão aberto OASIS, com suporte nas linguagens de programação populares, usando diversas implementações de \textit{software} livre.
+
+O MQTT foi projetado para aplicações que utilizam pouca banda de rede, com requisitos de hardware extremamente simples e leve. Ele está na mesma camada OSI que o \textbf{\textit{Hypertext Transfer Protocol}} - HTTP, porém a maior diferença entre eles é o tamanho do \textit{payload}. No HTTP o \textit{payload} \footnote{\textit{\textbf{payload}} - Dado de interesse sem metadados, sem cabeçalho de transmissão ou outras informações acessórias usadas apenas como infraestrutura para transmitir o que importa.} é maior, o que inviabiliza o uso em conexões de baixa qualidade. Além disso o MQTT possui maior segurança, apresenta mais níveis de serviço, é menos complexo e permite uma comunicação de 1 para N se comparado ao HTTP que também é um protocolo utilizado no universo de Internet das Coisas.
+
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama básico MQTT}
+	\includegraphics[width=0.6\textwidth]{figuras/mqtt.drawio.png}
+	\fonte{própria, 2021}
+	\label{fig:mqtt_diagram}
+\end{figure}
 
 
 \section{Elementos de \textit{Hardware}}
@@ -342,7 +365,6 @@ O \textit{Electron} é um \textit{framework} multiplataforma (Windows, Linux e M
 
 Por meio dele podemos desenvolver aplicações \textit{desktop} utilizando \textit{HTML}, \textit{CSS} e \textit{Javascript}. O \textit{Electron} vem com navegador \textit{Chromium}, um projeto \textit{open source} de onde surgiu o \textit{Google Chrome}. Toda a parte visual, janelas, etc. são renderizadas nessa camada e o \textit{BackEnd} é executado em \textit{Node.js}. Ambos tem acesso um ao outro via RPC (Remote Procedure Call).
 
-\subsection{O protocolo MQTT}
 
 
 \subsection{O \textit{framework React Native}}
