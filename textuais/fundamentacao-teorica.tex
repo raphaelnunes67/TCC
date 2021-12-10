@@ -64,14 +64,19 @@ Esse termo se tornou possível graças aos avanços tecnológicos e as reduçõe
 O protocolo \textbf{\textit{Message Queuing Telemetry Transport}} - MQTT foi inventado e desenvolvido inicialmente pela \textit{International Business Machines} - IBM no final dos anos 90. Sua aplicação original era vincular sensores em \textit{pipelines} de petróleo a satélites. Como seu nome sugere, ele é um protocolo de mensagem com suporte para a comunicação \textbf{assíncrona} entre as partes. Um protocolo de sistema de mensagens assíncrono desacopla o emissor e o receptor da mensagem tanto no espaço quanto no tempo e, portanto, é escalável em ambientes de rede que não são confiáveis. Apesar de seu nome, ele não tem nada a ver com filas de mensagens, na verdade, ele usa um modelo de publicação e assinatura. No final de 2014, ele se tornou oficialmente um padrão aberto OASIS, com suporte nas linguagens de programação populares, usando diversas implementações de \textit{software} livre.
 
 O MQTT foi projetado para aplicações que utilizam pouca banda de rede, com requisitos de hardware extremamente simples e leve. Ele está na mesma camada OSI que o \textbf{\textit{Hypertext Transfer Protocol}} - HTTP, porém a maior diferença entre eles é o tamanho do \textit{payload}. No HTTP o \textit{payload} \footnote{\textit{\textbf{payload}} - Dado de interesse sem metadados, sem cabeçalho de transmissão ou outras informações acessórias usadas apenas como infraestrutura para transmitir o que importa.} é maior, o que inviabiliza o uso em conexões de baixa qualidade. Além disso o MQTT possui maior segurança, apresenta mais níveis de serviço, é menos complexo e permite uma comunicação de 1 para N se comparado ao HTTP que também é um protocolo utilizado no universo de Internet das Coisas.
+\\
+Em uma rede MQTT existem dois papéis: o \textit{broker} e os \textit{clients}. O \textit{broker} é um servidor que centraliza as mensagens dos clientes e as encaminha para os clientes interessados. Já o cliente é um dispositivo ou serviço que tenha capacidade de interagir com o \textit{broker} e trocar mensagens. Podemos exemplificar como tipos de clientes (\autoref{fig:mqtt_diagram}) um sensor, um controlador, um atuador ou até mesmo um \textit{software} sendo executado em alguma instância da rede.
 
 \begin{figure}[H]
 	\centering
 	\caption{Diagrama básico MQTT}
-	\includegraphics[width=0.6\textwidth]{figuras/mqtt.drawio.png}
+	\includegraphics[width=0.8\textwidth]{figuras/mqtt.drawio.png}
 	\fonte{própria, 2021}
 	\label{fig:mqtt_diagram}
 \end{figure}
+
+Como qualquer outro protocolo de comunicação o MQTT possui diversos termos e características associadas, como a segurança, a definição dos \textit{endpointssxx}\footnote{\textbf{endpoints} - Pontos de extremidade. Terminais de conexão entre uma API e o cliente.}, o endereçamento, tipo de dado trafegado, entre outros. A tabela mostra os dados cruciais para a aplicação deste trabalho.
+
 
 
 \section{Elementos de \textit{Hardware}}
