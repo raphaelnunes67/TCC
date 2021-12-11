@@ -85,9 +85,24 @@ Como qualquer outro protocolo de comunicação o MQTT possui diversos termos e c
 	\item  \textit{\textbf{QoS}}: Nível de qualidade do serviço desejado, indicando como deve ser a relação entre os elementos comunicantes. \textit{QoS 0}: Não há a confirmação de entrega de uma mensagem e quem a envia não tem obrigação de manter a mensagem armazena para futuras retransmissões. \textit{QoS 1}: Existe a confimção de entrega da mensagem. As mensagens enviadas são armazenas por quem as envia. \textit{QoS 2}: Garante que a mensagem seja entregue exatamente uma vez, com envio de confirmações de recebimento e confirmações de recebimento de confirmações de recebimento. Enquanto uma mensagem não é confirmada, ela é mantida.\cite{fabiobrandao}
 	\item \textbf{\textit{last will testament (LWT)}}: são mensagens pré-definidas a serem publicadas pelo broker em nome de um determinado cliente, uma vez que esse cliente está \textit{offline} e não pode publicar mais.
 	\item \textbf{\textit{keep alive}}: mensagens periódicas enviadas por determinado cliente buscando validar a conexão;
-	\item \textbf{Tópicos, \textit{publish} e \textit{subscribe}}: O ato de um cliente enviar uma mensagem é chamado \textit{publish}. E subscribe para um tópico e para receber mensagens será necessário fazer o subscribe de um tópico. Os níveis de um tópico são separados por “/”. 
+	\item \textbf{tópicos, \textit{publish} e \textit{subscribe}}: O ato de um cliente enviar uma mensagem é chamado \textit{publish}(publicação). E para receber mensagens de determinado um tópico um cliente deve fazer um \textit{subscribe}(inscrição). Os níveis de um tópico são separados por “/” e um cliente pode optar por se inscrever em quantos tópicos forem necessários, utilizando os artifícios da \autoref{tab:simbolos_mqtt}.
 	
 \end{itemize}
+
+\begin{table}[H]
+	\centering
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{c|c|c}
+			\hline
+			Símbolos & Descrição & Exemplo \\ \hline
+			+ & Retorna ou envia qualquer informação naquele nível (Coringa) & \begin{tabular}[c]{@{}c@{}}area/10/sensor/5000/temperatura\\ area/10/sensor/4000/temperatura\\ area/10/sensor/+/temperatura\end{tabular} \\ \hline
+			\# & Retorna ou envia qualquer coisa abaixo daquele nível & area/10/\# \\ \hline
+			\$ & Tópicos iniciados com \$ são especiais usados internamente pelo broker. & \$SYS/broker/clients/total \\ \hline
+		\end{tabular}%
+	}
+	\caption{Caracteres especiais utilizados para envio e recebimento no protocolo MQTT.}
+	\label{tab:simbolos_mqtt}
+\end{table}
 
 \section{Elementos de \textit{Hardware}}
 \subsection{O microcontrolador ESP8266}
@@ -356,9 +371,9 @@ O mesmo \textit{Linux} que roda em um supercomputador pode rodar também em uma 
 
 \begin{figure}[H]
 	\centering
-	\caption{Catálogo com algumas de placas que suportam a distribuição DietPi}
+	\caption{Catálogo com algumas de placas que suportam a distribuição DietPi.}
 	\includegraphics[width=0.7\textwidth]{figuras/dietpi.jpg}
-	\fonte{dietpi.com, 2021)}
+	\fonte{dietpi.com, 2021}
 	\label{fig:dietpi}
 \end{figure} 
 
@@ -366,23 +381,67 @@ O mesmo \textit{Linux} que roda em um supercomputador pode rodar também em uma 
 
 \section{Elementos de \textit{Software}}
 
-\subsection{O \textit{framework Electron}}
+\subsection{Figma}
 
-O \textit{Electron} é um \textit{framework} multiplataforma (Windows, Linux e MacOS) para criação de interfaces possibilitando o usuário acessar serviços do sistema operacional tanto via linha de comando - \textit{CLI} e interface gráfica - \textit{GUI}.
+Figma é um editor gráfico de prototipagem para projetos de \textit{design} baseado principalmente no navegador web, com ferramentas \textit{offline} adicionais para aplicações \textit{desktop}, \textit{GNU/Linux}, \textit{macOS} e \textit{Windows}. Possui também a ferramenta \textit{Figma Mirror}: um sistema de prototipagem que espelha o que está sendo feito no computador para o \textit{smartphone} \textit{Android} e/ou \textit{iOS,} permitindo a simulação do desenho criado, como um aplicativo ou página da web. Por meio desse \textit{software} é possível criar e manipular animações e transições de telas, focando no desenvolvimento de \textit{User Interface Experience} - UI/UX \cite{Figma}.
+
+\begin{figure}[H]
+	\centering
+	\caption{Exemplo de um projeto desenvolvido no Figma.}
+	\includegraphics[width=0.7\textwidth]{figuras/figma_exemplo.jpg}
+	\fonte{figma.com, 2021}
+	\label{fig:figma_exemplo}
+\end{figure} 
+
+
+
+\subsection{\textit{Node.js}}
+
+O \textit{Node.js} é um ambiente de execução (\textit{runtime}) \textit{Javascript} possibilitando criar aplicações sem depender de um \textit{browser} para a execução. Por meio desta tecnologia, se torna possível empregar o \textit{Javascript} para executar comandos em terminal assim como utilizá-lo para programar qualquer tipo de aplicação \textit{backend} com auxílio de inúmeras bibliotecas desenvolvidas. As bibliotecas do \textit{Node.js} podem ser acessadas e instaladas por seu gerenciador de pacote oficial, o \textit{Node Package Manger} - \textbf{NPM} \cite{NodeJs}.
+
+
+\subsection{\textit{Electron}}
+
+O \textit{Electron} é um \textit{framework} multiplataforma (Windows, Linux e MacOS) para criação de interfaces possibilitando o usuário acessar serviços do sistema operacional tanto via linha de comando - \textit{CLI} e interface gráfica - \textit{GUI} \cite{Electron}.
 
 \begin{figure}[H]
 	\centering
 	\caption{Aplicações que utilizam \textit{Electron}}
 	\includegraphics[width=1.0\textwidth]{figuras/electron_apps.png}
 	\fonte{Adaptado (electronjs.org, 2020)}
-	\label{fig:youcto-fluxo}
+	\label{fig:electron_apps}
 \end{figure} 
 
-Por meio dele podemos desenvolver aplicações \textit{desktop} utilizando \textit{HTML}, \textit{CSS} e \textit{Javascript}. O \textit{Electron} vem com navegador \textit{Chromium}, um projeto \textit{open source} de onde surgiu o \textit{Google Chrome}. Toda a parte visual, janelas, etc. são renderizadas nessa camada e o \textit{BackEnd} é executado em \textit{Node.js}. Ambos tem acesso um ao outro via RPC (Remote Procedure Call).
+Por meio dele podemos desenvolver aplicações \textit{desktop} utilizando \textit{HTML}, \textit{CSS}, \textit{Javascript} em conjunto com todas as ferramentas aplicadas a um desenvolvimento \textit{frontend web}. Incorporando o \textit{Chromium}, navegador de código aberto \cite{Chromium}, e \textit{Node.js} no seu binário, toda a base de código fica por conta do \textit{JavaScript} eliminando a experiência de desenvolvimento nativo.
+
+Uma aplicação \textit{Electron} tem como base os seguintes arquivos:
+
+\begin{itemize}
+	\item \textbf{\textit{package.json}}: Aponta para o arquivo principal do aplicativo e lista seus detalhes e dependências;
+	\item \textbf{\textit{main.js}}: Inicia a aplicação e cria a janela de visualização possibilitando diversas configurações; 
+	\item \textbf{\textit{index.html}}: O ponto de partida para a renderização.
+\end{itemize}
 
 
 
-\subsection{O \textit{framework React Native}}
+\subsection{\textit{React}}
+
+O \textit{React} é uma biblioteca \textit{JavaScript}, desenvolvida pela equipe do \textit{Facebook}, que possui ferramentas que facilitam a construção de Interfaces na \textit{Web}. Ele transforma um ambiente complexo, cheio de Edge Cases (casos onde você precisa tratar eventos e como os dados são manipulados) em algo muito mais simplificado.
+
+Trabalhando no contexto declarativo, essa biblioteca permite criar telas para cada estado da aplicação, atualizando e renderizando apenas os itens necessários de forma eficiente. Os itens podem ser componentes (arquivos \textit{JSX}) encapsulados que gerenciam seu próprio estado.
+
+\textit{JSX} é uma forma de criar elementos para serem utilizadas como \textit{templates} de aplicações \textit{React}. São bem similares ao código \textit{HTML}, porém, não é interpretado pelo navegador. Por este motivo, deve-se utilizar um transpilador \footnote{\textbf{transpilador}: subconjunto de compiladores os quais identificam um arquivo de código-fonte e o convertem em outro arquivo de código-fonte, sendo de outra linguagem ou em uma versão diferente da mesma linguagem.} para essa conversão. Atualmente, o mais conhecido deles é o \textit{Babel}.
+
+\begin{figure}[H]
+	\centering
+	\caption{Exemplo de componete React}
+	\includegraphics[width=0.8\textwidth]{figuras/exemplo_react.jpg}
+	\fonte{Adaptado (electronjs.org, 2020)}
+	\label{fig:react_code}
+\end{figure} 
+
+
+\subsection{\textit{React Native}}
 
 Baseado no \textit{React}, para desenvolvimento \textit{WEB}, o \textit{React Native} é um \textit{framework} de codigo aberto desenvolvido pela equipe do \textit{Facebook} que suporta a criação de aplicativos \textit{mobile} multiplataforma (Android e iOS), sem que haja a preocupação de lidar com as linguagens padrões como \textit{Java} ou \textit{Swift}, usando apenas \textit{Javascript}. Como ponto positivo, ao contrário de outros \textit{frameworks} com o mesmo propósito, todo código desenvolvido com \textit{React Native} será convertido para a linguagem nativa do sistema operacional, o que torna o aplicativo mais performático.
 
