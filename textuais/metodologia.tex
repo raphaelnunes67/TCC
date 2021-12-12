@@ -4,9 +4,9 @@
 \label{chap:metodologia}
 
 
-\section{Análise de funcionamento e aplicação de uma cisterna}
+\section{Análise e definição das características do projeto}
 
-Para desenvolvimento do trabalho, parte-se do princípio de uma estrutura previamente construída, demostrada na \autoref{fig:esquema_cisterna}. A partir dos elementos dessa figura, evidenciados na \autoref{tab:tabela_esquema_cisterna}, é possível realizar uma análise sobre o que pode ser automatizado, levando em consideração as variáveis e características do sistema.  
+Para desenvolvimento do trabalho, parte-se do princípio de uma estrutura previamente construída, demostrada no esquema abaixo. A partir dos elementos dessa figura, evidenciados na \autoref{tab:tabela_esquema_cisterna}, foi possível realizar uma análise sobre o que pode ser automatizado, levando em consideração as variáveis e características do sistema.  
 
 \begin{figure}[H]
 	\centering
@@ -40,17 +40,32 @@ Para desenvolvimento do trabalho, parte-se do princípio de uma estrutura previa
 \end{table}
 % https://www.tablesgenerator.com
 
-Após a evidenciar todas as características da estrutura citada anteriormente o um diagrama foi criado tendo em vista a esquematização, a organização e o esclarecimento dos requisitos.   
+
+
+Com base nesses elementos é importante destacar os seguintes pontos para as implementações que serão tratadas nas seções posteriores:
+
+\begin{itemize}
+	\item Definir o método ou sistema para medição de nível do item 5;
+	\item Elaborar o sistema de ativação/desativação da motobomba do item 6;
+	\item Definir o método ou sistema para medição de nível do item 7;
+	\item Elaborar um sistema para intermediar/controlar a passagem de água no elo de ligação (item 9);
+	\item Definir um sistema para administrar o descarte de água da cisterna (item 4);
+	\item Esquematizar e situar os sistemas para envio e aquisição de dados, tornando-se possível realizar remotamente as operações citadas nos itens anteriores; 
+	\item Configurar um pequeno servidor para intermediar entre os dispositivos microcontrolados e as interfaces de controle;  
+	\item Implementar as interfaces para visualizar/comandar os pontos citados nos itens anteriores.
+\end{itemize}
+
+O diagrama da \autoref{fig:esquema_proj} mostra o esquema do projeto.  
 
 \begin{figure}[H]
 	\centering
 	\caption{Esquema básico do projeto.}
 	\includegraphics[width=1.0\textwidth]{figuras/esquema_basico_proj_2.png}
 	\fonte{Própria}
-	\label{fig:esp8266ex}
+	\label{fig:esquema_proj}
 \end{figure} 
 
-\subsection{Organização do trabalho}
+\section{Organização do trabalho}
 
 A metodologia para a realização deste trabalho de conclusão de curso, iniciou-se com a criação do quadro \textit{Kanban} (\autoref{fig:kanban-proj}), para auxílio da organização das tarefas, e com a criação do repositório no \textit{Github} (\autoref{fig:github}) para armazenamento e versionamento dos códigos das vertentes de \textit{Firmware} e \textit{Software} do projeto. Deu-se prosseguimento com os estudos e levantamentos bibliográficos relacionando três áreas do projeto. Buscou-se encontrar os métodos,  ferramentas, tecnologias, bibliotecas e \textit{frameworks} mais adequados para a implementação do projeto.  Diante de cada seleção feita, foram executadas análises para que fosse definido o funcionamento do sistema total, munido da combinação de cada uma das três áreas citadas anteriormente e visando a geração de um produto que pudesse ser empregado no mercado: atrativo economicamente e seguindo diretrizes sustentáveis.  
 
@@ -75,7 +90,7 @@ Por fim, elaborou-se a lista de materiais necessários para construção o proje
 	\label{fig:github}
 \end{figure}
 
-\section{O circuito de detecção de fechadura da chave} 
+
 
 \section{Levantamento do referencial bibliográfico e capacitação}
 \label{sec:metmodal}
@@ -83,12 +98,14 @@ Por fim, elaborou-se a lista de materiais necessários para construção o proje
 Essa parte do trabalho conteve-se no levantamento de referências bibliográficas relacionadas com os temas de \textit{IoT}, programação de microcontroladores, criação de aplicações com \textit{frameworks} baseados em \textit{Javascript}. Também buscou-se a capacitação em cursos oferecidos pelas plataformas \textit{Alura}, \textit{Udemy} e \textit{Skylab (Rocketseat)} o aprendizado de conteúdos complementares ao curso de formação em engenheria de controle e automação, como a criação de placas de circuito impresso, treinamentos sobre \textit{Linux} embarcado, implementação do protocolo \textit{MQTT}, criação de \textit{APPs Android} com \textit{React Native} e aplicações \textit{Desktop} com \textit{Electron.js}.
 
 \section{Desenvolvimento dos elementos de \textit{Hardware}}
-\label{sec: dev_ele_hardware}
+\label{sec: dev_ele_hw}
 
-Nesse momento foram definidos todos os elementos de \textit{hardware} necessários para a execução do projeto: para os dispositivos eletrônicos, documentos como \textit{Datasheets}, catálogos e informativos de dispositivos elétricos foram coletados para consulta durante o decorrer do trabalho; para a parte estrutural executou-se a enumeração de peças que deveriam o desenhadas com auxílio do \textit{Software Autodesk Inventor} e posteriormente construídas através de manufatura aditiva.  Realizou-se uma busca no mercado pelos componentes necessários efetuando as possíveis compras e elaborando o orçamento geral do projeto. 
+Nesse momento foram definidos todos os elementos de \textit{hardware} necessários para a execução do projeto: para os dispositivos eletrônicos, documentos como \textit{Datasheets}, catálogos e informativos de dispositivos elétricos foram coletados para consulta durante o decorrer do trabalho; para a parte estrutural executou-se a enumeração de peças que deveriam o desenhadas com auxílio do \textit{Software Autodesk Inventor} e posteriormente construídas através de manufatura aditiva.  Realizou-se uma busca no mercado pelos componentes necessários efetuando as possíveis compras e elaborando o orçamento geral do projeto.
+
+\subsection{O circuito de detecção de fechadura da chave} 
 
 \section{Desenvolvimento dos elementos de \textit{Firmware}}
-\label{sec: dev_ele_hardware}
+\label{sec: dev_ele_fw}
 
 A definição e desenvolvimento dos elementos de \textit{Firmware} se deu após todos os levantamentos de requisitos do trabalho. Esse momento concentrou-se na escolha de tecnologias mais fáceis de implementação, que tivessem uma gama de documentações e que fossem empregadas em produtos oficiais. Para lidar com o uso dos microprocessadores e microcontroladores, foram feitas pesquisas visando consolidar conceitos aprendidos durante o curso de graduação.
 
