@@ -6,7 +6,7 @@
 
 \section{Análise e definição das características do projeto}
 
-Para desenvolvimento do trabalho, parte-se do princípio de uma estrutura previamente construída, demostrada no esquema abaixo. A partir dos elementos dessa figura, evidenciados na \autoref{tab:tabela_esquema_cisterna}, foi possível realizar uma análise sobre o que pode ser automatizado, levando em consideração as variáveis e características do sistema.  
+Para a metodologia deste trabalho de conclusão de curso, partiu-se do princípio de uma estrutura previamente construída, demostrada no esquema abaixo. A partir dos elementos dessa figura, evidenciados na \autoref{tab:tabela_esquema_cisterna}, foi possível realizar uma análise sobre o que pode ser automatizado, levando em consideração as variáveis e características do sistema.  
 
 \begin{figure}[H]
 	\centering
@@ -40,8 +40,6 @@ Para desenvolvimento do trabalho, parte-se do princípio de uma estrutura previa
 \end{table}
 % https://www.tablesgenerator.com
 
-
-
 Com base nesses elementos é importante destacar os seguintes pontos para as implementações que serão tratadas nas seções posteriores:
 
 \begin{itemize}
@@ -67,7 +65,7 @@ O diagrama da \autoref{fig:esquema_proj} mostra o esquema do projeto.
 
 \section{Organização do trabalho}
 
-A metodologia para a realização deste trabalho de conclusão de curso, iniciou-se com a criação do quadro \textit{Kanban} (\autoref{fig:kanban-proj}), para auxílio da organização das tarefas, e com a criação do repositório no \textit{Github} (\autoref{fig:github}) para armazenamento e versionamento dos códigos das vertentes de \textit{Firmware} e \textit{Software} do projeto. Deu-se prosseguimento com os estudos e levantamentos bibliográficos relacionando três áreas do projeto. Buscou-se encontrar os métodos,  ferramentas, tecnologias, bibliotecas e \textit{frameworks} mais adequados para a implementação do projeto.  Diante de cada seleção feita, foram executadas análises para que fosse definido o funcionamento do sistema total, munido da combinação de cada uma das três áreas citadas anteriormente e visando a geração de um produto que pudesse ser empregado no mercado: atrativo economicamente e seguindo diretrizes sustentáveis.  
+Iniciou-se com a criação do quadro \textit{Kanban} (\autoref{fig:kanban-proj}), para auxílio da organização das tarefas, e com a criação do repositório no \textit{Github} (\autoref{fig:github}) para armazenamento e versionamento dos códigos das vertentes de \textit{Firmware} e \textit{Software} do projeto. Deu-se prosseguimento com os estudos e levantamentos bibliográficos relacionando três áreas do projeto. Buscou-se encontrar os métodos,  ferramentas, tecnologias, bibliotecas e \textit{frameworks} mais adequados para a implementação do projeto.  Diante de cada seleção feita, foram executadas análises para que fosse definido o funcionamento do sistema total, munido da combinação de cada uma das três áreas citadas anteriormente e visando a geração de um produto que pudesse ser empregado no mercado: atrativo economicamente e seguindo diretrizes sustentáveis.  
 
 Primeiramente, na seção de \textit{hardware}, foram selecionados as ferramentas para modelagem de placas de circuito impresso - \textit{PCB's} e para modelagem de peças \textit{3D}, através de manufatura aditiva, a escolha de todos os dispositivos eletrônicos a serem utilizados e a análise do local de aplicação. Posteriormente, na parte de \textit{firmware}, já estando selecionados os microcontroladores e o microprocessador, foram determinadas todas as rotinas de operação e escolhidas, respectivamente, as linguagens para programá-los e o \textit{framework} para criação de um sistema operacional embarcado baseado em \textit{kernel Linux}. Na parte de \textit{software}, foram selecionadas as ferramentas para a criação de interfaces dentro da camada \textit{front-end}: aplicações \textit{mobile} e \textit{desktop}.
 
@@ -102,18 +100,39 @@ Essa parte do trabalho conteve-se no levantamento de referências bibliográfica
 
 Nesse momento foram definidos todos os elementos de \textit{hardware} necessários para a execução do projeto: para os dispositivos eletrônicos, documentos como \textit{Datasheets}, catálogos e informativos de dispositivos elétricos foram coletados para consulta durante o decorrer do trabalho; para a parte estrutural executou-se a enumeração de peças que deveriam o desenhadas com auxílio do \textit{Software Autodesk Inventor} e posteriormente construídas através de manufatura aditiva.  Realizou-se uma busca no mercado pelos componentes necessários efetuando as possíveis compras e elaborando o orçamento geral do projeto.
 
-\subsection{O circuito de detecção de fechadura da chave} 
+\subsection{O circuito de alimentação}
+\subsection{O circuito de detecção de fechadura da chave}
+\subsection{O circuito de medição de nível}
+\subsection{O circuito de ativação da motobomba}
+\subsection{O circuito de ativação da válvula}
 
 \section{Desenvolvimento dos elementos de \textit{Firmware}}
 \label{sec: dev_ele_fw}
 
 A definição e desenvolvimento dos elementos de \textit{Firmware} se deu após todos os levantamentos de requisitos do trabalho. Esse momento concentrou-se na escolha de tecnologias mais fáceis de implementação, que tivessem uma gama de documentações e que fossem empregadas em produtos oficiais. Para lidar com o uso dos microprocessadores e microcontroladores, foram feitas pesquisas visando consolidar conceitos aprendidos durante o curso de graduação.
 
+\subsection {Instalação e configuração do \textit{Broker MQTT}}
+\subsection {Programação do servidor}
+\subsection {Definição de utilização dos pinos do ESP-12S}
+\subsection{Organização dos arquivos internos dos microcontroladores}
+\subsection {Implementação do \textit{Driver WIFI}}
+\subsection {Implementação do \textit{Driver MQTT}}
+\subsection{Implementação da rotina de Reset}
+\subsection{Implementação da funcionalidade de \textit{ OTA Upgrade}}
+\subsection{Implementação do modo de \textit{DeepSleep}}
+
+
 \section{Desenvolvimento dos elementos de \textit{Software}}
+
 
 Para o desenvolvimento dos elementos de \textit{Software} buscou-se a participação de cursos básicos e avançados sobre aplicações \textit{front-end}, as quais servem de conteúdo complementar aos temas abordados na graduação em engenharia de controle e automação.
 
 Os cursos adquiridos trouxeram uma série de conhecimentos para uma maior interação entre desenvolvedor e usuário, possibilitando a criação de interfaces intuitivas e agregando novas informações e visões a outros temas, como na programação de sistemas embarcados.
+
+\section{Desenvolvimento da aplicação \textit{Desktop}}
+\section{Desenvolvimento da aplicação \textit{Mobile}}
+
+
 
 \subsection{Os elementos de ativação e desativação}
 
