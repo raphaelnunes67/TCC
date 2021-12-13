@@ -53,12 +53,12 @@ Com base nesses elementos é importante destacar os seguintes pontos para as imp
 	\item Implementar as interfaces para visualizar/comandar os pontos citados nos itens anteriores.
 \end{itemize}
 
-O diagrama da \autoref{fig:esquema_proj} mostra o esquema do projeto.  
+Dois módulos distintos foram propostos: \textbf{\textit{Tank Control Module} - TCM}, o qual será responsável pelo monitoramento e controle da caixa d'água auxiliar (\autoref{fig:esquema_cisterna}, identificador 7) e \textbf{\textit{Cistern Control Module} - CCM}, responsável pelo monitoramento e controle da cisterna (\autoref{fig:esquema_cisterna}, identificador 5). O diagrama da \autoref{fig:esquema_proj} mostra o esquema proposto para a criação do projeto. 
 
 \begin{figure}[H]
 	\centering
 	\caption{Esquema básico do projeto.}
-	\includegraphics[width=1.0\textwidth]{figuras/esquema_basico_proj_2.png}
+	\includegraphics[width=1.05\textwidth]{figuras/esquema_basico_proj_2.png}
 	\fonte{Própria}
 	\label{fig:esquema_proj}
 \end{figure} 
@@ -101,6 +101,37 @@ Essa parte do trabalho conteve-se no levantamento de referências bibliográfica
 Nesse momento foram definidos todos os elementos de \textit{hardware} necessários para a execução do projeto: para os dispositivos eletrônicos, documentos como \textit{Datasheets}, catálogos e informativos de dispositivos elétricos foram coletados para consulta durante o decorrer do trabalho; para a parte estrutural executou-se a enumeração de peças que deveriam o desenhadas com auxílio do \textit{Software Autodesk Inventor} e posteriormente construídas através de manufatura aditiva.  Realizou-se uma busca no mercado pelos componentes necessários efetuando as possíveis compras e elaborando o orçamento geral do projeto.
 
 \subsection{O circuito de alimentação}
+
+Nesta etapa do projeto iniciou-se a criação do circuito de alimentação para os módulos \textbf{CCM} e \textbf{TCM}. Partindo-se da fonte chaveada definida no \autoref{chap:fundamentacao-teorica}, a qual transforma 110V AC em 12V DC, criou-se um conversor DC-DC do tipo \textit{Buck} para converter a tensão de saída da fonte para 3.3V, ideais para alimentação dos sensores e microcontroladores. 
+
+\begin{figure}[H]
+	\centering
+	\caption{Esquma de ligação do circuito de alimentação}
+	\includegraphics[width=0.8\textwidth]{figuras/alimentacao.png}
+	\fonte{Própria.}
+	\label{fig:alimentacao_esquema}
+\end{figure}
+
+Após a definição do esquema de medição, procurou-se dimensionar o conversor \textit{Buck}. O dimensionamento deu-se a partir das leituras dos \textit{datasheets} de todos os dispositivos que futuramente poderiam ser utilizados. Outro ponto importante salientar para a escolha do conversor \textit{Buck} foi a disponibilidade no mercado.
+
+Dentre os fatores citados o conversor selecionado foi o LM2596, o qual podemos encontrar um módulo com sua aplicação típica (\autoref{fig:conversor_buck}) com certa facilidade no mercado. A \autoref{fig:conversor_buck_teste} mostra o teste realizado em bancada.
+
+\begin{figure}[H]
+	\centering
+	\caption{Aplicação típica do LM2596.}
+	\includegraphics[width=0.8\textwidth]{figuras/conversor_buck.jpg}
+	\fonte{Própria.}
+	\label{fig:conversor_buck}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Teste em bancada do módulo com LM2596.}
+	\includegraphics[width=0.7\textwidth]{figuras/conversor_buck_teste.jpg}
+	\fonte{Própria.}
+	\label{fig:conversor_buck_teste}
+\end{figure}
+
 \subsection{O circuito de detecção de fechadura da chave}
 \subsection{O circuito de medição de nível}
 \subsection{O circuito de ativação da motobomba}
