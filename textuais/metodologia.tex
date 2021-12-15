@@ -67,7 +67,7 @@ Dois módulos distintos foram propostos: \textbf{\textit{Tank Control Module} - 
 
 Iniciou-se com a criação do quadro \textit{Kanban} (\autoref{fig:kanban-proj}), para auxílio da organização das tarefas, e com a criação do repositório no \textit{Github} (\autoref{fig:github}) para armazenamento e versionamento dos códigos das vertentes de \textit{Firmware} e \textit{Software} do projeto. Deu-se prosseguimento com os estudos e levantamentos bibliográficos relacionando três áreas do projeto. Buscou-se encontrar os métodos,  ferramentas, tecnologias, bibliotecas e \textit{frameworks} mais adequados para a implementação do projeto.  Diante de cada seleção feita, foram executadas análises para que fosse definido o funcionamento do sistema total, munido da combinação de cada uma das três áreas citadas anteriormente e visando a geração de um produto que pudesse ser empregado no mercado: atrativo economicamente e seguindo diretrizes sustentáveis.  
 
-Primeiramente, na seção de \textit{hardware}, foram selecionados as ferramentas para modelagem de placas de circuito impresso - \textit{PCB's} e para modelagem de peças \textit{3D}, através de manufatura aditiva, a escolha de todos os dispositivos eletrônicos a serem utilizados e a análise do local de aplicação. Posteriormente, na parte de \textit{firmware}, já estando selecionados os microcontroladores e o microprocessador, foram determinadas todas as rotinas de operação e escolhidas, respectivamente, as linguagens para programá-los e o \textit{framework} para criação de um sistema operacional embarcado baseado em \textit{kernel Linux}. Na parte de \textit{software}, foram selecionadas as ferramentas para a criação de interfaces dentro da camada \textit{front-end}: aplicações \textit{mobile} e \textit{desktop}.
+Primeiramente, na seção de \textit{hardware}, foram selecionados as ferramentas criação e suimulação de circuitos, a escolha de todos os dispositivos eletrônicos a serem utilizados e a análise do local de aplicação. Posteriormente, na parte de \textit{firmware}, já estando selecionados os microcontroladores e o microprocessador, foram determinadas todas as rotinas de operação e escolhidas, respectivamente, as linguagens para programá-los e o sistema operacional a ser utilizado no microprocessador. Na parte de \textit{software}, foram selecionadas as ferramentas para a criação de interfaces dentro da camada \textit{front-end}: aplicações \textit{mobile} e \textit{desktop}.
 
 Por fim, elaborou-se a lista de materiais necessários para construção o projeto, tendo objetivo de validação em ambiente real, efetuando testes de longos períodos, averiguando a integridade do sistema, a robustez dos componentes e a identificação de casos não previstos anteriormente, tornando possível a aplicação de melhorias posteriores a entrega deste trabalho.
 
@@ -231,6 +231,8 @@ As ações de chaveamento foram feitas através de \textit{Pulse-Width Modulatio
 
 A próxima etapa de implementação do controlador \textit{ON-OFF} foi interligar a saída do dobrador de tensão com o GATE do IRF1404. Para isso utilizamos um circuito com o transistor BC546 (\autoref{fig:diagramaproteus} [C]), o qual garante que um pino digital do microcontrolador possa ativar ou desativar a motobomba. Outra característica dessa ligação é possibilitar um \textit{soft start}\footnote{\textbf{soft start:} técnica que diminui a corrente de partida, diminuindo os choques mecânicos do motor por meio de uma aceleração constante.}, evitando picos de corrente e melhorando a vida útil do motor.
 
+Por fim, analisando a \autoref{fig:diagramaproteus} [C] é correto afirmar que o motor será ativado quando se aplicar um nível lógico baixo no transistor Q3 e desativado ao se aplicar nível lógico alto.
+
 \begin{figure}[H]
 	\centering
 	\caption{Circuito do dobrador de tensão montado.}
@@ -238,8 +240,6 @@ A próxima etapa de implementação do controlador \textit{ON-OFF} foi interliga
 	\fonte{Própria}
 	\label{fig:dobrador_montado}
 \end{figure} 
-
-
 
 
 
@@ -255,14 +255,88 @@ A próxima etapa de implementação do controlador \textit{ON-OFF} foi interliga
 
 \subsection{O circuito de ativação da válvula}
 
+Assim como o motobomba, a válvula solenoide da Nascimetal selecionada é ativada com tensão de 12V, necessitando também, de acordo com seu catálogo, de uma corrente em torno de $500mA$.
+
+O circuito proposto para a ativação dessa válvula tem como dispositivo principal o transistor MOSFET IRLZ44N. Ele possui a capacidade de operar com corrente de dreno próxima ao valor de 20A, de acordo com seu \textit{datasheet}.
+
+Para efetuar o controle da válvula a partir de um pino digital do microcontrolador, houve a necessidade de adicionar mais um circuito transistorizado, utilizando o BC546 novamente.
+
+
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de ativação da válvula solenoide.}
+	\includegraphics[width=0.6\textwidth]{figuras/ativa_valvula.png}
+	\fonte{Própria}
+	\label{fig:diagramavalvula}
+\end{figure} 
+
+ Novamente, observando a \autoref{fig:diagramavalvula}, percebe-se que a ativação da válvula é feita em nível lógico baixo ao aplicar no marcador ACT\_S.
+
 \section{Desenvolvimento dos elementos de \textit{Firmware}}
 \label{sec: dev_ele_fw}
 
-A definição e desenvolvimento dos elementos de \textit{Firmware} se deu após todos os levantamentos de requisitos do trabalho. Esse momento concentrou-se na escolha de tecnologias mais fáceis de implementação, que tivessem uma gama de documentações e que fossem empregadas em produtos oficiais. Para lidar com o uso dos microprocessadores e microcontroladores, foram feitas pesquisas visando consolidar conceitos aprendidos durante o curso de graduação.
+A definição e desenvolvimento dos elementos de \textit{Firmware} se deu após todos os levantamentos de requisitos do trabalho. Esse momento concentrou-se na escolha de tecnologias mais fáceis de implementação (citadas na fundamentação teórica), que tivessem uma gama de documentações e que fossem empregadas em produtos oficiais. Para lidar com o uso dos microprocessadores e microcontroladores, foram feitas pesquisas visando consolidar conceitos aprendidos durante o curso de graduação.
 
 \subsection {Instalação e configuração do \textit{Broker MQTT}}
+
+No primeiro momento desta etapa pesquisou-se os principais serviços de \textit{Broker} disponíveis, tendo em vista pontos como documentação e baixo custo. Com isso o serviço selecionado foi o Eclipse Mosquitto™.
+
+A configuração do \textbf{Broker} leva em consideração quatro informações: \textbf{endereço de IP}, \textbf{porta}, \textbf{usuário} e \textbf{senha}.
+
+Com a Raspberry Pi Zero W rodando o sistema operacioal DietPi, a instalação do \textit{Broker} e dos serviços de \textit{clients} foram realizadas através dos seguintes comandos no terminal:
+
+\begin{lstlisting}
+sudo apt-get install mosquitto
+sudo apt-get install mosquitto-clients
+\end{lstlisting}
+
+
+Buscando configurar a segurança do \textit{Broker} realizou-se os seguintes passos no terminal a fim de configurar um usuário com senha:
+
+\begin{lstlisting}
+sudo stop mosquitto
+sudo mosquitto_passwd -c /etc/mosquitto/passwd <user_name>
+\end{lstlisting}
+
+O usuário é definido em \textit{<user\_name>} e a senha foi solicitada posteriormente. Esses dados são criptografados e salvos no arquivo de configuração presente em: \textbf{/etc/mosquitto/mosquitto.conf} (\autoref{fig:cred_mqtt}).
+
+\begin{figure}[H]
+	\centering
+	\caption{Arquivo de credenciais do Mosquitto gerado}
+	\includegraphics[width=0.6
+	\textwidth]{figuras/user_pass.png}
+	\fonte{Própria}
+	\label{fig:cred_mqtt}
+\end{figure}
+
+Para que os clientes executem a conexão com o servidor \textit{broker} também foi necessário configurar um IP estático. Essa operação se deu acessando as configurações do roteador local (\autoref{fig:roteador}).
+
+\begin{figure}[H]
+	\centering
+	\caption{IP estático configurado no roteador local.}
+	\includegraphics[width=1
+	\textwidth]{figuras/ip_estatico_rasp.png}
+	\fonte{Própria}
+	\label{fig:roteador}
+\end{figure}
+
+
+
 \subsection {Programação do servidor}
 \subsection {Definição de utilização dos pinos do ESP-12S}
+
+Neste estágio do projeto, organizou-se a ligação de cada pino do microcontrolador, tendo em vista as características citadas no \textbf{Anexo A}. A figura abaixo mostra a organização final.
+
+\begin{figure}[H]
+	\centering
+	\caption{Declarações dos pinos realizadas no código.}
+	\includegraphics[width=0.5
+	\textwidth]{figuras/pinos_definicao.png}
+	\fonte{Própria}
+	\label{fig:roteador}
+\end{figure}
+
+
 \subsection{Organização dos arquivos internos dos microcontroladores}
 \subsection{Comunicação com o sensor de nível}
 \subsection {Implementação do \textit{Driver WIFI}}
@@ -280,4 +354,27 @@ Para o desenvolvimento dos elementos de \textit{Software} buscou-se a participa�
 Os cursos adquiridos trouxeram uma série de conhecimentos para uma maior interação entre desenvolvedor e usuário, possibilitando a criação de interfaces intuitivas e agregando novas informações e visões a outros temas, como na programação de sistemas embarcados.
 
 \section{Desenvolvimento da aplicação \textit{Desktop}}
+
+O desenvolvimento da aplicação \textit{desktop} teve inicio com a formulação da tela utilizando o Figma. Primeiramente selecionamos a paleta de cores para garantir um \textit{software} mais atraente visualmente e a partir disso alguns esboços foram criados. Uma das preocupações foi garantir que os mostradores e botões fossem bem compreendidos e de fácil acesso, com isso, a tela (\autoref{fig:figma_plan_desktop}) apresentou-se conveniente.
+
+\begin{figure}[H]
+	\centering
+	\caption{Definição do \textit{layout} da tela criado no Figma.}
+	\includegraphics[width=0.6\textwidth]{figuras/figma_plan_desktop.jpg}
+	\fonte{Própria}
+	\label{fig:figma_plan_desktop}
+\end{figure}
+
+
+A aplicação roda em uma única tela com quatro seções, em formato de \textit{dashboard} \footnote{\textbf{dashboard}: painel de informação e/ou controle de determinado processo.}. Nas seções superiores mostra os valores de volume da cisterna e da caixa d'água auxiliar em litros. Na seção inferior direita apresenta botões para ativação e desativação da motoboma, abertura e fechamento do solenoide A (presente no módulo \textbf{CCM}) e abertura e fechamento do solenoide B (presente no módulo \textbf{TCM})
+
+Com o \textit{layout} da tela definida iniciou-se o processo de criação da aplicação desktop como base as tecnologias \textit{Electron} e \textit{React}.
+
+
+
+
+
+
 \section{Desenvolvimento da aplicação \textit{Mobile}}
+
+O desenvolvimento da pl

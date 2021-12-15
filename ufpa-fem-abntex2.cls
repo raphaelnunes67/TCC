@@ -623,6 +623,32 @@ abnt-thesis-year=final
 % Redefine a fonte para uma fonte similar a Arial (fonte Helvetica)
 %\renewcommand*\familydefault{\sfdefault}
 
+\usepackage{xcolor}
+% Definindo novas cores
+\definecolor{verde}{rgb}{0.25,0.5,0.35}
+\definecolor{jpurple}{rgb}{0.5,0,0.35}
+% Configurando layout para mostrar codigos Java
+\usepackage{listings}
+\lstset{
+  language=Java,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{jpurple}\bfseries,
+  stringstyle=\color{red},
+  commentstyle=\color{verde},
+  morecomment=[s][\color{blue}]{/**}{*/},
+  extendedchars=true,
+  showspaces=false,
+  showstringspaces=false,
+  numbers=left,
+  numberstyle=\tiny,
+  breaklines=true,
+  backgroundcolor=\color{cyan!10},
+  breakautoindent=true,
+  captionpos=b,
+  xleftmargin=0pt,
+  tabsize=4
+}
+
 
 %------------------------------------------------------
 %Configurações do pdf

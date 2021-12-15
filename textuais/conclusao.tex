@@ -3,7 +3,15 @@
 \chapter{CONCLUSÃO}
 \label{chap:conclusao}
 
-Este trabalho de conclusão de curso teve como principal objetivo apresentar uma solução para 
+Este trabalho de conclusão de curso teve como principal objetivo desenvolver um projeto base para aplicação de um sistema automatizado para coleta, armazenamento e distribuição de água da chuva tendo como foco atuar sobre os processos convencionais de uma cisterna. Partindo da estratégia de reunir diversas ferramentas, metodologias e tecnologias estudadas durante o curso de engenharia de controle e automação, possibilitou que fossem estabelecidos conceitos a serem aplicados em um projeto real.
+
+Para as partes físicas do projeto (\textit{hardware}) considerou-se uma cisterna convencional (não automatizada). A partir de uma esquematização foi possível estabelecer os pontos principais para se aplicar uma certa automação, propondo os módulos \textbf{CCM}, atrelado à cisterna e \textbf{TCM}, atrelado ao reservatório auxiliar.
+
+Durante o desenvolvimento dos módulos, diversos testes de conceito foram aplicados. Em ambos os módulos foram propostas implementações com válvula solenoides, para alternar o fluxo de água, e medição de nível por meio de sensores ultrassônicos. Individualmente, no \textbf{CCM} foi determinada a utilização de uma motobomba \textit{DC} com o planejamento de todo seu circuito de controle e no \textbf{TCM} estruturou-se um sistema de segurança utilizando chave do tipo boia (também conhecida como chave de flutuação).
+
+O projeto também englobou elementos de \textit{software} buscando integrações com os ambientes \textit{desktop} e \textit{mobile}. Os \textit{frameworks} \textit{Electron} e \textit{React} ajudaram a criar moldes de aplicações mais interessantes para um usuário final, possibilitando o controle dos componentes do sistema de forma mais intuitiva.
+
+Com isso, tomando como base os conceitos de Internet das Coisas e utilizando as ferramentas atuais para desenvolvimento de \textit{firmware} e \textit{software} é possível criar um projeto base para automatizar as operações de uma cisterna pluvial.
 
 \section{Trabalhos Futuros}
 \label{sec:trabalhosFuturos}
@@ -11,7 +19,9 @@ Este trabalho de conclusão de curso teve como principal objetivo apresentar uma
 Neste item destaca-se alguns pontos que podem ser implementados ou melhorados baseados no tema abordado:
 
 \begin{itemize}
-\item Sugestão 1;
+\item Criar uma rotina para informar as dimensões dos tanques os quais se desejar medir o volume;
+\item Adicionar a funcionalidade de controle automático com base nas variáveis do sistema (como, por exemplo, o volume do tanque) e de acordo um horário estabelecido;
 \item Criar uma forma de autenticação ao repositório de novos binários para atualização de \textit{firmware};
-\item ...;
+\item Confeccionar a
+s placas de circuito impresso (\textit{PCB's}) e aplica-las à um sistema real;
 \end{itemize}
