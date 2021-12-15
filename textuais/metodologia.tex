@@ -313,7 +313,7 @@ Para que os clientes executem a conexão com o servidor \textit{broker} também 
 
 \begin{figure}[H]
 	\centering
-	\caption{IP estático configurado no roteador local.}
+	\caption{Em destaque, IP estático configurado no roteador local.}
 	\includegraphics[width=1
 	\textwidth]{figuras/ip_estatico_rasp.png}
 	\fonte{Própria}
@@ -325,19 +325,66 @@ Para que os clientes executem a conexão com o servidor \textit{broker} também 
 \subsection {Programação do servidor}
 \subsection {Definição de utilização dos pinos do ESP-12S}
 
-Neste estágio do projeto, organizou-se a ligação de cada pino do microcontrolador, tendo em vista as características citadas no \textbf{Anexo A}. A figura abaixo mostra a organização final.
+Neste estágio do projeto, organizou-se a ligação de cada pino do microcontrolador esp8266, tendo em vista as características citadas no \textbf{Anexo A}. A figura abaixo mostra a organização final.
 
 \begin{figure}[H]
 	\centering
-	\caption{Declarações dos pinos realizadas no código.}
+	\caption{Declarações dos pinos realizadas no código do módulo \textbf{CCM}.}
 	\includegraphics[width=0.5
-	\textwidth]{figuras/pinos_definicao.png}
+	\textwidth]{figuras/pinos_definicao_ccm2.png}
 	\fonte{Própria}
-	\label{fig:roteador}
+	\label{fig:definicao_pinos_ccm}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Declarações dos pinos realizadas no código do módulo \textbf{TCM}.}
+	\includegraphics[width=0.5
+	\textwidth]{figuras/pinos_definicao_tcm.png}
+	\fonte{Própria}
+	\label{fig:definicao_pinos_tcm}
 \end{figure}
 
 
+De acordo com as figuras, pontuamos:
+
+\begin{itemize}
+	\item \textbf{WIFI\_LED\_pin}: define o pino de conexão \textit{WI-FI};
+	\item \textbf{MQTT\_LED\_pin}: define o pino de indicação de conexão MQTT;
+	\item \textbf{INTERRUPT\_pin}: define o pino de interrupção para execução de \textit{Reset};
+	\item \textbf{MOTOR\_pin}: define o pino de ativação e desativação da motobomba;
+	\item \textbf{GATE\_pin}: define o pino de ativação e desativação da válvula solenoide;
+	\item \textbf{FLOATSWITCH\_pin}: define o pino da chave do tipo boia;
+	\item \textbf{CURRENT\_sensor\_pin}: define o pino de leitura do sensor de corrente (pino analógico);
+	\item \textbf{WL\_ECHO\_pin}: define um pino de comunicação com o módulo ultrasônico JSN-SR04T;
+	\item \textbf{WL\_TRIG\_pin}: define um pino de comunicação com o módulo ultrasônico JSN-SR04T; 
+\end{itemize}
+
+
 \subsection{Organização dos arquivos internos dos microcontroladores}
+
+Utilizando uma biblioteca chamada \textit{SPIFFS}, nesta etapa do desenvolvimento do \textit{firmware} dos módulos, foi implementado um sistema de arquivos na memória \textit{flash} dos microcontroladores ESP-12S. 
+
+Esse sistema de arquivos, gravados na memória não-volátil, tem como objetivo armazenar dados pertinentes como: a versão do \textit{firmware}, os dados para conexão WI-FI e MQTT, além de armazenar páginas \textit{HTML} para o processo de cadastro, o qual será descrito no quesito 7.5.6.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+	\centering
+	\newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
+	\resizebox{\textwidth}{!}{%
+		\begin{tabular}{c|c}
+			\hline
+			Arquivo & Função \\ \hline
+			system\_info.json &  \begin{tabular}[c]{@{}c@{}} armazena: versão do firmware, versão do sistema de arquivos,\\ data do ultimo update e o link para o repositório de novos binários \end{tabular} \\ \hline
+			new\_network.html & \begin{tabular}[c]{@{}c@{}} página para cadastro de do dispositivo na rede WI-FI e ao servidor MQTT \end{tabular} \\ \hline
+			confirm.html & \begin{tabular}[c]{@{}c@{}} página de confirmação para recebimento dos dados após o cadastro \end{tabular}  \\ \hline
+		\end{tabular}%
+	}
+	\caption{Caracteres especiais utilizados para envio e recebimento no protocolo MQTT.}
+	\label{tab:file_system_esp}
+\end{table}
+
 \subsection{Comunicação com o sensor de nível}
 \subsection {Implementação do \textit{Driver WIFI}}
 \subsection {Implementação do \textit{Driver MQTT}}
