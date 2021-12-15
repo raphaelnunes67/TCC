@@ -133,8 +133,126 @@ Dentre os fatores citados o conversor selecionado foi o LM2596, o qual podemos e
 \end{figure}
 
 \subsection{O circuito de detecção de fechadura da chave}
+
+ Garantindo a redundância do sistema, no quesito de segurança, planejou-se a aplicação de uma chave tipo boia para ser acoplada a caixa d'água do módulo TCM (\autoref{fig:chave_boia_aplicacao}). Essa chave tem como objetivo garantir que não ocorra vazamento durante o processo de enchimento do tanque.
+
+\begin{figure}[H]
+	\centering
+	\caption{Esquema de aplicação da chave boia}
+	\includegraphics[width=0.4\textwidth]{figuras/chave_boia_aplicacao.png}
+	\fonte{Própria.}
+	\label{fig:chave_boia_aplicacao}
+\end{figure}
+
+Para executar a detecção com essa chave de dois estados foi-se necessário aplicar um circuito com resistores de \textit{pullup} (\autoref{fig:chave_boia_pullup}).
+
+\begin{figure}[H]
+	\centering
+	\caption{Esquema de ligação elétrica da chave boia.}
+	\includegraphics[width=0.4\textwidth]{figuras/pullup.png}
+	\fonte{Própria.}
+	\label{fig:chave_boia_pullup}
+\end{figure}
+
+ Ao definir um pino do microcontrolador como do tipo entrada (\textit{INPUT}), e se em certo momento não houver nada conectado à esse pino, é impossível determinar qual o nível lógico será lido. O esquema de pullup tem o intuito de eliminar tal risco garantindo que apenas dois valores bem definidos sejam lidos no terminal: \textit{HIGH} ou \textit{LOW}.
+ 
+ Em alguns microcontroladores, como no ESP8266, existem alguns pinos que podem se programados como do tipo \textit{pullup}, garantindo que não seja necessário montar um circuito externo para isso. A \autoref{fig:chave_boia_pullup_teste} mostra a montagem realizada em bancada para o teste da chave boia, conectada ao pino digital 5. 
+ 
+ \begin{figure}[H]
+ 	\centering
+ 	\caption{Chave boia acoplada ao ESP-12S através de um pino digital com \textit{INPUT PULLUP}.}
+ 	\includegraphics[width=0.6\textwidth]{figuras/teste_chave_boia.jpg}
+ 	\fonte{Própria.}
+ 	\label{fig:chave_boia_pullup_teste}
+ \end{figure}
+ 
+
+
+
 \subsection{O circuito de medição de nível}
+
+Tendo como base o módulo JSN-SR04T realizou-se os testes para o envio e recebimento de dados (\autoref{fig:sensor_ultrassonico}). Como descrito na fundamentação teórica, esse módulo possui três tipos de operação, que são selecionadas a partir de um resistor soldado à placa (R27). O modo de operação escolhido para esse projeto foi o terceiro, logo um potenciômetro de $120k\Omega$ (ajustado em $47k\Omega$.) foi soldado à placa (\autoref{fig:ultrasonico_res}). 
+
+ \begin{figure}[H]
+	\centering
+	\caption{Teste de ligação sensor do módulo JSN-SR04T.}
+	\includegraphics[width=0.6\textwidth]{figuras/teste_ultrassonico.jpg}
+	\fonte{Própria.}
+	\label{fig:sensor_ultrassonico}
+\end{figure}
+
+ \begin{figure}[H]
+	\centering
+	\caption{Potenciômetro soldado ao módulo.}
+	\includegraphics[width=0.6\textwidth]{figuras/ultrassonico_res.jpg}
+	\fonte{Própria.}
+	\label{fig:ultrasonico_res}
+\end{figure}
+
 \subsection{O circuito de ativação da motobomba}
+
+Nesta etapa do projeto deu-se inicio a criação do controlador da motobomba. O diagrama a abaixo mostra um visão geral dos itens que precisaram ser integralizados para a ativação e desativação do motor por meio do microcontrolador.
+
+ \begin{figure}[H]
+	\centering
+	\caption{Diagrama de ativação do motor}
+	\includegraphics[width=0.4\textwidth]{figuras/ativacao_motor.png}
+	\fonte{Própria.}
+	\label{fig:diagrama_ativacao_motor}
+\end{figure}
+
+
+ Como visto, a motobomba selecionada opera com 12V em corrente contínua e, por meio de testes feitos, possui um consumo médio de 10A quando está em operação. (\autoref{fig:teste_ativacao_motor}).
+ 
+  \begin{figure}[H]
+ 	\centering
+ 	\caption{Teste da motobomba}
+ 	\includegraphics[width=0.6\textwidth]{figuras/teste_motor.jpg}
+ 	\fonte{Própria.}
+ 	\label{fig:teste_ativacao_motor}
+ \end{figure}
+
+Com os dados obtidos através dos testes, deu-se início a procura de componentes e metodologias para o controle \textit{ON-OFF} de motores de corrente contínua. Como o microcontrolar não possui tesão nem corrente suficientes para ativar o motor, foi-se necessário desenvolver uma ativação indireta transistorizada.  
+
+A primeira parte do esquema (\autoref{fig:diagramaproteus} [B]) conta com o transistor MOSFET  IRF1404 de alta potência. Esse transistor, segundo seu \textit{datasheet} (recorte presente no \textbf{anexo C}), pode operar com uma corrente máxima de dreno igual a 202A e necessita de uma diferença mínima de 4V entre o $V_{GS}$ e $V_{DS}$ para conduzir a corrente $I_{DS}$.
+Com essas informações chegamos a conclusão de que a tensão aplicada ao GATE deveria ser, de no mínimo, 14V.
+
+Partindo-se disso, procurou-se técnicas para elevação de tensão e selecionamos construir um \textbf{dobrador de tensão}. Por ser simples e barato para ser desenvolvido, existem inúmeras aplicações que utilizam esse método para ativação de transistores MOSFET. Este circuito é baseado em resitores, capacitores, diodos e necessita de um oscilador conectado na base de transistor para executar ações de chaveamento. 
+
+A \autoref{fig:dobrador_osciloscopio} mostra o comportamento da saída do dobrador montado (\autoref{fig:dobrador_montado}). Onde temos a saída de tensão (em vermelho) e a entrada de tensão 12V da fonte DC (em verde). É importante salientar que a tesão de saída atingiu valores em torno de 22V devido as perdas dos componentes, porém valor suficiente para ativar o IRF1404.
+As ações de chaveamento foram feitas através de \textit{Pulse-Width Modulation - PWM} originados do ESP-12S.
+\begin{figure}[H]
+	\centering
+	\caption{Resultados obtidos da leitura de pontos estratégicos do dobrador de tensão montado}
+	\includegraphics[width=0.8\textwidth]{figuras/dobrador.png}
+	\fonte{Própria}
+	\label{fig:dobrador_osciloscopio}
+\end{figure}
+
+A próxima etapa de implementação do controlador \textit{ON-OFF} foi interligar a saída do dobrador de tensão com o GATE do IRF1404. Para isso utilizamos um circuito com o transistor BC546 (\autoref{fig:diagramaproteus} [C]), o qual garante que um pino digital do microcontrolador possa ativar ou desativar a motobomba. Outra característica dessa ligação é possibilitar um \textit{soft start}\footnote{\textbf{soft start:} técnica que diminui a corrente de partida, diminuindo os choques mecânicos do motor por meio de uma aceleração constante.}, evitando picos de corrente e melhorando a vida útil do motor.
+
+\begin{figure}[H]
+	\centering
+	\caption{Circuito do dobrador de tensão montado.}
+	\includegraphics[width=0.6\textwidth]{figuras/dobrador_montado.jpg}
+	\fonte{Própria}
+	\label{fig:dobrador_montado}
+\end{figure} 
+
+
+
+
+
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de ativação com partida lenta}
+	\includegraphics[width=0.9\textwidth]{figuras/diagrama_ativação_bomba.png}
+	\fonte{Própria}
+	\label{fig:diagramaproteus}
+\end{figure} 
+
+
+
 \subsection{O circuito de ativação da válvula}
 
 \section{Desenvolvimento dos elementos de \textit{Firmware}}
@@ -146,6 +264,7 @@ A definição e desenvolvimento dos elementos de \textit{Firmware} se deu após 
 \subsection {Programação do servidor}
 \subsection {Definição de utilização dos pinos do ESP-12S}
 \subsection{Organização dos arquivos internos dos microcontroladores}
+\subsection{Comunicação com o sensor de nível}
 \subsection {Implementação do \textit{Driver WIFI}}
 \subsection {Implementação do \textit{Driver MQTT}}
 \subsection{Implementação da rotina de Reset}
@@ -162,31 +281,3 @@ Os cursos adquiridos trouxeram uma série de conhecimentos para uma maior intera
 
 \section{Desenvolvimento da aplicação \textit{Desktop}}
 \section{Desenvolvimento da aplicação \textit{Mobile}}
-
-
-
-\subsection{Os elementos de ativação e desativação}
-
-Tendo em vista os elementos descritos nos itens anteriores, tornou-se necessário a implementação de um circuito para ativação e desativação da bomba d'água assim como a execução de técnicas de proteção e isolamento.
-
-O diagrama desenvolvido no \textit{software Proteus} (\autoref{fig:diagramaproteus}) mostra a integração de como seria o sistema de ativação e desativação da motobomba.
-
-\begin{figure}[H]
-	\centering
-	\caption{Diagrama de ativação com partida lenta}
-	\includegraphics[width=0.9\textwidth]{figuras/diagrama_ativação_bomba.png}
-	\fonte{Própria}
-	\label{fig:diagramaproteus}
-\end{figure} 
-
-A partir deste diagrama utilizou-se técnicas de partida lenta através do chaveamento transistorizado (\textit{BC546}). Por meio do \textit{PWM - Pulse-Width Modulation} oriundo do microcontrolador, o transistor realiza a alteração sobre o valor eficaz de tensão aplicada na bomba d'água.
-
-Para saturação do transistor \textit{IRF1404} (\autoref{fig:IRF1404}) foi desenvolvido o circuito dobrador de tensão também evidenciado na \autoref{fig:diagramaproteus}. A ideia desse circuito é garantir uma queda de tensão entre \textit{GATE} e \textit{SOURCE} duas vezes maior (em torno de \textit{24V}) que a tensão de alimentação do circuito.
-
-\begin{figure}[H]
-	\centering
-	\caption{Transistor IRF1404}
-	\includegraphics[width=0.2\textwidth]{figuras/IRF1404.png}
-	\fonte{ALLDATASHEET, 2020}
-	\label{fig:IRF1404}
-\end{figure} 

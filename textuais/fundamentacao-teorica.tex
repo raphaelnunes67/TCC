@@ -7,9 +7,11 @@ Neste capítulo, serão abordados os aspectos teóricos necessários para o melh
 
 \section{Elementos Base}
 
+Esta seção discorre sobre as tecnologias e metodologias que serão utilizadas em todas as vertentes deste trabalho, destacando-se as partes mais relevantes.
+
 \subsection{Redes \textit{Wireless}}
 
-O termo \textit{Wireless} provém do inglês: \textit{wire} (fio, cabo); less (sem); caracteriza qualquer tipo de conxexão para transmissão de sem a utilização fios ou cabos \cite{redeswireless}. É importante definir que uma rede sem fio possibilita um conjunto de equipamentos conectados através de sinais de rádio frequência possuindo vantagens cruciais para a aplicação do conceito de Internet das Coisas:
+O termo \textit{Wireless} provém do inglês: \textit{wire} (fio, cabo); less (sem); caracteriza qualquer tipo de conexão para transmissão de sem a utilização fios ou cabos \cite{redeswireless}. É importante notar que uma rede sem fio possibilita um conjunto de equipamentos conectados através de sinais de rádio frequência possuindo vantagens cruciais para a aplicação do conceito de Internet das Coisas:
 
 \begin{itemize}
 	\item \textbf{Maior produtividade - } disponibiliza acesso à rede em todo o raio de alcance onde o ponto de acesso está instalado, oferecendo liberdade de deslocamento com conexão contínua;
@@ -32,7 +34,7 @@ Dentre as diversas características podemos destacar que as redes \textit{wirele
 	\item \textbf{\textit{Wireless Personal Area Network} - WPAN} - redes pessoais sem fio;
 \end{itemize}
 
-O grupo de trabalho \textit{Institute of Electrical and Electronics Engineers} - \textit{IEEE} 802.11\textit{ Wireless LAN}, fundado em 1987, realizou a padronização das \textit{WLANs}. Desenvolveu-se o padrão DS-SS IEEE 802.11b, chamado de \textit{Wi-Fi} pela \textit{Wireless Ethernet Compatibility Alliance} - WECA o qual é amplamente usado no mercado atual. \cite{internetdascoisassemmisterios}. A partir dessa padronização é possível aplicar as transmissões de dados por diversos protocolos de maneira barata e prática.
+Fundado em 1987, o grupo de trabalho \textit{Institute of Electrical and Electronics Engineers} - \textit{IEEE} 802.11\textit{ Wireless LAN}, realizou a padronização das \textit{WLANs}. Desenvolveu-se o padrão DS-SS IEEE 802.11b, chamado de \textit{Wi-Fi} pela \textit{Wireless Ethernet Compatibility Alliance} - WECA o qual é amplamente usado no mercado atual. \cite{internetdascoisassemmisterios}. A partir dessa padronização é possível aplicar as transmissões de dados por diversos protocolos de maneira barata e prática.
 
 A topologia de uma rede IEEE 802.11 (\textit{Wi-Fi})  possui os seguintes elementos-chave:
 
@@ -61,11 +63,13 @@ Esse termo se tornou possível graças aos avanços tecnológicos e as reduçõe
 
 \subsection{O protocolo MQTT}
 
-O protocolo \textbf{\textit{Message Queuing Telemetry Transport}} - MQTT foi inventado e desenvolvido inicialmente pela \textit{International Business Machines} - IBM no final dos anos 90. Sua aplicação original era vincular sensores em \textit{pipelines} de petróleo a satélites. Como seu nome sugere, ele é um protocolo de mensagem com suporte para a comunicação \textbf{assíncrona} entre as partes. Um protocolo de sistema de mensagens assíncrono desacopla o emissor e o receptor da mensagem tanto no espaço quanto no tempo e, portanto, é escalável em ambientes de rede que não são confiáveis. Apesar de seu nome, ele não tem nada a ver com filas de mensagens, na verdade, ele usa um modelo de publicação e assinatura. No final de 2014, ele se tornou oficialmente um padrão aberto OASIS, com suporte nas linguagens de programação populares, usando diversas implementações de \textit{software} livre \cite{IBM}.
+O protocolo \textbf{\textit{Message Queuing Telemetry Transport}} - MQTT foi inventado e desenvolvido inicialmente pela \textit{International Business Machines} - IBM no final dos anos 90. Sua aplicação original era vincular sensores em \textit{pipelines} de petróleo a satélites. 
 
-O MQTT foi projetado para aplicações que utilizam pouca banda de rede, com requisitos de hardware extremamente simples e leve. Ele está na mesma camada OSI que o \textbf{\textit{Hypertext Transfer Protocol}} - HTTP, porém a maior diferença entre eles é o tamanho do \textit{payload}. No HTTP o \textit{payload} \footnote{\textit{\textbf{payload}} - Dado de interesse sem metadados, sem cabeçalho de transmissão ou outras informações acessórias usadas apenas como infraestrutura para transmitir o que importa.} é maior, o que inviabiliza o uso em conexões de baixa qualidade. Além disso o MQTT possui maior segurança, apresenta mais níveis de serviço, é menos complexo e permite uma comunicação de 1 para N se comparado ao HTTP que também é um protocolo utilizado no universo de Internet das Coisas \cite{UFRJ}.
-\\
-Em uma rede MQTT existem dois papéis: o \textit{\textbf{broker}} e os \textit{\textbf{clients}}. O \textit{broker} é um servidor que centraliza as mensagens dos clientes e as encaminha para os clientes interessados. Já o cliente é um dispositivo ou serviço que tenha capacidade de interagir com o \textit{broker} e trocar mensagens. Podemos exemplificar como tipos de clientes (\autoref{fig:mqtt_diagram}) um sensor, um controlador, um atuador ou até mesmo um \textit{software} sendo executado em alguma instância da rede.
+Como seu nome sugere, ele é um protocolo de mensagem com suporte para a comunicação \textbf{assíncrona} entre as partes. Um protocolo de sistema de mensagens assíncrono desacopla o emissor e o receptor da mensagem tanto no espaço quanto no tempo e, portanto, é escalável em ambientes de rede que não são confiáveis. Apesar de seu nome, ele não tem nada a ver com filas de mensagens, na verdade, ele usa um modelo de publicação e assinatura. No final de 2014, ele se tornou oficialmente um padrão aberto OASIS, com suporte nas linguagens de programação populares, usando diversas implementações de \textit{software} livre \cite{IBM}.
+
+O MQTT foi projetado para aplicações que utilizam pouca banda de rede, com requisitos de \textit{hardware} extremamente simples e leve. Ele está na mesma camada OSI que o \textbf{\textit{Hypertext Transfer Protocol}} - HTTP, porém a maior diferença entre eles é o tamanho do \textit{payload}. No HTTP o \textit{payload} \footnote{\textit{\textbf{payload}} - Dado de interesse sem metadados, sem cabeçalho de transmissão ou outras informações acessórias usadas apenas como infraestrutura para transmitir o que importa.} é maior, o que inviabiliza o uso em conexões de baixa qualidade. Além disso o MQTT possui maior segurança, apresenta mais níveis de serviço, é menos complexo e permite uma comunicação de 1 para N se comparado ao HTTP que também é um protocolo utilizado no universo de Internet das Coisas \cite{UFRJ}.
+
+Em uma rede MQTT existem dois agentes principais: o \textit{\textbf{broker}} e os \textit{\textbf{clients}}. O \textit{broker} é um servidor que centraliza as mensagens dos clientes e as encaminha para os clientes interessados. Já o cliente é um dispositivo ou serviço que tenha capacidade de interagir com o \textit{broker} e trocar mensagens. Podemos exemplificar como tipos de clientes (\autoref{fig:mqtt_diagram}) um sensor, um controlador, um atuador ou até mesmo um \textit{software} sendo executado em alguma instância da rede.
 
 \begin{figure}[H]
 	\centering
@@ -79,10 +83,13 @@ Como qualquer outro protocolo de comunicação o MQTT possui diversos termos e c
 
 \begin{itemize}
 	\item \textbf{\textit{broker}}: é o intermediário no processo de comunicação, atuando como um servidor;
-	\item \textbf{\textit{client}}: esponsável por estabelecer e manter uma conexão com o broker, enviar e receber as mensagens;
+	\item \textbf{\textit{client}}: esponsável por estabelecer e manter uma conexão com o \textit{broker}, enviar e receber as mensagens;
 	\item \textit{\textbf{broker ip}}: identificação única do servidor \textit{\textbf{broker}} conectado em determinada rede;
 	\item \textbf{\textit{broker username e broker password}}: credenciais, opicionais, para determinado cliente estabelecer conexão com o servidor; 
-	\item  \textit{\textbf{QoS}}: Nível de qualidade do serviço desejado, indicando como deve ser a relação entre os elementos comunicantes. \textit{QoS 0}: Não há a confirmação de entrega de uma mensagem e quem a envia não tem obrigação de manter a mensagem armazena para futuras retransmissões. \textit{QoS 1}: Existe a confimção de entrega da mensagem. As mensagens enviadas são armazenas por quem as envia. \textit{QoS 2}: Garante que a mensagem seja entregue exatamente uma vez, com envio de confirmações de recebimento e confirmações de recebimento de confirmações de recebimento. Enquanto uma mensagem não é confirmada, ela é mantida.\cite{fabiobrandao}
+	\item  \textit{\textbf{QoS}}: nível de qualidade do serviço desejado, indicando como deve ser a relação entre os elementos comunicantes. \textit{QoS 0}: Não há a confirmação de entrega de uma mensagem e quem a envia não tem obrigação de manter a mensagem armazena para futuras retransmissões. \textit{QoS 1}: Existe a confimção de entrega da mensagem. As mensagens enviadas são armazenas por quem as envia. \textit{QoS 2}: Garante que a mensagem seja entregue exatamente uma vez, com envio de confirmações de recebimento e confirmações de recebimento de confirmações de recebimento. Enquanto uma mensagem não é confirmada, ela é mantida.\cite{fabiobrandao}
+	
+	\item \textbf{\textit{last good message}}: é a operação à qual o \textit{broker} envia a última menagem válida recebida em um determinado tópico ao ser requisitado por um cliente. Normalmente, se um cliente MQTT assina um tópico em um \textit{broker}, ele não receberá nenhuma das mensagens publicadas nele antes da assinatura. Se um cliente publicar uma mensagem em um tópico com o sinalizador de retenção definido como \textit{True}, o corretor salvará essa mensagem como a “Última Mensagem válida” nesse tópico. Esta mensagem será recebida por qualquer cliente que assine esse tópico \cite{mntolia}. 
+	
 	\item \textbf{\textit{last will testament (LWT)}}: são mensagens pré-definidas a serem publicadas pelo broker em nome de um determinado cliente, uma vez que esse cliente está \textit{offline} e não pode publicar mais.
 	\item \textbf{\textit{keep alive}}: mensagens periódicas enviadas por determinado cliente buscando validar a conexão;
 	\item \textbf{tópicos, \textit{publish} e \textit{subscribe}}: O ato de um cliente enviar uma mensagem é chamado \textit{publish}(publicação). E para receber mensagens de determinado um tópico um cliente deve fazer um \textit{subscribe}(inscrição). Os níveis de um tópico são separados por “/” e um cliente pode optar por se inscrever em quantos tópicos forem necessários, utilizando os artifícios da \autoref{tab:simbolos_mqtt}.
@@ -107,7 +114,7 @@ Como qualquer outro protocolo de comunicação o MQTT possui diversos termos e c
 \section{Elementos de \textit{Hardware}}
 \subsection{O microcontrolador ESP8266}
 
-O \textit{ESP8266} (\autoref{fig:esp8266ex}) é um chip microcontrolador da fabricante chinesa \textit{Espressif Systems}. Construído em torno de um processador Tensilica Xtensa LX3, inclui \textit{Wi-Fi on-board}. Originalmente concebido como um adaptador \textit{UART} para \textit{Wi-Fi} (utilizado em \textit{tablets}), permitindo que outros microcontroladores se conectem a uma rede \textit{Wi-Fi} e façam conexões \textit{TCP/IP} simples usando comandos do estilo \textit{Hayes}, o \textit{ESP8266} rapidamente se tornou popular como um microcontrolador autônomo devido ao seu ponto de preço baixo.
+O \textit{ESP8266} (\autoref{fig:esp8266ex}) é um \textit{chip} microcontrolador da fabricante chinesa \textit{Espressif Systems} construído em torno de um processador Tensilica Xtensa LX3, inclui \textit{Wi-Fi on-board}. Originalmente concebido como um adaptador \textit{UART} para \textit{Wi-Fi} (utilizado em \textit{tablets}), permitindo que outros microcontroladores se conectem a uma rede \textit{Wi-Fi} e façam conexões \textit{TCP/IP} simples usando comandos do estilo \textit{Hayes}\footnote{\textbf{comandos \textit{Hayes}:} série de \textit{strings} curtas que podem ser combinadas para produzir comandos de operações como discar, desligar e alterar os parâmetros de conexão.}, o \textit{ESP8266} rapidamente se tornou popular como um microcontrolador autônomo devido ao seu baixo custo de mercado.
 
 \begin{figure}[H]
 	\centering
@@ -118,18 +125,10 @@ O \textit{ESP8266} (\autoref{fig:esp8266ex}) é um chip microcontrolador da fabr
 \end{figure} 
 
 Apesar da falta de documentação inicial, uma grande comunidade foi formada em
-torno do ESP8266, e a comunidade integrou e deu suporte ao \textit{firmware} para o chip, fazendo-o compatível com a plataforma \textit{Arduino}.
-Embora o chip \textit{ESP8266} seja feito pela \textit{Espressif}, existem diversos módulos criados para aplicações distintas (\autoref{fig:modulos_esp8266}).
+torno do ESP8266, integrando e dando suporte ao \textit{firmware} para o chip, fazendo-o compatível com a plataforma \textit{Arduino}.
+Embora o chip \textit{ESP8266} seja feito pela \textit{Espressif}, existem diversos módulos criados para aplicações distintas.
 
-\begin{figure}[H]
-	\centering
-	\caption{Alguns exemplos de módulos com base no \textit{ESP8266EX}.}
-	\includegraphics[width=0.5\textwidth]{figuras/modulos_esp8266.png}
-	\fonte{FILIPEFLOP, 2020 [adaptado]}
-	\label{fig:modulos_esp8266}
-\end{figure} 
-
-Os modelos podem se diferenciar pela quantidade de pinos extenados, memória \textit{flash} instalada, modelo de antena, entre outros. Para a realização deste trabalho foram escolhidos os modelos: \textit{ESP-12S} (\autoref{fig:esp12s}) e \textit{ESP-12E} (\autoref{fig:esp12e}). Ambos possuem 11 {GPIOs - General Purpose Input Output} sendo ideais para a leitura de uma gama de sensores. A diferença entre ambos está no desenho da antena integrada, sendo a do ESP-12S mais otimizada, e na quantidade de pinos externados, o ESP-12S não extena os pinos voltados para conexão \textit{SPI} e de cartões \textit{SD}. As características gerais e específicas para o densenvolvimento deste trabalho estão descritas no \textbf{anexo A}. 
+Os modelos podem se diferenciar pela quantidade de pinos extenados, memória \textit{flash} instalada, modelo de antena, entre outros. Para a realização deste trabalho foram escolhidos os modelos: \textit{ESP-12S} (\autoref{fig:esp12s}) e \textit{ESP-12E} (\autoref{fig:esp12e}) presentes, respectivamentes nas placas de desenvolvimento WEMOS D1 e NodeMCU. Ambos possuem 11 \textit{GPIOs - General Purpose Input Output} sendo ideais para a leitura de uma gama de sensores. A diferença entre ambos está no desenho da antena integrada, sendo a do ESP-12S mais otimizada e, na quantidade de pinos externados, o ESP-12S não extena os pinos voltados para conexão \textit{SPI} e de cartões \textit{SD} \cite{esp8266}. As características gerais e específicas para o densenvolvimento deste trabalho estão descritas no \textbf{anexo A}. 
 
 
 \begin{figure}[H]
@@ -146,7 +145,27 @@ Os modelos podem se diferenciar pela quantidade de pinos extenados, memória \te
 	\includegraphics[width=0.3\textwidth]{figuras/ESP-12E.png}
 	\fonte{FILIPEFLOP, 2020}
 	\label{fig:esp12e}
-\end{figure} 
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Wemos D1 com ESP-12S.}
+	\includegraphics[width=0.3\textwidth]{figuras/ESP-12S-wemos.png}
+	\fonte{esp8266.org, 2021}
+	\label{fig:esp12s-wemos}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Nodemcu com ESP-12E.}
+	\includegraphics[width=0.3\textwidth]{figuras/ESP-12E-nodemcu.png}
+	\fonte{esp8266.org, 2021}
+	\label{fig:esp12s-nodemcu}
+\end{figure}
+
+
+
+
 
 
 
@@ -154,7 +173,7 @@ Os modelos podem se diferenciar pela quantidade de pinos extenados, memória \te
 
 A \textit{Raspberry Pi Zero W} é basicamente um computador de placa única. Ela possui recursos como \textit{slot} para cartão \textit{microSD}, conectores \textit{HDMI} e de câmera, conectividade \textit{Wi-Fi} e \textit{Bluetooth 4.0}, um conector macho de entrada-saída (\textit{GPIO}) de 40 pinos e mini conector de alimentação \textit{+ 5VDC}. O microcontrolador baseado no processador \textit{BCM2835 ARMv7 system-on-chip (SoC)} alimenta o Pi Zero W.
 
-Essa versão de \textit{Hardware} é muito compacta, ficando no meio termo entre as fazes de prototipação e aplicação. Com o microprocessador \textit{ARM BCM2835} de \textit{1GHz}, memória \textit{RAM} de \textit{512MB} e um sistema operacional enxuto instalado, a Raspberry Pi Zero W é ideal para rodar aplicações como um \textit{Broker MQTT}. Informações adicionais estão disponíveis no \textbf{Anexo B}.
+Essa versão de \textit{hardware} da \textit{Raspberry Pi Foundation} é muito compacta, ficando no meio termo entre as fazes de prototipação e aplicação. Com o microprocessador \textit{ARM BCM2835} de \textit{1GHz}, memória \textit{RAM} de \textit{512MB} e um sistema operacional enxuto instalado, a \textit{Raspberry Pi Zero W} é ideal para rodar aplicações como um \textit{Broker MQTT}. Informações adicionais sobre esse dispositivo estão disponíveis no \textbf{Anexo B}.
 
 \begin{figure}[H]
 	\centering
@@ -191,7 +210,22 @@ A bomba d'água selecionada, \autoref{fig:bomba} , trabalha com fontes de alimen
 \subsection{O sensor ultrassônico}
 \label{ssec:sensor_ultra}
 
-Um sensor ultrassônico é um instrumento que mede a distância até um objeto usando ondas sonoras de frequência acima do alcance da audição humana (ultrassônicas). Ele usa um transdutor para enviar e receber pulsos ultrassônicos os quais são utilizados para medição de distância através de lapsos temporais (\autoref{fig:operacao_ultrassonico}).
+Um sensor ultrassônico é um instrumento que mede a distância até um objeto usando ondas sonoras de frequência acima do alcance da audição humana (ultrassônicas). Ele usa um transdutor para enviar e receber pulsos ultrassônicos os quais são utilizados para medição de distância através de lapsos temporais (\autoref{fig:operacao_ultrassonico}). A equação de distância associada é dada por:
+
+\begin{equation}
+d = \frac{\Delta t \cdot v}{2}
+\end{equation}
+\\
+\begin{itemize}
+	
+	\item $d$ é a distância;
+	\item $\Delta t$ é a diferença entre o tempo de emissão e chegada da onda;
+	\item  $v$ é a velocidade do som (tomada como $340m/s$). \\
+\end{itemize}
+
+
+
+
 
 \begin{figure}[H]
 	\centering
@@ -202,33 +236,45 @@ Um sensor ultrassônico é um instrumento que mede a distância até um objeto u
 \end{figure}
 
 Para medição de nível selecionou-se o módulo ultrassônico \textit{JSN-SR04T}. Esse módulo oferce uma região de medição de distância entre $20 cm$ a $600 cm$, com precisão na faixa de $2 mm$.
-Esse módulo inclui um transceptor integrado além do seu circuito de controle.
-função de detecção, variando a precisão de até 2 mm; módulo inclui o transceptor de um ultrassônico integrado
-sensor e circuito de controle. Modo um de uso e o módulo JSN-SR04T-2.0 da Divisão.
-Este produto adota um projeto de sonda ultrassônica integrada de nível industrial, tipo à prova d'água, estável
-desempenho, todo o MCU no mercado. 1, o desempenho do módulo é estável, a distância de medição
-é preciso. E SRF05, SRF02 estrangeiro e outro módulo telêmetro ultrassônico comparável. Módulo alto
-precisão, cego (20cm), gama estável é o produto com sucesso para o mercado uma base forte
+
+Esse módulo de apenas quatro pinos: \textit{5V} (VCC), \textit{Trig (RX)}, \textit{Echo (TX)} e \textit{GND}, inclui um transceptor integrado além do seu circuito de controle o qual possui três modos de operação sendo selecionados pelo valor do resistor (R27) soldado a placa:
 
 
-O sensor ultrassônico de distância selecionado foi o \textit{JSN-SR04T}, desenvolvido exclusivamente para aperfeiçoar projetos de robótica e microeletrônica, mostrando-se capaz de medir distâncias, em relação a objetos, na faixa entre \textit{25cm} à \textit{150cm}.
+\begin{itemize}
+	\item \textbf{Modo de operação 1 (R27 não soldado)}: neste modo, o microcontrolador na placa não é utilizado. As operações de leitura ficam por responsabilidade externa. 
+	
+	\item \textbf{Modo de operação 2 (R27 $= 47k\Omega$)}: neste modo, o microcontrolador da placa entra em modo de leitura constante e envia dados a cada $100ms$. Os dados são enviados via o pino TX respeitando o protocolo: 0XFF + HIGH DATA + LOW DATA + SUM 1.
+	
+	\item \textbf{Modo de operação 3 (R27 $= 120k\Omega$)}: neste modo, o microcontrolador entra em modo de baixo consumo e só envia os dados de leituras ao ser acionado pelo pino RX. Se a mensagem de acimento for 0X55 a leitura de distância é enviada pelo TX da mesma forma do modo anterior. \\
+\end{itemize}
+
+Sobre o protocolo utilizado, cada parte da mensagem tem a seguinte definição:
+
+\begin{itemize}
+	\item 0xFF: indica a chegada de uma mensagem;
+	\item HIGH DATA: 8 bits mais significativos da leitura;
+	\item LOW DATA: 8 bits menos significativos da leitura;
+	\item SUM 1: O resultado da soma de todos os caracteres (0XFF + HIGH DATA + LOW DATA) para que a mensagem seja validada.
+\end{itemize}
+
+
 
 \begin{figure}[H]
 	\centering
-	\caption{Sensor ultrassônico \textit{JSN-SR04T} e módulo de conversão}
+	\caption{Sensor ultrassônico \textit{JSN-SR04T}.}
 	\includegraphics[width=0.5\textwidth]{figuras/sensor_ultra.jpg}
 	\fonte{USINAINFO, 2020}
 	\label{fig:sensor_ultra}
 \end{figure}
 
-O ponto interessante desse sensor é sua ampla e eficiente resistência à umidade, sendo principalmente utilizado em ambientes úmidos, permitindo manter ampla distância do microcontrolador. Ele possui com um fio de \textit{2,5 metros} de comprimento e um módulo especialmente desenvolvido para atuar em conjunto com microcontroladores necessitando de apenas quatro portas de conexão: \textit{5V} (VCC), \textit{Trig (RX)}, \textit{Echo (TX)} e \textit{GND}. Esse sensor apresenta uma eficiência aceitável para a realização da medição de nível
+O transceptor, resistente à água e poeira, é conectado ao módulo por meio de um cabo com \textit{2,5 metros} de comprimento. 
 
 
 \subsection{A válvula solenoide}
 
 Uma válvula solenoide (\autoref{fig:valvula_solenoide}) é um tipo de válvula que pode ser acionada ou desacionada eletronicamente. Seu componente principal é uma bobina elétrica com um núcleo ferromagnético móvel no centro chamado de êmbolo.
 
-Dependendo a aplicação, uma válvula pode ser classifica em \textbf{Normalmente Aberta - NA} ou\textbf{ Normalmente Fechada - NF}. Para uma \textbf{NF}, em sua posição de repouso, o êmbolo tampa um pequeno orifício por onde é capaz de circular um fluído. Quando uma corrente elétrica circula na bobina, cria um campo magnético o qual exerce força sobre o êmbolo. Ele é deslocado em direção ao centro da bobina, abrindo o orifício e possibilitando a passagem do fluído. A operação para uma válvula \textbf{NA} é justamente o oposto, o êmbolo fica no centro e é deslocado com a formação do campo magnético. Outra classificação é quanto ao número de vias e as formas de controle. Para este trabalho nos atentaremos para válvulas de duas vias com retorno por mola, representadas na figura abaixo.
+Dependendo da aplicação, uma válvula pode ser classifica em \textbf{Normalmente Aberta - NA} ou\textbf{ Normalmente Fechada - NF}. Para uma \textbf{NF}, em sua posição de repouso, o êmbolo tampa um pequeno orifício por onde é capaz de circular um fluído. Quando uma corrente elétrica circula na bobina, cria um campo magnético o qual exerce força sobre o êmbolo. Ele é deslocado em direção ao centro da bobina, abrindo o orifício e possibilitando a passagem do fluído. A operação para uma válvula \textbf{NA} é justamente o oposto, o êmbolo fica no centro e é deslocado com a formação do campo magnético. Outra classificação é quanto ao número de vias e as formas de controle. Para este trabalho nos atentaremos para válvulas de duas vias com retorno por mola, representadas na figura abaixo.
 
 \begin{figure}[H]
 	\centering
@@ -246,7 +292,7 @@ Dependendo a aplicação, uma válvula pode ser classifica em \textbf{Normalment
 	\label{fig:valvula_solenoide}
 \end{figure}
 
-Alguns exemplos do uso de válvula solenoide incluem sistemas de aquecimento, tecnologia de ar comprimido, automação industrial, piscinas, sistemas de aspersão, máquinas de lavar roupa, equipamentos odontológicos, sistemas de lavagem de carros e sistemas de irrigação \cite{Citisystems}.
+Alguns exemplos do uso de válvulas solenoides incluem sistemas de aquecimento, tecnologia de ar comprimido, automação industrial, piscinas, sistemas de aspersão, máquinas de lavar roupa, equipamentos odontológicos, sistemas de lavagem de carros e sistemas de irrigação \cite{Citisystems}.
 
 O modelo de válvula solenoide utilizada foi da marca Nascimetal (\autoref{fig:solenoide}) a qual possui características como:  \textit{1/2"} x \textit{1/2"}, tensão de operação em torno de \textit{12V} \textit{DC}, consumo médio, quando ativada, de \textit{500mA}, pressão de operação à $8,0 kgf/cm^2$ com vazão máxima de $40L/min$ e vida útil de 50 mil operações. Garantiu o controle do fluxo de água de acordo com os dados elétricos enviados pelo microcontrolador.
 
@@ -260,7 +306,7 @@ O modelo de válvula solenoide utilizada foi da marca Nascimetal (\autoref{fig:s
 
 \subsection{A chave de nível tipo boia}
 
-Para questões de segurança a chave de nível \textit{RF-0H21D} foi utilizada para fomentar a redundância do sistema, caso aconteçam falhas na medição do sensor citado na seção \ref{ssec:sensor_ultra}. Essa chave indicará para o microcontrolador, por meio de contato elétrico, o momento exato para desativação da bomba d'água, evitando possíveis vazamentos no sistema acolado à caixa d'água (\textbf{TCM}) . 
+Para questões de segurança a chave de nível \textit{RF-0H21D} foi utilizada para fomentar a redundância do sistema, caso aconteçam falhas na medição do sensor citado na seção \ref{ssec:sensor_ultra}. Essa chave indicará para o microcontrolador, por meio de contato elétrico, o momento exato para desativação da bomba d'água, evitando possíveis vazamentos no sistema acolado à caixa d'água (\textbf{TCM}). 
 
 \begin{figure}[H]
 	\centering
@@ -296,9 +342,9 @@ O dispositivo consiste em um operador \textit{Hall} linear preciso, a corrente a
 	\label{fig:acs712_typical}
 \end{figure} 
 
-\subsubsection{O sensor Hall}
+\subsubsection{O sensor \textit{Hall}}
 
-O efeito Hall é um fenômeno que pode ser observado quando um dispositivo condutor ou semicondutor se aproxima um campo magnético perpendicular. Nessa situação uma diferença de potencial pode ser medida através dos terminais de tal dispositivo. Essa queda de tensão está relacionada com a intensidade da corrente que gerou o campo magnético \cite{ElectronicsTutorials} A equação mostra essa relação: 
+O efeito \textit{Hall} é um fenômeno que pode ser observado quando um dispositivo condutor ou semicondutor se aproxima um campo magnético perpendicular. Nessa situação uma diferença de potencial pode ser medida através dos terminais de tal dispositivo. Essa queda de tensão está relacionada com a intensidade da corrente que gerou o campo magnético \cite{ElectronicsTutorials} A equação mostra essa relação: 
 
 \begin{equation}
 V_H = R_H\left ( \frac{I\cdot B}{t} \right)
@@ -307,7 +353,7 @@ V_H = R_H\left ( \frac{I\cdot B}{t} \right)
 \begin{itemize}
 	
 	\item $V_H$ é a tensão em Volts;
-	\item $R_H$ é o coeficiente do efeito Hall;
+	\item $R_H$ é o coeficiente do efeito \textit{Hall};
 	\item  $I$ é o fluxo de corrente em Amperes;
 	\item $t$ é espessura do sensor em milímetros;
 	\item $B$ é a densidade do fluxo magnético em teslas; \ \\
@@ -315,17 +361,17 @@ V_H = R_H\left ( \frac{I\cdot B}{t} \right)
 
 \begin{figure}[H]
 	\centering
-	\caption{Comportamento da tensão de saída em relacão ao fluxo magnético de um sensor Hall.}
+	\caption{Comportamento da tensão de saída em relacão ao fluxo magnético de um sensor \textit{Hall}.}
 	\includegraphics[width=0.4\textwidth]{figuras/grafico_hall.jpg}
 	\fonte{Eletronics Tutorials, 2021}
 	\label{fig:efeito_hall}
 \end{figure} 
 
-Em relação ao sensoriamento, os dispositivos Hall podem ser digitais ou analógicos. Os sensores analógicos fornecem uma saída de tensão contínua que de acordo com a intensidade do campo magnético e em alguns casos, como o ACS712, podem apresentar uma variação de saída linear (\autoref{fig:efeito_hall}). Conforme a intensidade do campo magnético aumenta, o sinal de saída do amplificador também aumentará até que comece a saturar pelos limites impostos a ele pela fonte de alimentação do circuito integrado. Essa saída linear pode ser conectada a um pino de leitura analógica de um microcontrolador ou microprocessador.
+Em relação ao sensoriamento, os dispositivos \textit{Hall} podem ser digitais ou analógicos. Os sensores analógicos fornecem uma saída de tensão contínua que de acordo com a intensidade do campo magnético e em alguns casos, como o ACS712, podem apresentar uma variação de saída linear (\autoref{fig:efeito_hall}). Conforme a intensidade do campo magnético aumenta, o sinal de saída do amplificador também aumentará até que comece a saturar pelos limites impostos a ele pela fonte de alimentação do circuito integrado. Essa saída linear pode ser conectada a um pino de leitura analógica de um microcontrolador ou microprocessador.
 
 \subsection{KiCad}
 
-O KiCad é o \textit{Software} de código aberto para projetar circuito eletrônicos. Essa ferramenta EDA - \textit{Electronic Design Automation} lida com captura esquemática e layout de placas de circuito impresso (PCB - \textit{Printed Circuit Board}) gerando arquivos \textit{Gerber} (padrão universal de arquivo composto de uma combinação de comandos gráficos utilizados por equipamentos tipo \textit{fotoploter} para a formação das imagens da placa de circuito impresso).
+O KiCad é um \textit{Software} de código aberto para projetar circuitos eletrônicos. Essa ferramenta EDA - \textit{Electronic Design Automation} lida com captura esquemática e layout de placas de circuito impresso (PCB - \textit{Printed Circuit Board}) gerando arquivos \textit{Gerber} (padrão universal de arquivo composto de uma combinação de comandos gráficos utilizados por equipamentos tipo \textit{fotoploter} para a formação das imagens da placa de circuito impresso).
 
 O \textit{software} roda em ambientes \textit{Windows}, \textit{Linux} e \textit{OS X} estando licenciado pela GNU GPL v3. Por meio de sua vasta biblioteca é possível construir esquemáticos de maneira prática. O KiCad também possui recursos de criação e adição de componentes, além de simulação via linguagem SPICE (ainda em beta) \cite{Kicad}. 
 
@@ -345,7 +391,7 @@ O \textit{software} roda em ambientes \textit{Windows}, \textit{Linux} e \textit
 \subsection{O Ambiente de Desenvolvimento \textit{PlatformIO}}
 
 
-O \textit{PlatformIO} é uma ferramenta profissional de plataforma cruzada, ou seja, disponível em diversas plataformas de desenvolvimento, e de estrutura múltipla voltada para desenvolvedores de software embarcado.
+O \textit{PlatformIO} é uma ferramenta profissional de plataforma cruzada, ou seja, disponível em diversas plataformas de desenvolvimento, e de estrutura múltipla voltada para desenvolvedores de \textit{software} embarcado.
 
 A ferramenta (\autoref{fig:platformio}) fornece um ambiente de desenvolvimento integrado moderno, oferecendo suporte a diversos \textit{kits} de desenvolvimento de \textit{software} (\textit{SDKs}) ou \textit{frameworks} e inclui depuração sofisticada (\textit{Debug Mode}), testes de unidade (\textit{Unit Test}), análise automatizada de código (\textit{Static Code Analysis}) e gerenciamento remoto (\textit{Remote Development}). É arquitetado para maximizar a flexibilidade e escolha dos desenvolvedores, que podem usar editores gráficos e/ou de linha de comando (\textit{PlatformIO Core}(\textit{CLI})).
 
@@ -363,7 +409,7 @@ Com esta interface, será possível a programação do microcontrolador \textit{
 
 \subsection{\textit{Linux} embarcado e a distribuição \textit{DietPi}}
 
-\textit{Linux} é um sistema operacional de código aberto amplamente utilizado em diversos sistemas, possindo compatibilidade com diversos tipos de microprocessadores, sejam eles de arquitetura \textit{Reduced Instruction Set Computer} - RISC ou \textit{Complex Instruction Set Computer} - CISC. Em todos os casos executa rotinas por baixo de todos os outros \textit{softwares}, gerenciando todas as ações em conjunto com \textit{hardware}.
+\textit{Linux} é um sistema operacional de código aberto amplamente utilizado em vários sistemas, possuindo compatibilidade com diversos tipos de microprocessadores, sejam eles de arquitetura \textit{Reduced Instruction Set Computer} - RISC ou \textit{Complex Instruction Set Computer} - CISC. Em todos os casos executa rotinas por baixo de todos os outros \textit{softwares}, gerenciando todas as ações em conjunto com \textit{hardware}.
 
 O termo “\textit{Linux}” tecnicamente se refere apenas ao \textit{kernel} do \textit{Linux}. A maioria das pessoas se refere a todo o sistema operacional como \textit{"Linux"} porque, para a maioria dos usuários, um sistema operacional inclui um pacote de programas, ferramentas e serviços (como desktop, relógio, menu de aplicativo e assim por diante). Algumas pessoas, particularmente membros da \textit{Free Software Foundation} , referem-se a esta coleção como \textit{GNU / Linux} , porque muitas ferramentas vitais incluídas são componentes \textit{GNU}. No entanto, nem todas as distribuições do \textit{Linux} usam componentes \textit{GNU} como parte do sistema operacional: o \textit{Android} , por exemplo, usa um \textit{kernel Linux}, mas depende muito pouco das ferramentas \textit{GNU} \cite{opensource}.
 
@@ -376,7 +422,6 @@ O mesmo \textit{Linux} que roda em um supercomputador pode rodar também em uma 
 	\fonte{dietpi.com, 2021}
 	\label{fig:dietpi}
 \end{figure} 
-
 
 
 \section{Elementos de \textit{Software}}
@@ -426,7 +471,7 @@ Uma aplicação \textit{Electron} tem como base os seguintes arquivos:
 
 \subsection{\textit{React}}
 
-O \textit{React} é uma biblioteca \textit{JavaScript}, desenvolvida pela equipe do \textit{Facebook}, que possui ferramentas que facilitam a construção de Interfaces na \textit{Web}. Ele transforma um ambiente complexo, cheio de Edge Cases (casos onde você precisa tratar eventos e como os dados são manipulados) em algo muito mais simplificado.
+O \textit{React} é uma biblioteca \textit{JavaScript}, desenvolvida pela equipe do \textit{Facebook}, que possui ferramentas que facilitam a construção de Interfaces na \textit{Web}. Ele transforma um ambiente complexo, cheio de \textit{Edge Cases} (casos onde você precisa tratar eventos e como os dados são manipulados) em algo muito mais simplificado \cite{React}.
 
 Trabalhando no contexto declarativo, essa biblioteca permite criar telas para cada estado da aplicação, atualizando e renderizando apenas os itens necessários de forma eficiente. Os itens podem ser componentes (arquivos \textit{JSX}) encapsulados que gerenciam seu próprio estado.
 
@@ -436,14 +481,14 @@ Trabalhando no contexto declarativo, essa biblioteca permite criar telas para ca
 	\centering
 	\caption{Exemplo de componete React}
 	\includegraphics[width=0.8\textwidth]{figuras/exemplo_react.jpg}
-	\fonte{Adaptado (electronjs.org, 2020)}
+	\fonte{Adaptado (reactjs.org, 2021)}
 	\label{fig:react_code}
 \end{figure} 
 
 
 \subsection{\textit{React Native}}
 
-Baseado no \textit{React}, para desenvolvimento \textit{WEB}, o \textit{React Native} é um \textit{framework} de codigo aberto desenvolvido pela equipe do \textit{Facebook} que suporta a criação de aplicativos \textit{mobile} multiplataforma (Android e iOS), sem que haja a preocupação de lidar com as linguagens padrões como \textit{Java} ou \textit{Swift}, usando apenas \textit{Javascript}. Como ponto positivo, ao contrário de outros \textit{frameworks} com o mesmo propósito, todo código desenvolvido com \textit{React Native} será convertido para a linguagem nativa do sistema operacional, o que torna o aplicativo mais performático.
+Baseado no \textit{React}, para desenvolvimento \textit{WEB}, o \textit{React Native} é um \textit{framework} de codigo aberto desenvolvido pela equipe do \textit{Facebook} que suporta a criação de aplicativos \textit{mobile} multiplataforma (Android e iOS), sem que haja a preocupação de lidar com as linguagens padrões como \textit{Java} ou \textit{Swift}, usando apenas \textit{Javascript}. Como ponto positivo, ao contrário de outros \textit{frameworks} com o mesmo propósito, todo código desenvolvido com \textit{React Native} será convertido para a linguagem nativa do sistema operacional, o que torna a aplicação mais rápida.
 
 \begin{figure}[H]
 	\centering
