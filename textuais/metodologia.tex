@@ -439,7 +439,13 @@ Esse sistema de arquivos, gravados na memória não-volátil, tem como objetivo 
 
 \subsection{Comunicação com o sensor de nível}
 
-Como visto anteriormente módulo JSN-SR04T possui três modos de operação. Para este trabalho selecionou-se o modo \textbf{3} por utilizar o controlador da placa e por permitir um baixo consumo.
+Como visto anteriormente módulo JSN-SR04T possui três modos de operação. Para este trabalho selecionou-se o modo \textbf{3} por utilizar o controlador da placa e por permitir um baixo consumo. A função evidenciada na \autoref{fig:code_jsn-sr04t} é chamada sempre que se deseja realizar uma leitura de distância. Ela envia o comando 0x55 via serial e aguarda a resposta do módulo. Quando a resposta chega, ela é segmentada e armazenada na variáveis: \textit{startByte}, \textit{h\_data}, \textit{l\_data} e \textit{sum}. A validação é feita através da comparação: 
+\begin{lstlisting}
+if ((startByte + h_data + l_data) != sum)
+\end{lstlisting}
+
+Se o valor a comparação for igual a função retorna o valor lido em milímetros, se não for retorna o valor zero.
+
 
 \begin{figure}[H]
 	\centering
@@ -450,14 +456,75 @@ Como visto anteriormente módulo JSN-SR04T possui três modos de operação. Par
 	\label{fig:code_jsn-sr04t}
 \end{figure}
 
-Essa função é chamada sempre que se deseja realizar uma leitura da distância
 
 
-\subsection {Implementação do \textit{Driver WIFI}}
+\subsection {Implementação do \textit{Driver WI-FI}}
+
+Esta seção concentra-se em explicar o conjunto de funções criadas, organizadas no arquivo de cabeçalho \textit{Driver\_WIFI.h}, as quais lidam com as rotinas de conexão e desconexão assim como as operações de cadastro do dispositivo. Um módulo, seja ele um \textbf{TCM} ou \textbf{CCM}, na sua primeira utilização será necessário configurar: a rede \textit{WI-FI} para se conectar, o servidor \textit{broker} e os tópicos de inscrição e de publicação. Esse cadastro é realizado a partir de uma página \textit{HTML} (\autoref{fig:cadastro}) gerada pelo microcontrolador, que nos estágios iniciais se comporta como um ponto de acesso (\textit{Access Point)}. É importante notar que se o módulo perder conexão com o \textit{WI-FI} ou com o servidor \textit{MQTT} ele irá entrar no modo de alternância: 3 minutos tentando uma reconexão e 5 minutos com um ponto de acesso disponível para uma nova configuração.
+
+ O diagrama da \autoref{fig:firmware_sequence} mostra o comportamento completo do \textit{firmware} após o \textit{boot} \footnote{\textbf{\textit{boot}}: termo utilizado para fazer referência ao processo de inicialização de um dispositivo microcontrolado ou microprocessado.} do microcontrolador.
+
+\begin{figure}[H]
+	\centering
+	\caption{Diagrama de operação do microcontrolador.}
+	\includegraphics[width=1\textwidth]{figuras/firmware_sequence.png}
+	\fonte{Própria}
+	\label{fig:firmware_sequence}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\caption{Página \textit{HTML} gerada para cadastro do dispositivo.}
+	\includegraphics[width=0.8\textwidth]{figuras/cadastro_client.png}
+	\fonte{Própria}
+	\label{fig:cadastro}
+\end{figure}
+
 \subsection {Implementação do \textit{Driver MQTT}}
+
+Estando um módulo devidamente cadastrado, em modo normal de operação, ele utiliza as funções de \textit{MQTT}. A biblioteca que permite as ações de conexão, publicação e inscrição com o procolo \textit{MQTT} se chama \textit{PubSubClient}. Com a utilização desse biblioteca foi-se possível configurar o \textit{\textbf{QoS}} = 2, assegurando uma troca de mensagens de forma mais confiável.
+
+Nesta etapa da produção de código, foi criado um \textit{callback} o qual executa ações de acordo as mensagens que chegam no tópico em o \textit{client} \textbf{TCM} ou \textbf{CMM} está inscrito. Esse callback pode é apresentado na \autoref{fig:drive_mqtt}.
+
+\begin{figure}[H]
+	\centering
+	\caption{Função de \textit{Callback}.}
+	\includegraphics[width=0.8\textwidth]{figuras/drive_mqtt.png}
+	\fonte{Própria}
+	\label{fig:drive_mqtt}
+\end{figure}
+
+Ao receber uma mensagem no tópico em que está inscrito, o programa valida a mensagem que deve ser e executa as ações de acordo com as condições.
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table}[H]
+	\centering
+	\resizebox{12cm}{!}{
+		\begin{tabular}{c|c}
+			\hline
+			Mesagem     & Ação                                                  \\ \hline
+			ON          & Liga a motobomba                                      \\ \hline
+			OFF         & Desliga a motobomba                                   \\ \hline
+			OPEN        & Abre a válvula solenoide                              \\ \hline
+			CLOSE       & Fecha a válvula solenoide                             \\ \hline
+			UPDADE      & Retorna um arquivo json com os dados sesores          \\ \hline
+			GS          & Coloca o processador em modo de DeepSleep             \\ \hline
+			OTA         & Verifica se há uma atualização de firmware disponível \\ \hline
+			SI          & Retorna o um arquivo json com os dados do sistema     \\ \hline
+			HTTP + LINK & Cadastra um novo link para busca de atualizações      \\ \hline
+		\end{tabular}%
+	}
+	\caption{Comandos válidos para os módulos TCM e CCM}
+	\label{tab:mqtt_commands}
+\end{table}
+
+
 \subsection{Implementação do \textit{Factory Reset}}
 
-Como visto nas seções anteriores, as ações do microcontrolador são tomadas a partir do arquivo de configuração \textit{register\_config.json}. A rotina de \textit{Factory Reset} \footnote{\textbf{Factory Reset}: procedimento que faz um determinado dispositivo eletrônico retornar ao seu estado original de fábrica.} implementada tem como objetivo levar o microcontrolador ao estado inicial presente na figura. Para que isso aconteça é necessário apenas apagar o arquivo \textit{settings.json} e reiniciar dispositivo.
+Como visto nas seções anteriores, as ações do microcontrolador são tomadas a partir do arquivo de configuração \textit{register\_config.json}. A rotina de \textit{Factory Reset} \footnote{\textbf{Factory Reset}: procedimento que faz um determinado dispositivo eletrônico retornar ao seu estado original de fábrica.} implementada tem como objetivo levar o microcontrolador ao estado inicial presente na figura. Para que isso aconteça é necessário apenas apagar o arquivo \textit{register\_config.json} e reiniciar dispositivo.
 
 Tomou-se como base as implementações de \textit{Factory Reset} de roteadores, as quais são executadas a partir de um botão físico. O código abaixo mostra como ocorre a operação de restauração, utilizando um botão interligado à um pino de interrupção.
 
@@ -497,29 +564,20 @@ Os cursos adquiridos trouxeram uma série de conhecimentos para uma maior intera
 
 
 
-\section{Desenvolvimento da aplicação \textit{Desktop}}
+\section{Desenvolvimento da aplicações \textit{Desktop} e \textit{Mobile}}
 
-O desenvolvimento da aplicação \textit{desktop} teve inicio com a formulação da tela utilizando o Figma. Primeiramente selecionamos a paleta de cores para garantir um \textit{software} mais atraente visualmente e a partir disso alguns esboços foram criados. Uma das preocupações foi garantir que os mostradores e botões fossem bem compreendidos e de fácil acesso, com isso, a tela (\autoref{fig:figma_plan_desktop}) apresentou-se conveniente.
+O desenvolvimento das aplicações \textit{desktop} e \textit{mobile} tiveram início com a formulação da tela utilizando o \textit{Figma}. Primeiramente selecionamos a paleta de cores para garantir um \textit{software} mais atraente visualmente e a partir disso alguns esboços foram criados. Uma das preocupações, foi garantir que os mostradores e botões fossem bem compreendidos e de fácil acesso, com isso, as telas (\autoref{fig:figma_plan_desktop}) apresentaram-se convenientes.
 
 \begin{figure}[H]
 	\centering
-	\caption{Definição do \textit{layout} da tela criado no Figma.}
-	\includegraphics[width=0.6\textwidth]{figuras/figma_plan_desktop.jpg}
+	\caption{Definição do \textit{layout} das telas criado no Figma.}
+	\includegraphics[width=0.6\textwidth]{figuras/figma_plan.png}
 	\fonte{Própria}
 	\label{fig:figma_plan_desktop}
 \end{figure}
 
 
 
-A aplicação roda em uma única tela com quatro seções, em formato de \textit{dashboard} \footnote{\textbf{dashboard}: painel de informação e/ou controle de determinado processo.}. Nas seções superiores mostra os valores de volume da cisterna e da caixa d'água auxiliar em litros. Na seção inferior direita apresenta botões para ativação e desativação da motoboma, abertura e fechamento do solenoide A (presente no módulo \textbf{CCM}) e abertura e fechamento do solenoide B (presente no módulo \textbf{TCM})
+As aplicações rodam em uma única tela com quatro seções, em formato de \textit{dashboard} \footnote{\textbf{dashboard}: painel de informação e/ou controle de determinado processo.}. Nas seções superiores mostra os valores de volume da cisterna e da caixa d'água auxiliar em litros. Nas seções inferiores encontram-se os botões para ativação e desativação da motobomba, abertura e fechamento do solenoide A (presente no módulo \textbf{CCM}) e abertura e fechamento do solenoide B (presente no módulo \textbf{TCM})
 
-Com o \textit{layout} da tela definida iniciou-se o processo de criação da aplicação desktop como base as tecnologias \textit{Electron} e \textit{React}.
-
-
-
-
-
-
-\section{Desenvolvimento da aplicação \textit{Mobile}}
-
-O desenvolvimento da pl
+Com o \textit{layout's} definidos iniciou-se o processo de criação das aplicações \textit{desktop} e \textit{mobile} como base as tecnologias \textit{Electron}, \textit{React} e \textit{React Native}.
