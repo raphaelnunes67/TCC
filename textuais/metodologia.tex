@@ -553,6 +553,32 @@ Na \autoref{fig:interrupcao} a função \textit{SetInterrupt()} define qual fun�
 
 \subsection{Implementação da funcionalidade de \textit{OTA Upgrade}}
 
+Nesse estágio do projeto buscou-se integrar ao código a funcionalidade de atualização via \textit{Over-The-Air} - OTA. Esse tipo de ação é feita de forma remota, ou seja, para modificar o \textit{firmware} não é necessário estar próximo do módulo e elimina-se a utilização de comunicação física (via cabeamento). A eliminação do contato físico também garante que o módulo tenha seu custo de produção reduzido.
+
+O ESP8266, sendo programado com \textit{framework} Arduino, possui duas bibliotecas que lidam com atualizaçoes via OTA.
+
+A biblioteca utilizada neste projeto foi a . Ela permite que o microcontrolador acesse determinado repositório, faça o \textit{download} do binário e aplique a atualização automaticamente.
+
+Para gerar o arquivo binário a partir do código pelo PlatformIO, basta selecionar a opção mostrada na figura. Ao gerar esse arquivo, criamos um repositório aberto no \textit{Github} e armazenamos o binário gerado (\autoref{fig:reposi}).
+
+\begin{figure}[H]
+	\centering
+	\caption{Repositório criado}
+	\includegraphics[width=0.6\textwidth]{figuras/repositorio_bin.png}
+	\fonte{Própria}
+	\label{fig:reposi}
+\end{figure}
+
+
+
+Na rotina MQTT do microcontrolador, como visto na \autoref{tab:mqtt_commands}, existem duas mensagens que tratam da funcionaliadade de OTA \textit{Upgrade}. Se a mensagem recebida no tópico for simplemente "OTA", o microcontrolador acessa o endereço \textit{url} presente em sua memória. Esse \textit{link} contém um arquivo \textit{.json} com dois parâmetros: a versão do binário presente no repositório e o \textit{link} para o mesmo. Utilizamos essa abordagem de acesso indireto para que não seja necessário atualizar o \textit{link} armazenado na memória interna do ESP frequentemente mas sim o que está presente no repositório.
+
+Se a mensagem recebida pelo microcontrolador, no tópico programado, for um \textit{link}, o mesmo já executa a ação de salvá-la no arquivo interno (\textit{system\_info.json}).
+
+
+
+
+
 
 \section{Desenvolvimento dos elementos de \textit{Software}}
 
