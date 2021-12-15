@@ -626,7 +626,7 @@ abnt-thesis-year=final
 \usepackage{xcolor}
 % Definindo novas cores
 \definecolor{verde}{rgb}{0.25,0.5,0.35}
-\definecolor{jpurple}{rgb}{0.5,0,0.35}
+\definecolor{jpurple}{RGB}{224,224,224}
 % Configurando layout para mostrar codigos Java
 \usepackage{listings}
 \lstset{
@@ -639,10 +639,9 @@ abnt-thesis-year=final
   extendedchars=true,
   showspaces=false,
   showstringspaces=false,
-  numbers=left,
   numberstyle=\tiny,
   breaklines=true,
-  backgroundcolor=\color{cyan!10},
+  backgroundcolor=\color{gray!10},
   breakautoindent=true,
   captionpos=b,
   xleftmargin=0pt,

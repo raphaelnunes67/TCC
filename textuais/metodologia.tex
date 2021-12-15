@@ -58,16 +58,67 @@ Dois módulos distintos foram propostos: \textbf{\textit{Tank Control Module} - 
 \begin{figure}[H]
 	\centering
 	\caption{Esquema básico do projeto.}
-	\includegraphics[width=1.05\textwidth]{figuras/esquema_basico_proj_2.png}
+	\includegraphics[width=1\textwidth]{figuras/esquema_basico_proj_2.png}
 	\fonte{Própria}
 	\label{fig:esquema_proj}
-\end{figure} 
+\end{figure}
+
+Outro ponto importante desta parte do projeto foi estabelecer as medidas de volume da cisterna e da caixa d'água assim como as equações de volume tendo como variável a altura do líquido. Para a cisterna, considerou-se um reservatório no formado de um paralelepípedo retângulo, com as dimensões definidas:
+
+\begin{figure}[H]
+	\centering
+	\caption{Representação das dimensões da cisterna.}
+	\includegraphics[width=0.4\textwidth]{figuras/volume.png}
+	\fonte{Própria}
+	\label{fig:volume_cisterna}
+\end{figure}
+
+Equação de volume associada:
+
+\begin{equation}
+V = c \cdot l \cdot (h-s)  
+\end{equation}
+
+\begin{itemize}
+	\item $V$ é o volume;
+	\item $h$ é a altura do tanque;
+	\item $s$ é a leitura de distância do sensor;
+	\item $c$ é o comprimento do tanque;
+	\item $l$ é o largura do tanque. \\
+\end{itemize}
+
+Para a caixa d'água, considerou-se um reservatório de 1000L, no formato de tronco de cone (formato padrão):
+
+\begin{figure}[H]
+	\centering
+	\caption{Representação das dimensões da caixa d'água (valores em centímetros).}
+	\includegraphics[width=0.5\textwidth]{figuras/caixa.jpg}
+	\fonte{tendtudo.com, 2021}
+	\label{fig:volume_tanque}
+\end{figure}
+
+Equação de volume associada:
+
+\begin{equation}
+V = \frac{\pi\cdot (h-s)\cdot (R^{2}+R\cdot r+r^{2})}{3} 
+\end{equation}
+
+\begin{itemize}
+	\item $V$ é o volume;
+	\item $h$ é a altura do tanque;
+	\item $s$ é a leitura de distância do sensor;
+	\item $R$ é o raio maior;
+	\item $r$ é o raio menor.
+\end{itemize}
+
+
+
 
 \section{Organização do trabalho}
 
 Iniciou-se com a criação do quadro \textit{Kanban} (\autoref{fig:kanban-proj}), para auxílio da organização das tarefas, e com a criação do repositório no \textit{Github} (\autoref{fig:github}) para armazenamento e versionamento dos códigos das vertentes de \textit{Firmware} e \textit{Software} do projeto. Deu-se prosseguimento com os estudos e levantamentos bibliográficos relacionando três áreas do projeto. Buscou-se encontrar os métodos,  ferramentas, tecnologias, bibliotecas e \textit{frameworks} mais adequados para a implementação do projeto.  Diante de cada seleção feita, foram executadas análises para que fosse definido o funcionamento do sistema total, munido da combinação de cada uma das três áreas citadas anteriormente e visando a geração de um produto que pudesse ser empregado no mercado: atrativo economicamente e seguindo diretrizes sustentáveis.  
 
-Primeiramente, na seção de \textit{hardware}, foram selecionados as ferramentas criação e suimulação de circuitos, a escolha de todos os dispositivos eletrônicos a serem utilizados e a análise do local de aplicação. Posteriormente, na parte de \textit{firmware}, já estando selecionados os microcontroladores e o microprocessador, foram determinadas todas as rotinas de operação e escolhidas, respectivamente, as linguagens para programá-los e o sistema operacional a ser utilizado no microprocessador. Na parte de \textit{software}, foram selecionadas as ferramentas para a criação de interfaces dentro da camada \textit{front-end}: aplicações \textit{mobile} e \textit{desktop}.
+Primeiramente, na seção de \textit{hardware}, foram selecionados as ferramentas criação e simulação de circuitos, a escolha de todos os dispositivos eletrônicos a serem utilizados e a análise do local de aplicação. Posteriormente, na parte de \textit{firmware}, já estando selecionados os microcontroladores e o microprocessador, foram determinadas todas as rotinas de operação e escolhidas, respectivamente, as linguagens para programá-los e o sistema operacional a ser utilizado no microprocessador. Na parte de \textit{software}, foram selecionadas as ferramentas para a criação de interfaces dentro da camada \textit{front-end}: aplicações \textit{mobile} e \textit{desktop}.
 
 Por fim, elaborou-se a lista de materiais necessários para construção o projeto, tendo objetivo de validação em ambiente real, efetuando testes de longos períodos, averiguando a integridade do sistema, a robustez dos componentes e a identificação de casos não previstos anteriormente, tornando possível a aplicação de melhorias posteriores a entrega deste trabalho.
 
@@ -98,7 +149,7 @@ Essa parte do trabalho conteve-se no levantamento de referências bibliográfica
 \section{Desenvolvimento dos elementos de \textit{Hardware}}
 \label{sec: dev_ele_hw}
 
-Nesse momento foram definidos todos os elementos de \textit{hardware} necessários para a execução do projeto: para os dispositivos eletrônicos, documentos como \textit{Datasheets}, catálogos e informativos de dispositivos elétricos foram coletados para consulta durante o decorrer do trabalho; para a parte estrutural executou-se a enumeração de peças que deveriam o desenhadas com auxílio do \textit{Software Autodesk Inventor} e posteriormente construídas através de manufatura aditiva.  Realizou-se uma busca no mercado pelos componentes necessários efetuando as possíveis compras e elaborando o orçamento geral do projeto.
+Nesse momento foram definidos todos os elementos de \textit{hardware} necessários para o desenvolvimento do trabalho: dispositivos eletrônicos, documentos como \textit{Datasheets}, catálogos e informativos de dispositivos elétricos. Realizou-se uma busca no mercado pelos componentes necessários, posteriormente, efetuando compras para a execução de testes.
 
 \subsection{O circuito de alimentação}
 
@@ -171,7 +222,7 @@ Para executar a detecção com essa chave de dois estados foi-se necessário apl
 
 \subsection{O circuito de medição de nível}
 
-Tendo como base o módulo JSN-SR04T realizou-se os testes para o envio e recebimento de dados (\autoref{fig:sensor_ultrassonico}). Como descrito na fundamentação teórica, esse módulo possui três tipos de operação, que são selecionadas a partir de um resistor soldado à placa (R27). O modo de operação escolhido para esse projeto foi o terceiro, logo um potenciômetro de $120k\Omega$ (ajustado em $47k\Omega$.) foi soldado à placa (\autoref{fig:ultrasonico_res}). 
+Tendo como base o módulo JSN-SR04T, realizou-se os testes para o envio e recebimento de dados (\autoref{fig:sensor_ultrassonico}). Como descrito na fundamentação teórica, esse módulo possui três tipos de operação, que são selecionadas a partir de um resistor soldado à placa (R27). O modo de operação escolhido para esse projeto foi o terceiro, logo um potenciômetro de $120k\Omega$ (ajustado em $47k\Omega$.) foi soldado à placa (\autoref{fig:ultrasonico_res}). Esse sensor deve estar acoplado, para executar uma leitura precisa, na parte superior do tanque com o seu transceptor apontando diretamente para o líquido. 
 
  \begin{figure}[H]
 	\centering
@@ -212,9 +263,9 @@ Nesta etapa do projeto deu-se inicio a criação do controlador da motobomba. O 
  	\label{fig:teste_ativacao_motor}
  \end{figure}
 
-Com os dados obtidos através dos testes, deu-se início a procura de componentes e metodologias para o controle \textit{ON-OFF} de motores de corrente contínua. Como o microcontrolar não possui tesão nem corrente suficientes para ativar o motor, foi-se necessário desenvolver uma ativação indireta transistorizada.  
+Com os dados obtidos através dos testes, deu-se início a procura de componentes e metodologias para o controle \textit{ON-OFF} de motores de corrente contínua. Como o microcontrolador não possui tesão nem corrente suficientes para ativar o motor, foi-se necessário desenvolver uma ativação indireta transistorizada.  
 
-A primeira parte do esquema (\autoref{fig:diagramaproteus} [B]) conta com o transistor MOSFET  IRF1404 de alta potência. Esse transistor, segundo seu \textit{datasheet} (recorte presente no \textbf{anexo C}), pode operar com uma corrente máxima de dreno igual a 202A e necessita de uma diferença mínima de 4V entre o $V_{GS}$ e $V_{DS}$ para conduzir a corrente $I_{DS}$.
+A primeira parte do esquema (\autoref{fig:diagramaproteus} [B]) conta com o transistor MOSFET  IRF1404 de alta potência. Esse transistor, segundo seu \textit{datasheet} (recorte presente no \textbf{anexo C}), pode operar com uma corrente máxima de dreno igual a 75A e necessita de uma diferença mínima de 4V entre o $V_{GS}$ e $V_{DS}$ para conduzir a corrente $I_{DS}$.
 Com essas informações chegamos a conclusão de que a tensão aplicada ao GATE deveria ser, de no mínimo, 14V.
 
 Partindo-se disso, procurou-se técnicas para elevação de tensão e selecionamos construir um \textbf{dobrador de tensão}. Por ser simples e barato para ser desenvolvido, existem inúmeras aplicações que utilizam esse método para ativação de transistores MOSFET. Este circuito é baseado em resitores, capacitores, diodos e necessita de um oscilador conectado na base de transistor para executar ações de chaveamento. 
@@ -279,11 +330,11 @@ A definição e desenvolvimento dos elementos de \textit{Firmware} se deu após 
 
 \subsection {Instalação e configuração do \textit{Broker MQTT}}
 
-No primeiro momento desta etapa pesquisou-se os principais serviços de \textit{Broker} disponíveis, tendo em vista pontos como documentação e baixo custo. Com isso o serviço selecionado foi o Eclipse Mosquitto™.
+No primeiro momento desta etapa pesquisou-se os principais serviços de \textit{broker} disponíveis, tendo em vista pontos como documentação e baixo custo. Com isso o serviço selecionado foi o Eclipse Mosquitto™.
 
-A configuração do \textbf{Broker} leva em consideração quatro informações: \textbf{endereço de IP}, \textbf{porta}, \textbf{usuário} e \textbf{senha}.
+A configuração do \textit{broker} leva em consideração quatro informações: \textbf{endereço de IP}, \textbf{porta}, \textbf{usuário} e \textbf{senha}.
 
-Com a Raspberry Pi Zero W rodando o sistema operacioal DietPi, a instalação do \textit{Broker} e dos serviços de \textit{clients} foram realizadas através dos seguintes comandos no terminal:
+Estando a Raspberry Pi Zero W rodando o sistema operacional DietPi e possuindo conexão com a \textit{internet}, a instalação do \textit{broker} e dos serviços de \textit{clients} foram realizadas através dos seguintes comandos no terminal:
 
 \begin{lstlisting}
 sudo apt-get install mosquitto
@@ -291,7 +342,8 @@ sudo apt-get install mosquitto-clients
 \end{lstlisting}
 
 
-Buscando configurar a segurança do \textit{Broker} realizou-se os seguintes passos no terminal a fim de configurar um usuário com senha:
+Buscando garantir a segurança de acesso ao \textit{broker} realizou-se os seguintes passos no terminal a fim de configurar um usuário com senha:
+
 
 \begin{lstlisting}
 sudo stop mosquitto
@@ -371,26 +423,68 @@ Esse sistema de arquivos, gravados na memória não-volátil, tem como objetivo 
 % \usepackage{graphicx}
 \begin{table}[H]
 	\centering
-	\newcolumntype{L}{>{\centering\arraybackslash}m{3cm}}
 	\resizebox{\textwidth}{!}{%
 		\begin{tabular}{c|c}
 			\hline
-			Arquivo & Função \\ \hline
-			system\_info.json &  \begin{tabular}[c]{@{}c@{}} armazena: versão do firmware, versão do sistema de arquivos,\\ data do ultimo update e o link para o repositório de novos binários \end{tabular} \\ \hline
+			Arquivo &  Função \\ \hline
+			system\_info.json &  \begin{tabular}[c]{@{}c@{}} armazena a versão do firmware, versão do sistema de arquivos,\\ data do ultimo update e o link para o repositório de novos binários \end{tabular} \\ \hline
+			register\_config.json &  \begin{tabular}[c]{@{}c@{}} armazena os dados para conexão WI-FI (\textit{ssid} e senha) e os dados para conexão ao \\ \textit{broker} MQTT (IP, porta, usuário, senha, tópico de inscrição e o tópico de publicação) \end{tabular} \\ \hline
 			new\_network.html & \begin{tabular}[c]{@{}c@{}} página para cadastro de do dispositivo na rede WI-FI e ao servidor MQTT \end{tabular} \\ \hline
 			confirm.html & \begin{tabular}[c]{@{}c@{}} página de confirmação para recebimento dos dados após o cadastro \end{tabular}  \\ \hline
 		\end{tabular}%
 	}
-	\caption{Caracteres especiais utilizados para envio e recebimento no protocolo MQTT.}
+	\caption{Descrição dos arquivos salvos na memória interna do microcontrolador.}
 	\label{tab:file_system_esp}
 \end{table}
 
 \subsection{Comunicação com o sensor de nível}
+
+Como visto anteriormente módulo JSN-SR04T possui três modos de operação. Para este trabalho selecionou-se o modo \textbf{3} por utilizar o controlador da placa e por permitir um baixo consumo.
+
+\begin{figure}[H]
+	\centering
+	\caption{Função para realizar a leitura de distância a partir do sensor ultrassônico.}
+	\includegraphics[width=0.7
+	\textwidth]{figuras/get_water_level.png}
+	\fonte{Própria}
+	\label{fig:code_jsn-sr04t}
+\end{figure}
+
+Essa função é chamada sempre que se deseja realizar uma leitura da distância
+
+
 \subsection {Implementação do \textit{Driver WIFI}}
 \subsection {Implementação do \textit{Driver MQTT}}
-\subsection{Implementação da rotina de Reset}
+\subsection{Implementação do \textit{Factory Reset}}
+
+Como visto nas seções anteriores, as ações do microcontrolador são tomadas a partir do arquivo de configuração \textit{register\_config.json}. A rotina de \textit{Factory Reset} \footnote{\textbf{Factory Reset}: procedimento que faz um determinado dispositivo eletrônico retornar ao seu estado original de fábrica.} implementada tem como objetivo levar o microcontrolador ao estado inicial presente na figura. Para que isso aconteça é necessário apenas apagar o arquivo \textit{settings.json} e reiniciar dispositivo.
+
+Tomou-se como base as implementações de \textit{Factory Reset} de roteadores, as quais são executadas a partir de um botão físico. O código abaixo mostra como ocorre a operação de restauração, utilizando um botão interligado à um pino de interrupção.
+
+\begin{figure}[H]
+	\centering
+	\caption{Função de interrupção.}
+	\includegraphics[width=0.8\textwidth]{figuras/interrupcao.png}
+	\fonte{Própria}
+	\label{fig:interrupcao}
+\end{figure}
+
+
+Uma interrupção é um sinal enviado por um dispositivo de \textit{hardware} (compreendido internamente no \textit{chip} do microcontrolador) que temporariamente interrompe a tarefa que a \textit{CPU} está executando no momento, para executar uma ação pré-estabelecida. Logo após, o programa retoma seu processamento do ponto onde havia parado. No caso de interrupções externas, o esp8266 aceita 5 modos distintos:
+
+\begin{itemize}
+	\item CHANGE – Interrupção é disparada quando o pino muda de estado;
+	\item FALLING – Interrupção é disparada quando o pino vai do estado HIGH para LOW;
+	\item HIGH – Interrupção é disparada quando o pino está no nível HIGH;
+	\item LOW – Interrupção é disparada quando o pino está no nível LOW;
+	\item RISING – Interrupção é disparada quando o pino vai do estado LOW para HIGH.
+\end{itemize}
+
+Na \autoref{fig:interrupcao} a função \textit{SetInterrupt()} define qual função deve ser executada durante a interrupção e qual o modo de disparo. A função \textit{ICACHE\_RAM\_ATTR FactoreReset()} remove o arquivo \textit{register\_config.json} e reinicia o microcontrolador se o botão for pressionado por mais de 3 segundos.
+
+
+
 \subsection{Implementação da funcionalidade de \textit{OTA Upgrade}}
-\subsection{Implementação do modo de \textit{DeepSleep}}
 
 
 \section{Desenvolvimento dos elementos de \textit{Software}}
@@ -399,6 +493,9 @@ Esse sistema de arquivos, gravados na memória não-volátil, tem como objetivo 
 Para o desenvolvimento dos elementos de \textit{Software} buscou-se a participação de cursos básicos e avançados sobre aplicações \textit{front-end}, as quais servem de conteúdo complementar aos temas abordados na graduação em engenharia de controle e automação.
 
 Os cursos adquiridos trouxeram uma série de conhecimentos para uma maior interação entre desenvolvedor e usuário, possibilitando a criação de interfaces intuitivas e agregando novas informações e visões a outros temas, como na programação de sistemas embarcados.
+
+
+
 
 \section{Desenvolvimento da aplicação \textit{Desktop}}
 
@@ -411,6 +508,7 @@ O desenvolvimento da aplicação \textit{desktop} teve inicio com a formulação
 	\fonte{Própria}
 	\label{fig:figma_plan_desktop}
 \end{figure}
+
 
 
 A aplicação roda em uma única tela com quatro seções, em formato de \textit{dashboard} \footnote{\textbf{dashboard}: painel de informação e/ou controle de determinado processo.}. Nas seções superiores mostra os valores de volume da cisterna e da caixa d'água auxiliar em litros. Na seção inferior direita apresenta botões para ativação e desativação da motoboma, abertura e fechamento do solenoide A (presente no módulo \textbf{CCM}) e abertura e fechamento do solenoide B (presente no módulo \textbf{TCM})

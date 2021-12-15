@@ -83,10 +83,10 @@ Como qualquer outro protocolo de comunicação o MQTT possui diversos termos e c
 
 \begin{itemize}
 	\item \textbf{\textit{broker}}: é o intermediário no processo de comunicação, atuando como um servidor;
-	\item \textbf{\textit{client}}: esponsável por estabelecer e manter uma conexão com o \textit{broker}, enviar e receber as mensagens;
+	\item \textbf{\textit{client}}: responsável por estabelecer e manter uma conexão com o \textit{broker}, enviar e receber as mensagens;
 	\item \textit{\textbf{broker ip}}: identificação única do servidor \textit{\textbf{broker}} conectado em determinada rede;
-	\item \textbf{\textit{broker username e broker password}}: credenciais, opicionais, para determinado cliente estabelecer conexão com o servidor; 
-	\item  \textit{\textbf{QoS}}: nível de qualidade do serviço desejado, indicando como deve ser a relação entre os elementos comunicantes. \textit{QoS 0}: Não há a confirmação de entrega de uma mensagem e quem a envia não tem obrigação de manter a mensagem armazena para futuras retransmissões. \textit{QoS 1}: Existe a confimção de entrega da mensagem. As mensagens enviadas são armazenas por quem as envia. \textit{QoS 2}: Garante que a mensagem seja entregue exatamente uma vez, com envio de confirmações de recebimento e confirmações de recebimento de confirmações de recebimento. Enquanto uma mensagem não é confirmada, ela é mantida.\cite{fabiobrandao}
+	\item \textbf{\textit{broker username e broker password}}: credenciais, opcionais, para determinado cliente estabelecer conexão com o servidor; 
+	\item  \textit{\textbf{QoS}}: nível de qualidade do serviço desejado, indicando como deve ser a relação entre os elementos comunicantes. \textit{QoS 0}: Não há a confirmação de entrega de uma mensagem e quem a envia não tem obrigação de manter a mensagem armazenada para futuras retransmissões. \textit{QoS 1}: Existe a confirmação de entrega da mensagem. As mensagens enviadas são armazenadas por quem as envia. \textit{QoS 2}: Garante que a mensagem seja entregue exatamente uma vez, com envio de confirmações de recebimento e confirmações de recebimento de confirmações de recebimento. Enquanto uma mensagem não é confirmada, ela é mantida.\cite{fabiobrandao}
 	
 	\item \textbf{\textit{last good message}}: é a operação à qual o \textit{broker} envia a última menagem válida recebida em um determinado tópico ao ser requisitado por um cliente. Normalmente, se um cliente MQTT assina um tópico em um \textit{broker}, ele não receberá nenhuma das mensagens publicadas nele antes da assinatura. Se um cliente publicar uma mensagem em um tópico com o sinalizador de retenção definido como \textit{True}, o corretor salvará essa mensagem como a “Última Mensagem válida” nesse tópico. Esta mensagem será recebida por qualquer cliente que assine esse tópico \cite{mntolia}. 
 	
@@ -201,7 +201,7 @@ A bomba d'água selecionada, \autoref{fig:bomba} , trabalha com fontes de alimen
 
 \begin{figure}[H]
 	\centering
-	\caption{Bomda d'água \textit{DC}}
+	\caption{Bomba d'água \textit{DC}}
 	\includegraphics[width=0.3\textwidth]{figuras/bomba.jpeg}
 	\fonte{ENERGIA TOTAL, 2020}
 	\label{fig:bomba}
@@ -245,7 +245,7 @@ Esse módulo de apenas quatro pinos: \textit{5V} (VCC), \textit{Trig (RX)}, \tex
 	
 	\item \textbf{Modo de operação 2 (R27 $= 47k\Omega$)}: neste modo, o microcontrolador da placa entra em modo de leitura constante e envia dados a cada $100ms$. Os dados são enviados via o pino TX respeitando o protocolo: 0XFF + HIGH DATA + LOW DATA + SUM 1.
 	
-	\item \textbf{Modo de operação 3 (R27 $= 120k\Omega$)}: neste modo, o microcontrolador entra em modo de baixo consumo e só envia os dados de leituras ao ser acionado pelo pino RX. Se a mensagem de acimento for 0X55 a leitura de distância é enviada pelo TX da mesma forma do modo anterior. \\
+	\item \textbf{Modo de operação 3 (R27 $= 120k\Omega$)}: neste modo, o microcontrolador entra em modo de baixo consumo e só envia os dados de leituras ao ser acionado pelo pino RX. Se a mensagem de acionamento for 0X55, a leitura de distância é enviada pelo TX da mesma forma do modo anterior. \\
 \end{itemize}
 
 Sobre o protocolo utilizado, cada parte da mensagem tem a seguinte definição:
@@ -344,7 +344,7 @@ O dispositivo consiste em um operador \textit{Hall} linear preciso, a corrente a
 
 \subsubsection{O sensor \textit{Hall}}
 
-O efeito \textit{Hall} é um fenômeno que pode ser observado quando um dispositivo condutor ou semicondutor se aproxima um campo magnético perpendicular. Nessa situação uma diferença de potencial pode ser medida através dos terminais de tal dispositivo. Essa queda de tensão está relacionada com a intensidade da corrente que gerou o campo magnético \cite{ElectronicsTutorials} A equação mostra essa relação: 
+O efeito \textit{Hall} é um fenômeno que pode ser observado quando um dispositivo condutor ou semicondutor se aproxima um campo magnético perpendicular. Nessa situação uma diferença de potencial pode ser medida através dos terminais de tal dispositivo. Essa queda de tensão está relacionada com a intensidade da corrente que gerou o campo magnético \cite{ElectronicsTutorials}. A equação mostra essa relação: 
 
 \begin{equation}
 V_H = R_H\left ( \frac{I\cdot B}{t} \right)
@@ -442,7 +442,7 @@ Figma é um editor gráfico de prototipagem para projetos de \textit{design} bas
 
 \subsection{\textit{Node.js}}
 
-O \textit{Node.js} é um ambiente de execução (\textit{runtime}) \textit{Javascript} possibilitando criar aplicações sem depender de um \textit{browser} para a execução. Por meio desta tecnologia, se torna possível empregar o \textit{Javascript} para executar comandos em terminal assim como utilizá-lo para programar qualquer tipo de aplicação \textit{backend} com auxílio de inúmeras bibliotecas desenvolvidas. As bibliotecas do \textit{Node.js} podem ser acessadas e instaladas por seu gerenciador de pacote oficial, o \textit{Node Package Manger} - \textbf{NPM} \cite{NodeJs}.
+O \textit{Node.js} é um ambiente de execução (\textit{runtime}) \textit{Javascript} possibilitando criar aplicações sem depender de um \textit{browser} para a execução. Por meio desta tecnologia, se torna possível empregar o \textit{Javascript} para executar comandos em terminal assim como utilizá-lo para programar qualquer tipo de aplicação \textit{backend} com auxílio de inúmeras bibliotecas desenvolvidas. As bibliotecas do \textit{Node.js} podem ser acessadas e instaladas por seu gerenciador de pacote oficial, o \textit{Node Package Manager} - \textbf{NPM} \cite{NodeJs}.
 
 
 \subsection{\textit{Electron}}
@@ -479,7 +479,7 @@ Trabalhando no contexto declarativo, essa biblioteca permite criar telas para ca
 
 \begin{figure}[H]
 	\centering
-	\caption{Exemplo de componete React}
+	\caption{Exemplo de componente \textit{React}}
 	\includegraphics[width=0.8\textwidth]{figuras/exemplo_react.jpg}
 	\fonte{Adaptado (reactjs.org, 2021)}
 	\label{fig:react_code}
