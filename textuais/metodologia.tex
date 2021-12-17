@@ -553,17 +553,27 @@ Na \autoref{fig:interrupcao} a função \textit{SetInterrupt()} define qual fun�
 
 \subsection{Implementação da funcionalidade de \textit{OTA Upgrade}}
 
-Nesse estágio do projeto buscou-se integrar ao código a funcionalidade de atualização via \textit{Over-The-Air} - OTA. Esse tipo de ação é feita de forma remota, ou seja, para modificar o \textit{firmware} não é necessário estar próximo do módulo e elimina-se a utilização de comunicação física (via cabeamento). A eliminação do contato físico também garante que o módulo tenha seu custo de produção reduzido.
+Nesse estágio do projeto buscou-se integrar ao código a funcionalidade de atualização via \textit{Over-The-Air} - OTA. Esse tipo de ação é feita de forma remota, ou seja, para modificar o \textit{firmware} é necessário apenas uma conexão sem fio e elimina-se a utilização de comunicação física (via cabeamento). A eliminação do contato físico também garante que o módulo tenha seu custo de produção reduzido.
 
 O ESP8266, sendo programado com \textit{framework} Arduino, possui duas bibliotecas que lidam com atualizaçoes via OTA.
 
-A biblioteca utilizada neste projeto foi a . Ela permite que o microcontrolador acesse determinado repositório, faça o \textit{download} do binário e aplique a atualização automaticamente.
+A biblioteca utilizada neste projeto foi a \textit{ESP8266httpUpdate}. Ela permite que o microcontrolador acesse determinado repositório, faça o \textit{download} do binário e aplique a atualização automaticamente.
 
-Para gerar o arquivo binário a partir do código pelo PlatformIO, basta selecionar a opção mostrada na figura. Ao gerar esse arquivo, criamos um repositório aberto no \textit{Github} e armazenamos o binário gerado (\autoref{fig:reposi}).
+Ao compilar o código, o PlatformIO já gera o arquivo binário em um de seus diretórios padrão (\autoref{fig:bin}). Ao gerar esse arquivo, criamos um repositório aberto no \textit{Github} e armazenamos o binário gerado (\autoref{fig:reposi}).
+
 
 \begin{figure}[H]
 	\centering
-	\caption{Repositório criado}
+	\caption{Binário gerado ao realizar o \textit{build} do código.}
+	\includegraphics[width=0.6\textwidth]{figuras/platformio_bin.png}
+	\fonte{Própria}
+	\label{fig:bin}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\caption{Repositório criado.}
 	\includegraphics[width=0.6\textwidth]{figuras/repositorio_bin.png}
 	\fonte{Própria}
 	\label{fig:reposi}
