@@ -90,7 +90,7 @@ Como qualquer outro protocolo de comunicação o MQTT possui diversos termos e c
 	
 	\item \textbf{\textit{last good message}}: é a operação à qual o \textit{broker} envia a última menagem válida recebida em um determinado tópico ao ser requisitado por um cliente. Normalmente, se um cliente MQTT assina um tópico em um \textit{broker}, ele não receberá nenhuma das mensagens publicadas nele antes da assinatura. Se um cliente publicar uma mensagem em um tópico com o sinalizador de retenção definido como \textit{True}, o corretor salvará essa mensagem como a “Última Mensagem válida” nesse tópico. Esta mensagem será recebida por qualquer cliente que assine esse tópico \cite{mntolia}. 
 	
-	\item \textbf{\textit{last will testament (LWT)}}: são mensagens pré-definidas a serem publicadas pelo broker em nome de um determinado cliente, uma vez que esse cliente está \textit{offline} e não pode publicar mais.
+	\item \textbf{\textit{last will testament (LWT)}}: são mensagens pré-definidas a serem publicadas pelo broker em nome de um determinado cliente, uma vez que esse cliente está \textit{offline} e não pode publicar mais;
 	\item \textbf{\textit{keep alive}}: mensagens periódicas enviadas por determinado cliente buscando validar a conexão;
 	\item \textbf{tópicos, \textit{publish} e \textit{subscribe}}: O ato de um cliente enviar uma mensagem é chamado \textit{publish}(publicação). E para receber mensagens de determinado um tópico um cliente deve fazer um \textit{subscribe}(inscrição). Os níveis de um tópico são separados por “/” e um cliente pode optar por se inscrever em quantos tópicos forem necessários, utilizando os artifícios da \autoref{tab:simbolos_mqtt}.
 	
