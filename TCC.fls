@@ -1,9 +1,9 @@
-PWD e:\Academic\UEA\10°\TCC II\TCC
+PWD e:\Academic\UEA\TCC
 INPUT C:\Users\Raphael\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.tex
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.log
-INPUT e:\Academic\UEA\10°\TCC II\TCC\ufpa-fem-abntex2.cls
-INPUT e:\Academic\UEA\10°\TCC II\TCC\ufpa-fem-abntex2.cls
+INPUT e:\Academic\UEA\TCC\TCC.tex
+OUTPUT e:\Academic\UEA\TCC\TCC.log
+INPUT e:\Academic\UEA\TCC\ufpa-fem-abntex2.cls
+INPUT e:\Academic\UEA\TCC\ufpa-fem-abntex2.cls
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\abntex2\abntex2.cls
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
@@ -224,62 +224,62 @@ INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\list
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\listings.cfg
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\listings\lstlang1.sty
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.idx
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\capa.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\capa.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\capa.tex
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\folha-rosto.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\folha-rosto.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\folha-rosto.tex
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\folha-aprovacao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\folha-aprovacao.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\folha-aprovacao.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.aux
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.aux
+OUTPUT e:\Academic\UEA\TCC\TCC.idx
+OUTPUT e:\Academic\UEA\TCC\pre-textuais\capa.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\capa.tex
+INPUT e:\Academic\UEA\TCC\pre-textuais\capa.tex
+OUTPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\folha-rosto.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\folha-rosto.tex
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\folha-rosto.tex
+OUTPUT e:\Academic\UEA\TCC\pre-textuais\folha-aprovacao.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\folha-aprovacao.tex
+INPUT e:\Academic\UEA\TCC\pre-textuais\folha-aprovacao.tex
+INPUT e:\Academic\UEA\TCC\TCC.aux
+INPUT e:\Academic\UEA\TCC\TCC.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\agradecimentos.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\agradecimentos.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\resumo.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\resumo.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\abstract.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\abstract.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\lista-figuras.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\lista-figuras.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\lista-siglas.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\lista-siglas.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\sumario.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\sumario.aux
+INPUT e:\Academic\UEA\TCC\textuais\introducao.aux
+INPUT e:\Academic\UEA\TCC\textuais\introducao.aux
+INPUT e:\Academic\UEA\TCC\textuais\problematica.aux
+INPUT e:\Academic\UEA\TCC\textuais\problematica.aux
+INPUT e:\Academic\UEA\TCC\textuais\objetivos.aux
+INPUT e:\Academic\UEA\TCC\textuais\objetivos.aux
+INPUT e:\Academic\UEA\TCC\textuais\hipotese-e-justificativa.aux
+INPUT e:\Academic\UEA\TCC\textuais\hipotese-e-justificativa.aux
+INPUT e:\Academic\UEA\TCC\textuais\trabalhos-relacionados.aux
+INPUT e:\Academic\UEA\TCC\textuais\trabalhos-relacionados.aux
+INPUT e:\Academic\UEA\TCC\textuais\fundamentacao-teorica.aux
+INPUT e:\Academic\UEA\TCC\textuais\fundamentacao-teorica.aux
+INPUT e:\Academic\UEA\TCC\textuais\metodologia.aux
+INPUT e:\Academic\UEA\TCC\textuais\metodologia.aux
+INPUT e:\Academic\UEA\TCC\textuais\resultados.aux
+INPUT e:\Academic\UEA\TCC\textuais\resultados.aux
+INPUT e:\Academic\UEA\TCC\textuais\conclusao.aux
+INPUT e:\Academic\UEA\TCC\textuais\conclusao.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\naomexapostext\referencias.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\naomexapostext\referencias.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\citações-escondidas.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\citações-escondidas.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\anexos.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\anexos.aux
+OUTPUT e:\Academic\UEA\TCC\TCC.aux
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.pdf
+OUTPUT e:\Academic\UEA\TCC\TCC.pdf
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\epstopdf-pkg\epstopdf-base.sty
@@ -288,11 +288,11 @@ INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfe
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\microtype\mt-cmr.cfg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\institucional\brasao_capa.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\institucional\brasao_capa.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\institucional\brasao_capa.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\institucional\brasao_capa.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\institucional\brasao_capa.jpg
+INPUT e:\Academic\UEA\TCC\figuras\institucional\brasao_capa.jpg
+INPUT e:\Academic\UEA\TCC\figuras\institucional\brasao_capa.jpg
+INPUT e:\Academic\UEA\TCC\figuras\institucional\brasao_capa.jpg
+INPUT e:\Academic\UEA\TCC\figuras\institucional\brasao_capa.jpg
+INPUT e:\Academic\UEA\TCC\figuras\institucional\brasao_capa.jpg
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aer12.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aebx12.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aebxti10.tfm
@@ -362,37 +362,37 @@ INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbxti10.tfm
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.tex
+OUTPUT e:\Academic\UEA\TCC\pre-textuais\agradecimentos.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\agradecimentos.tex
+INPUT e:\Academic\UEA\TCC\pre-textuais\agradecimentos.tex
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aer12.vf
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmu10.tfm
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.tex
+OUTPUT e:\Academic\UEA\TCC\pre-textuais\resumo.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\resumo.tex
+INPUT e:\Academic\UEA\TCC\pre-textuais\resumo.tex
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aeti12.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aeti12.vf
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti12.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsl12.tfm
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.tex
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.lof
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.lof
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.tex
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.toc
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.toc
+OUTPUT e:\Academic\UEA\TCC\pre-textuais\abstract.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\abstract.tex
+INPUT e:\Academic\UEA\TCC\pre-textuais\abstract.tex
+OUTPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\lista-figuras.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\lista-figuras.tex
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\lista-figuras.tex
+INPUT e:\Academic\UEA\TCC\TCC.lof
+INPUT e:\Academic\UEA\TCC\TCC.lof
+OUTPUT e:\Academic\UEA\TCC\pre-textuais\lista-siglas.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\lista-siglas.tex
+INPUT e:\Academic\UEA\TCC\pre-textuais\lista-siglas.tex
+OUTPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\sumario.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\sumario.tex
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\sumario.tex
+INPUT e:\Academic\UEA\TCC\TCC.toc
+INPUT e:\Academic\UEA\TCC\TCC.toc
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aebxti10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aebxti10.vf
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
@@ -419,50 +419,50 @@ INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfon
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\latex-fonts\lasy7.tfm
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.tex
+OUTPUT e:\Academic\UEA\TCC\textuais\introducao.aux
+INPUT e:\Academic\UEA\TCC\textuais\introducao.tex
+INPUT e:\Academic\UEA\TCC\textuais\introducao.tex
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aer10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aer10.vf
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmu10.tfm
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.tex
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.tex
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.tex
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig01.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig01.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig01.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig01.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig01.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig02.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig02.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig02.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig02.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig02.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig03.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig03.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig03.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig03.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig03.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig04.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig04.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig04.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig04.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig04.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig05.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig05.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig05.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig05.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig05.png
+OUTPUT e:\Academic\UEA\TCC\textuais\problematica.aux
+INPUT e:\Academic\UEA\TCC\textuais\problematica.tex
+INPUT e:\Academic\UEA\TCC\textuais\problematica.tex
+OUTPUT e:\Academic\UEA\TCC\textuais\objetivos.aux
+INPUT e:\Academic\UEA\TCC\textuais\objetivos.tex
+INPUT e:\Academic\UEA\TCC\textuais\objetivos.tex
+OUTPUT e:\Academic\UEA\TCC\textuais\hipotese-e-justificativa.aux
+INPUT e:\Academic\UEA\TCC\textuais\hipotese-e-justificativa.tex
+INPUT e:\Academic\UEA\TCC\textuais\hipotese-e-justificativa.tex
+OUTPUT e:\Academic\UEA\TCC\textuais\trabalhos-relacionados.aux
+INPUT e:\Academic\UEA\TCC\textuais\trabalhos-relacionados.tex
+INPUT e:\Academic\UEA\TCC\textuais\trabalhos-relacionados.tex
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig01.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig01.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig01.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig01.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig01.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig02.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig02.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig02.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig02.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig02.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig03.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig03.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig03.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig03.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig03.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig04.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig04.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig04.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig04.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig04.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig05.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig05.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig05.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig05.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig05.png
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmsy10.tfm
@@ -476,32 +476,32 @@ INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbxti10.tfm
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig06.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig06.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig06.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig06.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig06.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig07.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig07.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig07.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig07.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig07.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig08.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig08.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig08.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig08.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\trabalhos_relacionados\fig08.png
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.tex
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig06.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig06.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig06.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig06.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig06.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig07.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig07.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig07.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig07.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig07.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig08.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig08.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig08.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig08.png
+INPUT e:\Academic\UEA\TCC\figuras\trabalhos_relacionados\fig08.png
+OUTPUT e:\Academic\UEA\TCC\textuais\fundamentacao-teorica.aux
+INPUT e:\Academic\UEA\TCC\textuais\fundamentacao-teorica.tex
+INPUT e:\Academic\UEA\TCC\textuais\fundamentacao-teorica.tex
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\omsaer.fd
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\omsaer.fd
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\iotprotocols.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\iotprotocols.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\iotprotocols.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\iotprotocols.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\iotprotocols.jpg
+INPUT e:\Academic\UEA\TCC\figuras\iotprotocols.jpg
+INPUT e:\Academic\UEA\TCC\figuras\iotprotocols.jpg
+INPUT e:\Academic\UEA\TCC\figuras\iotprotocols.jpg
+INPUT e:\Academic\UEA\TCC\figuras\iotprotocols.jpg
+INPUT e:\Academic\UEA\TCC\figuras\iotprotocols.jpg
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aer8.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmr5.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\lmmi5.tfm
@@ -527,409 +527,409 @@ INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbxsl10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmib10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbsy10.tfm
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\mqtt.drawio.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\mqtt.drawio.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\mqtt.drawio.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\mqtt.drawio.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\mqtt.drawio.png
+INPUT e:\Academic\UEA\TCC\figuras\mqtt.drawio.png
+INPUT e:\Academic\UEA\TCC\figuras\mqtt.drawio.png
+INPUT e:\Academic\UEA\TCC\figuras\mqtt.drawio.png
+INPUT e:\Academic\UEA\TCC\figuras\mqtt.drawio.png
+INPUT e:\Academic\UEA\TCC\figuras\mqtt.drawio.png
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aebx10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aebx10.vf
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmbx10.tfm
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esp8266ex.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esp8266ex.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esp8266ex.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esp8266ex.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esp8266ex.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E.png
+INPUT e:\Academic\UEA\TCC\figuras\esp8266ex.jpg
+INPUT e:\Academic\UEA\TCC\figuras\esp8266ex.jpg
+INPUT e:\Academic\UEA\TCC\figuras\esp8266ex.jpg
+INPUT e:\Academic\UEA\TCC\figuras\esp8266ex.jpg
+INPUT e:\Academic\UEA\TCC\figuras\esp8266ex.jpg
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12S.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12S.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12S.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12S.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12S.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E.png
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aeti10.vf
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsl10.tfm
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S-wemos.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S-wemos.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S-wemos.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S-wemos.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12S-wemos.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E-nodemcu.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E-nodemcu.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E-nodemcu.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E-nodemcu.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E-nodemcu.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rasp_zerow.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rasp_zerow.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rasp_zerow.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rasp_zerow.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rasp_zerow.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\fonte_chaveada.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\fonte_chaveada.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\fonte_chaveada.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\fonte_chaveada.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\fonte_chaveada.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\bomba.jpeg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\bomba.jpeg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\bomba.jpeg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\bomba.jpeg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\bomba.jpeg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_operacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_operacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_operacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_operacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_operacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\sensor_ultra.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\sensor_ultra.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\sensor_ultra.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\sensor_ultra.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\sensor_ultra.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\valvulas.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\valvulas.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\valvulas.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\valvulas.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\valvulas.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\válvula_solenoide.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\válvula_solenoide.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\válvula_solenoide.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\válvula_solenoide.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\válvula_solenoide.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\solenoide.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\solenoide.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\solenoide.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\solenoide.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\solenoide.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712_typical.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712_typical.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712_typical.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712_typical.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ACS712_typical.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\grafico_hall.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\grafico_hall.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\grafico_hall.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\grafico_hall.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\grafico_hall.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_pcbnew.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_pcbnew.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_pcbnew.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_pcbnew.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_pcbnew.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dietpi.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dietpi.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dietpi.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dietpi.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dietpi.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\figma_exemplo.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\figma_exemplo.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\figma_exemplo.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\figma_exemplo.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\figma_exemplo.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\electron_apps.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\electron_apps.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\electron_apps.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\electron_apps.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\electron_apps.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\exemplo_react.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\exemplo_react.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\exemplo_react.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\exemplo_react.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\exemplo_react.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\react_native_elements.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\react_native_elements.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\react_native_elements.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\react_native_elements.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\react_native_elements.png
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_cisterna.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_cisterna.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_cisterna.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_cisterna.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_cisterna.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_basico_proj_2.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_basico_proj_2.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_basico_proj_2.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_basico_proj_2.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_basico_proj_2.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\volume.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\volume.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\volume.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\volume.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\volume.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\caixa.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\caixa.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\caixa.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\caixa.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\caixa.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\visão_geral_meu_kanban.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\visão_geral_meu_kanban.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\visão_geral_meu_kanban.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\visão_geral_meu_kanban.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\visão_geral_meu_kanban.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\github.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\github.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\github.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\github.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\github.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\alimentacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\alimentacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\alimentacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\alimentacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\alimentacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\conversor_buck.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\conversor_buck.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\conversor_buck.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\conversor_buck.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\conversor_buck.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\conversor_buck_teste.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\conversor_buck_teste.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\conversor_buck_teste.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\conversor_buck_teste.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\conversor_buck_teste.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia_aplicacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia_aplicacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia_aplicacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia_aplicacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\chave_boia_aplicacao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pullup.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pullup.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pullup.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pullup.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pullup.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_chave_boia.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_chave_boia.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_chave_boia.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_chave_boia.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_chave_boia.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_ultrassonico.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_ultrassonico.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_ultrassonico.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_ultrassonico.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_ultrassonico.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_res.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_res.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_res.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_res.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ultrassonico_res.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ativacao_motor.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ativacao_motor.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ativacao_motor.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ativacao_motor.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ativacao_motor.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_motor.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_motor.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_motor.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_motor.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\teste_motor.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dobrador.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dobrador.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dobrador.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dobrador.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dobrador.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dobrador_montado.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dobrador_montado.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dobrador_montado.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dobrador_montado.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\dobrador_montado.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\diagrama_ativação_bomba.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\diagrama_ativação_bomba.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\diagrama_ativação_bomba.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\diagrama_ativação_bomba.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\diagrama_ativação_bomba.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ativa_valvula.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ativa_valvula.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ativa_valvula.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ativa_valvula.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ativa_valvula.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12S-wemos.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12S-wemos.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12S-wemos.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12S-wemos.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12S-wemos.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E-nodemcu.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E-nodemcu.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E-nodemcu.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E-nodemcu.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E-nodemcu.png
+INPUT e:\Academic\UEA\TCC\figuras\rasp_zerow.png
+INPUT e:\Academic\UEA\TCC\figuras\rasp_zerow.png
+INPUT e:\Academic\UEA\TCC\figuras\rasp_zerow.png
+INPUT e:\Academic\UEA\TCC\figuras\rasp_zerow.png
+INPUT e:\Academic\UEA\TCC\figuras\rasp_zerow.png
+INPUT e:\Academic\UEA\TCC\figuras\fonte_chaveada.jpg
+INPUT e:\Academic\UEA\TCC\figuras\fonte_chaveada.jpg
+INPUT e:\Academic\UEA\TCC\figuras\fonte_chaveada.jpg
+INPUT e:\Academic\UEA\TCC\figuras\fonte_chaveada.jpg
+INPUT e:\Academic\UEA\TCC\figuras\fonte_chaveada.jpg
+INPUT e:\Academic\UEA\TCC\figuras\bomba.jpeg
+INPUT e:\Academic\UEA\TCC\figuras\bomba.jpeg
+INPUT e:\Academic\UEA\TCC\figuras\bomba.jpeg
+INPUT e:\Academic\UEA\TCC\figuras\bomba.jpeg
+INPUT e:\Academic\UEA\TCC\figuras\bomba.jpeg
+INPUT e:\Academic\UEA\TCC\figuras\ultrassonico_operacao.png
+INPUT e:\Academic\UEA\TCC\figuras\ultrassonico_operacao.png
+INPUT e:\Academic\UEA\TCC\figuras\ultrassonico_operacao.png
+INPUT e:\Academic\UEA\TCC\figuras\ultrassonico_operacao.png
+INPUT e:\Academic\UEA\TCC\figuras\ultrassonico_operacao.png
+INPUT e:\Academic\UEA\TCC\figuras\sensor_ultra.jpg
+INPUT e:\Academic\UEA\TCC\figuras\sensor_ultra.jpg
+INPUT e:\Academic\UEA\TCC\figuras\sensor_ultra.jpg
+INPUT e:\Academic\UEA\TCC\figuras\sensor_ultra.jpg
+INPUT e:\Academic\UEA\TCC\figuras\sensor_ultra.jpg
+INPUT e:\Academic\UEA\TCC\figuras\valvulas.png
+INPUT e:\Academic\UEA\TCC\figuras\valvulas.png
+INPUT e:\Academic\UEA\TCC\figuras\valvulas.png
+INPUT e:\Academic\UEA\TCC\figuras\valvulas.png
+INPUT e:\Academic\UEA\TCC\figuras\valvulas.png
+INPUT e:\Academic\UEA\TCC\figuras\válvula_solenoide.png
+INPUT e:\Academic\UEA\TCC\figuras\válvula_solenoide.png
+INPUT e:\Academic\UEA\TCC\figuras\válvula_solenoide.png
+INPUT e:\Academic\UEA\TCC\figuras\válvula_solenoide.png
+INPUT e:\Academic\UEA\TCC\figuras\válvula_solenoide.png
+INPUT e:\Academic\UEA\TCC\figuras\solenoide.jpg
+INPUT e:\Academic\UEA\TCC\figuras\solenoide.jpg
+INPUT e:\Academic\UEA\TCC\figuras\solenoide.jpg
+INPUT e:\Academic\UEA\TCC\figuras\solenoide.jpg
+INPUT e:\Academic\UEA\TCC\figuras\solenoide.jpg
+INPUT e:\Academic\UEA\TCC\figuras\chave_boia.png
+INPUT e:\Academic\UEA\TCC\figuras\chave_boia.png
+INPUT e:\Academic\UEA\TCC\figuras\chave_boia.png
+INPUT e:\Academic\UEA\TCC\figuras\chave_boia.png
+INPUT e:\Academic\UEA\TCC\figuras\chave_boia.png
+INPUT e:\Academic\UEA\TCC\figuras\ACS712.png
+INPUT e:\Academic\UEA\TCC\figuras\ACS712.png
+INPUT e:\Academic\UEA\TCC\figuras\ACS712.png
+INPUT e:\Academic\UEA\TCC\figuras\ACS712.png
+INPUT e:\Academic\UEA\TCC\figuras\ACS712.png
+INPUT e:\Academic\UEA\TCC\figuras\ACS712_typical.png
+INPUT e:\Academic\UEA\TCC\figuras\ACS712_typical.png
+INPUT e:\Academic\UEA\TCC\figuras\ACS712_typical.png
+INPUT e:\Academic\UEA\TCC\figuras\ACS712_typical.png
+INPUT e:\Academic\UEA\TCC\figuras\ACS712_typical.png
+INPUT e:\Academic\UEA\TCC\figuras\grafico_hall.jpg
+INPUT e:\Academic\UEA\TCC\figuras\grafico_hall.jpg
+INPUT e:\Academic\UEA\TCC\figuras\grafico_hall.jpg
+INPUT e:\Academic\UEA\TCC\figuras\grafico_hall.jpg
+INPUT e:\Academic\UEA\TCC\figuras\grafico_hall.jpg
+INPUT e:\Academic\UEA\TCC\figuras\kicad_pcbnew.png
+INPUT e:\Academic\UEA\TCC\figuras\kicad_pcbnew.png
+INPUT e:\Academic\UEA\TCC\figuras\kicad_pcbnew.png
+INPUT e:\Academic\UEA\TCC\figuras\kicad_pcbnew.png
+INPUT e:\Academic\UEA\TCC\figuras\kicad_pcbnew.png
+INPUT e:\Academic\UEA\TCC\figuras\platformio.jpg
+INPUT e:\Academic\UEA\TCC\figuras\platformio.jpg
+INPUT e:\Academic\UEA\TCC\figuras\platformio.jpg
+INPUT e:\Academic\UEA\TCC\figuras\platformio.jpg
+INPUT e:\Academic\UEA\TCC\figuras\platformio.jpg
+INPUT e:\Academic\UEA\TCC\figuras\dietpi.jpg
+INPUT e:\Academic\UEA\TCC\figuras\dietpi.jpg
+INPUT e:\Academic\UEA\TCC\figuras\dietpi.jpg
+INPUT e:\Academic\UEA\TCC\figuras\dietpi.jpg
+INPUT e:\Academic\UEA\TCC\figuras\dietpi.jpg
+INPUT e:\Academic\UEA\TCC\figuras\figma_exemplo.jpg
+INPUT e:\Academic\UEA\TCC\figuras\figma_exemplo.jpg
+INPUT e:\Academic\UEA\TCC\figuras\figma_exemplo.jpg
+INPUT e:\Academic\UEA\TCC\figuras\figma_exemplo.jpg
+INPUT e:\Academic\UEA\TCC\figuras\figma_exemplo.jpg
+INPUT e:\Academic\UEA\TCC\figuras\electron_apps.png
+INPUT e:\Academic\UEA\TCC\figuras\electron_apps.png
+INPUT e:\Academic\UEA\TCC\figuras\electron_apps.png
+INPUT e:\Academic\UEA\TCC\figuras\electron_apps.png
+INPUT e:\Academic\UEA\TCC\figuras\electron_apps.png
+INPUT e:\Academic\UEA\TCC\figuras\exemplo_react.jpg
+INPUT e:\Academic\UEA\TCC\figuras\exemplo_react.jpg
+INPUT e:\Academic\UEA\TCC\figuras\exemplo_react.jpg
+INPUT e:\Academic\UEA\TCC\figuras\exemplo_react.jpg
+INPUT e:\Academic\UEA\TCC\figuras\exemplo_react.jpg
+INPUT e:\Academic\UEA\TCC\figuras\react_native_elements.png
+INPUT e:\Academic\UEA\TCC\figuras\react_native_elements.png
+INPUT e:\Academic\UEA\TCC\figuras\react_native_elements.png
+INPUT e:\Academic\UEA\TCC\figuras\react_native_elements.png
+INPUT e:\Academic\UEA\TCC\figuras\react_native_elements.png
+OUTPUT e:\Academic\UEA\TCC\textuais\metodologia.aux
+INPUT e:\Academic\UEA\TCC\textuais\metodologia.tex
+INPUT e:\Academic\UEA\TCC\textuais\metodologia.tex
+INPUT e:\Academic\UEA\TCC\figuras\esquema_cisterna.png
+INPUT e:\Academic\UEA\TCC\figuras\esquema_cisterna.png
+INPUT e:\Academic\UEA\TCC\figuras\esquema_cisterna.png
+INPUT e:\Academic\UEA\TCC\figuras\esquema_cisterna.png
+INPUT e:\Academic\UEA\TCC\figuras\esquema_cisterna.png
+INPUT e:\Academic\UEA\TCC\figuras\esquema_basico_proj_2.png
+INPUT e:\Academic\UEA\TCC\figuras\esquema_basico_proj_2.png
+INPUT e:\Academic\UEA\TCC\figuras\esquema_basico_proj_2.png
+INPUT e:\Academic\UEA\TCC\figuras\esquema_basico_proj_2.png
+INPUT e:\Academic\UEA\TCC\figuras\esquema_basico_proj_2.png
+INPUT e:\Academic\UEA\TCC\figuras\volume.png
+INPUT e:\Academic\UEA\TCC\figuras\volume.png
+INPUT e:\Academic\UEA\TCC\figuras\volume.png
+INPUT e:\Academic\UEA\TCC\figuras\volume.png
+INPUT e:\Academic\UEA\TCC\figuras\volume.png
+INPUT e:\Academic\UEA\TCC\figuras\caixa.jpg
+INPUT e:\Academic\UEA\TCC\figuras\caixa.jpg
+INPUT e:\Academic\UEA\TCC\figuras\caixa.jpg
+INPUT e:\Academic\UEA\TCC\figuras\caixa.jpg
+INPUT e:\Academic\UEA\TCC\figuras\caixa.jpg
+INPUT e:\Academic\UEA\TCC\figuras\visão_geral_meu_kanban.png
+INPUT e:\Academic\UEA\TCC\figuras\visão_geral_meu_kanban.png
+INPUT e:\Academic\UEA\TCC\figuras\visão_geral_meu_kanban.png
+INPUT e:\Academic\UEA\TCC\figuras\visão_geral_meu_kanban.png
+INPUT e:\Academic\UEA\TCC\figuras\visão_geral_meu_kanban.png
+INPUT e:\Academic\UEA\TCC\figuras\github.png
+INPUT e:\Academic\UEA\TCC\figuras\github.png
+INPUT e:\Academic\UEA\TCC\figuras\github.png
+INPUT e:\Academic\UEA\TCC\figuras\github.png
+INPUT e:\Academic\UEA\TCC\figuras\github.png
+INPUT e:\Academic\UEA\TCC\figuras\alimentacao.png
+INPUT e:\Academic\UEA\TCC\figuras\alimentacao.png
+INPUT e:\Academic\UEA\TCC\figuras\alimentacao.png
+INPUT e:\Academic\UEA\TCC\figuras\alimentacao.png
+INPUT e:\Academic\UEA\TCC\figuras\alimentacao.png
+INPUT e:\Academic\UEA\TCC\figuras\conversor_buck.jpg
+INPUT e:\Academic\UEA\TCC\figuras\conversor_buck.jpg
+INPUT e:\Academic\UEA\TCC\figuras\conversor_buck.jpg
+INPUT e:\Academic\UEA\TCC\figuras\conversor_buck.jpg
+INPUT e:\Academic\UEA\TCC\figuras\conversor_buck.jpg
+INPUT e:\Academic\UEA\TCC\figuras\conversor_buck_teste.jpg
+INPUT e:\Academic\UEA\TCC\figuras\conversor_buck_teste.jpg
+INPUT e:\Academic\UEA\TCC\figuras\conversor_buck_teste.jpg
+INPUT e:\Academic\UEA\TCC\figuras\conversor_buck_teste.jpg
+INPUT e:\Academic\UEA\TCC\figuras\conversor_buck_teste.jpg
+INPUT e:\Academic\UEA\TCC\figuras\chave_boia_aplicacao.png
+INPUT e:\Academic\UEA\TCC\figuras\chave_boia_aplicacao.png
+INPUT e:\Academic\UEA\TCC\figuras\chave_boia_aplicacao.png
+INPUT e:\Academic\UEA\TCC\figuras\chave_boia_aplicacao.png
+INPUT e:\Academic\UEA\TCC\figuras\chave_boia_aplicacao.png
+INPUT e:\Academic\UEA\TCC\figuras\pullup.png
+INPUT e:\Academic\UEA\TCC\figuras\pullup.png
+INPUT e:\Academic\UEA\TCC\figuras\pullup.png
+INPUT e:\Academic\UEA\TCC\figuras\pullup.png
+INPUT e:\Academic\UEA\TCC\figuras\pullup.png
+INPUT e:\Academic\UEA\TCC\figuras\teste_chave_boia.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_chave_boia.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_chave_boia.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_chave_boia.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_chave_boia.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_ultrassonico.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_ultrassonico.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_ultrassonico.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_ultrassonico.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_ultrassonico.jpg
+INPUT e:\Academic\UEA\TCC\figuras\ultrassonico_res.jpg
+INPUT e:\Academic\UEA\TCC\figuras\ultrassonico_res.jpg
+INPUT e:\Academic\UEA\TCC\figuras\ultrassonico_res.jpg
+INPUT e:\Academic\UEA\TCC\figuras\ultrassonico_res.jpg
+INPUT e:\Academic\UEA\TCC\figuras\ultrassonico_res.jpg
+INPUT e:\Academic\UEA\TCC\figuras\ativacao_motor.png
+INPUT e:\Academic\UEA\TCC\figuras\ativacao_motor.png
+INPUT e:\Academic\UEA\TCC\figuras\ativacao_motor.png
+INPUT e:\Academic\UEA\TCC\figuras\ativacao_motor.png
+INPUT e:\Academic\UEA\TCC\figuras\ativacao_motor.png
+INPUT e:\Academic\UEA\TCC\figuras\teste_motor.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_motor.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_motor.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_motor.jpg
+INPUT e:\Academic\UEA\TCC\figuras\teste_motor.jpg
+INPUT e:\Academic\UEA\TCC\figuras\dobrador.png
+INPUT e:\Academic\UEA\TCC\figuras\dobrador.png
+INPUT e:\Academic\UEA\TCC\figuras\dobrador.png
+INPUT e:\Academic\UEA\TCC\figuras\dobrador.png
+INPUT e:\Academic\UEA\TCC\figuras\dobrador.png
+INPUT e:\Academic\UEA\TCC\figuras\dobrador_montado.jpg
+INPUT e:\Academic\UEA\TCC\figuras\dobrador_montado.jpg
+INPUT e:\Academic\UEA\TCC\figuras\dobrador_montado.jpg
+INPUT e:\Academic\UEA\TCC\figuras\dobrador_montado.jpg
+INPUT e:\Academic\UEA\TCC\figuras\dobrador_montado.jpg
+INPUT e:\Academic\UEA\TCC\figuras\diagrama_ativação_bomba.png
+INPUT e:\Academic\UEA\TCC\figuras\diagrama_ativação_bomba.png
+INPUT e:\Academic\UEA\TCC\figuras\diagrama_ativação_bomba.png
+INPUT e:\Academic\UEA\TCC\figuras\diagrama_ativação_bomba.png
+INPUT e:\Academic\UEA\TCC\figuras\diagrama_ativação_bomba.png
+INPUT e:\Academic\UEA\TCC\figuras\ativa_valvula.png
+INPUT e:\Academic\UEA\TCC\figuras\ativa_valvula.png
+INPUT e:\Academic\UEA\TCC\figuras\ativa_valvula.png
+INPUT e:\Academic\UEA\TCC\figuras\ativa_valvula.png
+INPUT e:\Academic\UEA\TCC\figuras\ativa_valvula.png
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aett.fd
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aett.fd
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aett12.tfm
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\ae\aett10.tfm
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\user_pass.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\user_pass.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\user_pass.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\user_pass.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\user_pass.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ip_estatico_rasp.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ip_estatico_rasp.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ip_estatico_rasp.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ip_estatico_rasp.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ip_estatico_rasp.png
+INPUT e:\Academic\UEA\TCC\figuras\user_pass.png
+INPUT e:\Academic\UEA\TCC\figuras\user_pass.png
+INPUT e:\Academic\UEA\TCC\figuras\user_pass.png
+INPUT e:\Academic\UEA\TCC\figuras\user_pass.png
+INPUT e:\Academic\UEA\TCC\figuras\user_pass.png
+INPUT e:\Academic\UEA\TCC\figuras\ip_estatico_rasp.png
+INPUT e:\Academic\UEA\TCC\figuras\ip_estatico_rasp.png
+INPUT e:\Academic\UEA\TCC\figuras\ip_estatico_rasp.png
+INPUT e:\Academic\UEA\TCC\figuras\ip_estatico_rasp.png
+INPUT e:\Academic\UEA\TCC\figuras\ip_estatico_rasp.png
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\vf\public\ae\aett10.vf
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmtt10.tfm
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pinos_definicao_ccm2.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pinos_definicao_ccm2.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pinos_definicao_ccm2.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pinos_definicao_ccm2.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pinos_definicao_ccm2.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pinos_definicao_tcm.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pinos_definicao_tcm.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pinos_definicao_tcm.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pinos_definicao_tcm.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\pinos_definicao_tcm.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\get_water_level.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\get_water_level.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\get_water_level.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\get_water_level.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\get_water_level.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\firmware_sequence.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\firmware_sequence.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\firmware_sequence.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\firmware_sequence.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\firmware_sequence.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\cadastro_client.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\cadastro_client.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\cadastro_client.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\cadastro_client.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\cadastro_client.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\drive_mqtt.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\drive_mqtt.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\drive_mqtt.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\drive_mqtt.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\drive_mqtt.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\interrupcao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\interrupcao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\interrupcao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\interrupcao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\interrupcao.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio_bin.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio_bin.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio_bin.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio_bin.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\platformio_bin.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\repositorio_bin.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\repositorio_bin.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\repositorio_bin.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\repositorio_bin.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\repositorio_bin.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\figma_plan.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\figma_plan.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\figma_plan.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\figma_plan.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\figma_plan.png
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_protoboard.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_protoboard.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_protoboard.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_protoboard.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\esquema_protoboard.jpg
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_ccm.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_ccm.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_ccm.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_ccm.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\kicad_ccm.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\tcm_main.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\tcm_main.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\tcm_main.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\tcm_main.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\tcm_main.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rcs_desktop.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rcs_desktop.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rcs_desktop.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rcs_desktop.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rcs_desktop.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rcs_mobile.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rcs_mobile.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rcs_mobile.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rcs_mobile.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\rcs_mobile.png
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.tex
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.bbl
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.bbl
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.brf
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.brf
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.brf
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.brf
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.brf
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.tex
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.tex
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E_pinout.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E_pinout.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E_pinout.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E_pinout.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\ESP-12E_pinout.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\especificacao_raps.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\especificacao_raps.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\especificacao_raps.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\especificacao_raps.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\especificacao_raps.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\datasheet_irf.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\datasheet_irf.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\datasheet_irf.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\datasheet_irf.png
-INPUT e:\Academic\UEA\10°\TCC II\TCC\figuras\datasheet_irf.png
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.lof
-OUTPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.toc
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\agradecimentos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\resumo.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\abstract.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\lista-figuras.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\lista-siglas.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pre-textuais\naomexapretext\sumario.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\introducao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\problematica.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\objetivos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\hipotese-e-justificativa.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\trabalhos-relacionados.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\fundamentacao-teorica.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\metodologia.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\resultados.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\textuais\conclusao.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\naomexapostext\referencias.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\citações-escondidas.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\pos-textuais\anexos.aux
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.brf
-INPUT e:\Academic\UEA\10°\TCC II\TCC\TCC.brf
+INPUT e:\Academic\UEA\TCC\figuras\pinos_definicao_ccm2.png
+INPUT e:\Academic\UEA\TCC\figuras\pinos_definicao_ccm2.png
+INPUT e:\Academic\UEA\TCC\figuras\pinos_definicao_ccm2.png
+INPUT e:\Academic\UEA\TCC\figuras\pinos_definicao_ccm2.png
+INPUT e:\Academic\UEA\TCC\figuras\pinos_definicao_ccm2.png
+INPUT e:\Academic\UEA\TCC\figuras\pinos_definicao_tcm.png
+INPUT e:\Academic\UEA\TCC\figuras\pinos_definicao_tcm.png
+INPUT e:\Academic\UEA\TCC\figuras\pinos_definicao_tcm.png
+INPUT e:\Academic\UEA\TCC\figuras\pinos_definicao_tcm.png
+INPUT e:\Academic\UEA\TCC\figuras\pinos_definicao_tcm.png
+INPUT e:\Academic\UEA\TCC\figuras\get_water_level.png
+INPUT e:\Academic\UEA\TCC\figuras\get_water_level.png
+INPUT e:\Academic\UEA\TCC\figuras\get_water_level.png
+INPUT e:\Academic\UEA\TCC\figuras\get_water_level.png
+INPUT e:\Academic\UEA\TCC\figuras\get_water_level.png
+INPUT e:\Academic\UEA\TCC\figuras\firmware_sequence.png
+INPUT e:\Academic\UEA\TCC\figuras\firmware_sequence.png
+INPUT e:\Academic\UEA\TCC\figuras\firmware_sequence.png
+INPUT e:\Academic\UEA\TCC\figuras\firmware_sequence.png
+INPUT e:\Academic\UEA\TCC\figuras\firmware_sequence.png
+INPUT e:\Academic\UEA\TCC\figuras\cadastro_client.png
+INPUT e:\Academic\UEA\TCC\figuras\cadastro_client.png
+INPUT e:\Academic\UEA\TCC\figuras\cadastro_client.png
+INPUT e:\Academic\UEA\TCC\figuras\cadastro_client.png
+INPUT e:\Academic\UEA\TCC\figuras\cadastro_client.png
+INPUT e:\Academic\UEA\TCC\figuras\drive_mqtt.png
+INPUT e:\Academic\UEA\TCC\figuras\drive_mqtt.png
+INPUT e:\Academic\UEA\TCC\figuras\drive_mqtt.png
+INPUT e:\Academic\UEA\TCC\figuras\drive_mqtt.png
+INPUT e:\Academic\UEA\TCC\figuras\drive_mqtt.png
+INPUT e:\Academic\UEA\TCC\figuras\interrupcao.png
+INPUT e:\Academic\UEA\TCC\figuras\interrupcao.png
+INPUT e:\Academic\UEA\TCC\figuras\interrupcao.png
+INPUT e:\Academic\UEA\TCC\figuras\interrupcao.png
+INPUT e:\Academic\UEA\TCC\figuras\interrupcao.png
+INPUT e:\Academic\UEA\TCC\figuras\platformio_bin.png
+INPUT e:\Academic\UEA\TCC\figuras\platformio_bin.png
+INPUT e:\Academic\UEA\TCC\figuras\platformio_bin.png
+INPUT e:\Academic\UEA\TCC\figuras\platformio_bin.png
+INPUT e:\Academic\UEA\TCC\figuras\platformio_bin.png
+INPUT e:\Academic\UEA\TCC\figuras\repositorio_bin.png
+INPUT e:\Academic\UEA\TCC\figuras\repositorio_bin.png
+INPUT e:\Academic\UEA\TCC\figuras\repositorio_bin.png
+INPUT e:\Academic\UEA\TCC\figuras\repositorio_bin.png
+INPUT e:\Academic\UEA\TCC\figuras\repositorio_bin.png
+INPUT e:\Academic\UEA\TCC\figuras\figma_plan.png
+INPUT e:\Academic\UEA\TCC\figuras\figma_plan.png
+INPUT e:\Academic\UEA\TCC\figuras\figma_plan.png
+INPUT e:\Academic\UEA\TCC\figuras\figma_plan.png
+INPUT e:\Academic\UEA\TCC\figuras\figma_plan.png
+OUTPUT e:\Academic\UEA\TCC\textuais\resultados.aux
+INPUT e:\Academic\UEA\TCC\textuais\resultados.tex
+INPUT e:\Academic\UEA\TCC\textuais\resultados.tex
+INPUT e:\Academic\UEA\TCC\figuras\esquema_protoboard.jpg
+INPUT e:\Academic\UEA\TCC\figuras\esquema_protoboard.jpg
+INPUT e:\Academic\UEA\TCC\figuras\esquema_protoboard.jpg
+INPUT e:\Academic\UEA\TCC\figuras\esquema_protoboard.jpg
+INPUT e:\Academic\UEA\TCC\figuras\esquema_protoboard.jpg
+INPUT e:\Academic\UEA\TCC\figuras\kicad_ccm.png
+INPUT e:\Academic\UEA\TCC\figuras\kicad_ccm.png
+INPUT e:\Academic\UEA\TCC\figuras\kicad_ccm.png
+INPUT e:\Academic\UEA\TCC\figuras\kicad_ccm.png
+INPUT e:\Academic\UEA\TCC\figuras\kicad_ccm.png
+INPUT e:\Academic\UEA\TCC\figuras\tcm_main.png
+INPUT e:\Academic\UEA\TCC\figuras\tcm_main.png
+INPUT e:\Academic\UEA\TCC\figuras\tcm_main.png
+INPUT e:\Academic\UEA\TCC\figuras\tcm_main.png
+INPUT e:\Academic\UEA\TCC\figuras\tcm_main.png
+INPUT e:\Academic\UEA\TCC\figuras\rcs_desktop.png
+INPUT e:\Academic\UEA\TCC\figuras\rcs_desktop.png
+INPUT e:\Academic\UEA\TCC\figuras\rcs_desktop.png
+INPUT e:\Academic\UEA\TCC\figuras\rcs_desktop.png
+INPUT e:\Academic\UEA\TCC\figuras\rcs_desktop.png
+INPUT e:\Academic\UEA\TCC\figuras\rcs_mobile.png
+INPUT e:\Academic\UEA\TCC\figuras\rcs_mobile.png
+INPUT e:\Academic\UEA\TCC\figuras\rcs_mobile.png
+INPUT e:\Academic\UEA\TCC\figuras\rcs_mobile.png
+INPUT e:\Academic\UEA\TCC\figuras\rcs_mobile.png
+OUTPUT e:\Academic\UEA\TCC\textuais\conclusao.aux
+INPUT e:\Academic\UEA\TCC\textuais\conclusao.tex
+INPUT e:\Academic\UEA\TCC\textuais\conclusao.tex
+OUTPUT e:\Academic\UEA\TCC\pos-textuais\naomexapostext\referencias.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\naomexapostext\referencias.tex
+INPUT e:\Academic\UEA\TCC\pos-textuais\naomexapostext\referencias.tex
+INPUT e:\Academic\UEA\TCC\TCC.bbl
+INPUT e:\Academic\UEA\TCC\TCC.bbl
+INPUT e:\Academic\UEA\TCC\TCC.brf
+INPUT e:\Academic\UEA\TCC\TCC.brf
+INPUT e:\Academic\UEA\TCC\TCC.brf
+INPUT e:\Academic\UEA\TCC\TCC.brf
+OUTPUT e:\Academic\UEA\TCC\TCC.brf
+OUTPUT e:\Academic\UEA\TCC\pos-textuais\citações-escondidas.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\citações-escondidas.tex
+INPUT e:\Academic\UEA\TCC\pos-textuais\citações-escondidas.tex
+OUTPUT e:\Academic\UEA\TCC\pos-textuais\anexos.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\anexos.tex
+INPUT e:\Academic\UEA\TCC\pos-textuais\anexos.tex
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E_pinout.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E_pinout.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E_pinout.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E_pinout.png
+INPUT e:\Academic\UEA\TCC\figuras\ESP-12E_pinout.png
+INPUT e:\Academic\UEA\TCC\figuras\especificacao_raps.png
+INPUT e:\Academic\UEA\TCC\figuras\especificacao_raps.png
+INPUT e:\Academic\UEA\TCC\figuras\especificacao_raps.png
+INPUT e:\Academic\UEA\TCC\figuras\especificacao_raps.png
+INPUT e:\Academic\UEA\TCC\figuras\especificacao_raps.png
+INPUT e:\Academic\UEA\TCC\figuras\datasheet_irf.png
+INPUT e:\Academic\UEA\TCC\figuras\datasheet_irf.png
+INPUT e:\Academic\UEA\TCC\figuras\datasheet_irf.png
+INPUT e:\Academic\UEA\TCC\figuras\datasheet_irf.png
+INPUT e:\Academic\UEA\TCC\figuras\datasheet_irf.png
+OUTPUT e:\Academic\UEA\TCC\TCC.lof
+OUTPUT e:\Academic\UEA\TCC\TCC.toc
+INPUT e:\Academic\UEA\TCC\TCC.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\agradecimentos.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\agradecimentos.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\resumo.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\resumo.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\abstract.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\abstract.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\lista-figuras.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\lista-figuras.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\lista-siglas.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\lista-siglas.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\sumario.aux
+INPUT e:\Academic\UEA\TCC\pre-textuais\naomexapretext\sumario.aux
+INPUT e:\Academic\UEA\TCC\textuais\introducao.aux
+INPUT e:\Academic\UEA\TCC\textuais\introducao.aux
+INPUT e:\Academic\UEA\TCC\textuais\problematica.aux
+INPUT e:\Academic\UEA\TCC\textuais\problematica.aux
+INPUT e:\Academic\UEA\TCC\textuais\objetivos.aux
+INPUT e:\Academic\UEA\TCC\textuais\objetivos.aux
+INPUT e:\Academic\UEA\TCC\textuais\hipotese-e-justificativa.aux
+INPUT e:\Academic\UEA\TCC\textuais\hipotese-e-justificativa.aux
+INPUT e:\Academic\UEA\TCC\textuais\trabalhos-relacionados.aux
+INPUT e:\Academic\UEA\TCC\textuais\trabalhos-relacionados.aux
+INPUT e:\Academic\UEA\TCC\textuais\fundamentacao-teorica.aux
+INPUT e:\Academic\UEA\TCC\textuais\fundamentacao-teorica.aux
+INPUT e:\Academic\UEA\TCC\textuais\metodologia.aux
+INPUT e:\Academic\UEA\TCC\textuais\metodologia.aux
+INPUT e:\Academic\UEA\TCC\textuais\resultados.aux
+INPUT e:\Academic\UEA\TCC\textuais\resultados.aux
+INPUT e:\Academic\UEA\TCC\textuais\conclusao.aux
+INPUT e:\Academic\UEA\TCC\textuais\conclusao.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\naomexapostext\referencias.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\naomexapostext\referencias.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\citações-escondidas.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\citações-escondidas.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\anexos.aux
+INPUT e:\Academic\UEA\TCC\pos-textuais\anexos.aux
+INPUT e:\Academic\UEA\TCC\TCC.brf
+INPUT e:\Academic\UEA\TCC\TCC.brf
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathex.enc
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\Raphael\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
